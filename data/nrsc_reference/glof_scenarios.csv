@@ -1,0 +1,9 @@
+scenario,failure_mode,release_fraction,weather_condition,simultaneous_ghepang_ghat_100pct_breach
+1,Overtopping,1.0,Fair,False
+2,Piping,1.0,Fair,False
+3,Overtopping,0.75,Fair,False
+4,Piping,0.75,Fair,False
+5,Overtopping,0.5,Fair,False
+6,Piping,0.5,Fair,False
+7,Overtopping,1.0,Inclement,True
+8,Piping,1.0,Inclement,True

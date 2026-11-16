@@ -1,0 +1,42 @@
+{
+    "type": "FeatureCollection",
+    "name": "samudra_tapu_dem_extension",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Samudra Tapu downstream DEM extension",
+                "source_crs": "EPSG:32643",
+                "target_dem": "Copernicus GLO-30",
+                "purpose": "Extend downstream hydrology coverage"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            77.43995217761241,
+                            32.19806021604096
+                        ],
+                        [
+                            77.81089107402721,
+                            32.1903541548842
+                        ],
+                        [
+                            77.82207716636545,
+                            32.550768152670265
+                        ],
+                        [
+                            77.44966596517682,
+                            32.55858157462768
+                        ],
+                        [
+                            77.43995217761241,
+                            32.19806021604096
+                        ]
+                    ]
+                ]
+            }
+        }
+    ]
+}

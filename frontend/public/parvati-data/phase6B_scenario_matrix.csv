@@ -1,0 +1,9 @@
+scenario,failure_mode,release_fraction,weather_condition,simultaneous_ghepang_ghat_100pct_breach,scenario_name,release_fraction_percent,scenario_group
+1,Overtopping,1.0,Fair,False,S01_OVERTOPPING,100.0,SAMUDRA_ONLY
+2,Piping,1.0,Fair,False,S02_PIPING,100.0,SAMUDRA_ONLY
+3,Overtopping,0.75,Fair,False,S03_OVERTOPPING,75.0,SAMUDRA_ONLY
+4,Piping,0.75,Fair,False,S04_PIPING,75.0,SAMUDRA_ONLY
+5,Overtopping,0.5,Fair,False,S05_OVERTOPPING,50.0,SAMUDRA_ONLY
+6,Piping,0.5,Fair,False,S06_PIPING,50.0,SAMUDRA_ONLY
+7,Overtopping,1.0,Inclement,True,S07_OVERTOPPING,100.0,COMPOUND_BREACH
+8,Piping,1.0,Inclement,True,S08_PIPING,100.0,COMPOUND_BREACH

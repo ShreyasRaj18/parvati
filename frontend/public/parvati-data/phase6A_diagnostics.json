@@ -1,0 +1,81 @@
+{
+  "status": "PHASE_6A_DIAGNOSTICS_COMPLETE",
+  "valid_pixels": 2410416,
+  "pixel_area_m2": 64.0,
+  "anomaly_score_statistics": {
+    "min": -0.11418703943490982,
+    "max": 0.2351004183292389,
+    "mean": -0.03929562866687775,
+    "median": -0.051985591650009155,
+    "p05": -0.09529981762170792,
+    "p20": -0.08088255673646927,
+    "p40": -0.06241540238261223,
+    "p60": -0.03977358341217041,
+    "p80": -0.0028283719439059496,
+    "p95": 0.060588814318180084
+  },
+  "relative_anomaly_classes": {
+    "1": {
+      "pixel_count": 482083,
+      "area_km2": 30.8533,
+      "area_percent": 20.0
+    },
+    "2": {
+      "pixel_count": 482083,
+      "area_km2": 30.8533,
+      "area_percent": 20.0
+    },
+    "3": {
+      "pixel_count": 482083,
+      "area_km2": 30.8533,
+      "area_percent": 20.0
+    },
+    "4": {
+      "pixel_count": 482083,
+      "area_km2": 30.8533,
+      "area_percent": 20.0
+    },
+    "5": {
+      "pixel_count": 482084,
+      "area_km2": 30.8534,
+      "area_percent": 20.0
+    }
+  },
+  "corridor_comparison": {
+    "500": {
+      "status": "ALIGNED",
+      "unique_values": {
+        "0": 4232553,
+        "1": 25431
+      },
+      "corridor_pixels": 25430,
+      "corridor_area_km2": 1.6275,
+      "top_anomaly_overlap_pixels": 21873,
+      "top_anomaly_overlap_percent_of_corridor": 86.013
+    },
+    "1000": {
+      "status": "ALIGNED",
+      "unique_values": {
+        "0": 4236088,
+        "1": 21896
+      },
+      "corridor_pixels": 21895,
+      "corridor_area_km2": 1.4013,
+      "top_anomaly_overlap_pixels": 20835,
+      "top_anomaly_overlap_percent_of_corridor": 95.159
+    },
+    "5000": {
+      "status": "ALIGNED",
+      "unique_values": {
+        "0": 4243813,
+        "1": 14171
+      },
+      "corridor_pixels": 14170,
+      "corridor_area_km2": 0.9069,
+      "top_anomaly_overlap_pixels": 14170,
+      "top_anomaly_overlap_percent_of_corridor": 100.0
+    }
+  },
+  "interpretation": "Quintile classes represent relative anomaly scores, not GLOF probabilities or validated hazard levels. Corridor overlap is a spatial association, not flood validation.",
+  "class_raster": "F:\\parvati\\outputs\\samudra_tapu\\phase6A_ml\\samudra_phase6A_anomaly_classes.tif"
+}

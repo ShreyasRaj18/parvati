@@ -1,0 +1,24 @@
+{
+  "status": "EXPLORATORY_UNSUPERVISED_BASELINE",
+  "study_area": "Samudra Tapu candidate 14 watershed",
+  "crs": "EPSG:32643",
+  "resolution_m": 8,
+  "valid_feature_pixels": 2410416,
+  "training_sample_size": 30000,
+  "features": [
+    "elevation_m",
+    "slope_degrees",
+    "log1p_flow_accumulation",
+    "height_above_drainage_m",
+    "drainage_distance_m"
+  ],
+  "model": "IsolationForest",
+  "n_estimators": 100,
+  "random_state": 42,
+  "interpretation": "Higher score indicates a more anomalous feature combination. It is not a GLOF probability or validated hazard class.",
+  "outputs": {
+    "feature_stack": "F:\\parvati\\outputs\\samudra_tapu\\phase6A_ml\\samudra_phase6A_feature_stack.tif",
+    "anomaly_score": "F:\\parvati\\outputs\\samudra_tapu\\phase6A_ml\\samudra_phase6A_isolation_forest_anomaly_score.tif",
+    "sample_csv": "F:\\parvati\\outputs\\samudra_tapu\\phase6A_ml\\samudra_phase6A_ml_sample.csv"
+  }
+}

@@ -1,0 +1,8 @@
+{
+    "threshold_cells": 500,
+    "ring_count": 1465,
+    "segment_count": 7938,
+    "skipped_segments": 3,
+    "binary_file": "samudra_corridor_500_segments.bin",
+    "binary_size_bytes": 190512
+}

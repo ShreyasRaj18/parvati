@@ -1,0 +1,52 @@
+﻿[
+    {
+        "file":  "samudra_phase6A_anomaly_classes.tif",
+        "status":  "available",
+        "bytes":  652343
+    },
+    {
+        "file":  "samudra_phase6A_anomaly_score.tif",
+        "status":  "available",
+        "bytes":  8818721
+    },
+    {
+        "file":  "phase6A_diagnostics.json",
+        "status":  "available",
+        "bytes":  2283
+    },
+    {
+        "file":  "phase6A_ml_summary.json",
+        "status":  "available",
+        "bytes":  952
+    },
+    {
+        "file":  "phase6B_scenario_matrix.csv",
+        "status":  "available",
+        "bytes":  644
+    },
+    {
+        "file":  "phase6B_status.json",
+        "status":  "available",
+        "bytes":  906
+    },
+    {
+        "file":  "candidate14_watershed.geojson",
+        "status":  "available",
+        "bytes":  248080
+    },
+    {
+        "file":  "candidate14_downstream.geojson",
+        "status":  "available",
+        "bytes":  227348
+    },
+    {
+        "file":  "lake_boundary_20260925.geojson",
+        "status":  "available",
+        "bytes":  71449
+    },
+    {
+        "file":  "lake_boundary_20261005.geojson",
+        "status":  "available",
+        "bytes":  73268
+    }
+]

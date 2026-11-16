@@ -1,0 +1,117 @@
+{
+  "project": "GlacierPulse",
+  "study_area": "Samudra Tapu",
+  "configuration_id": "SAMUDRA_TAPU_SCENARIO7_SATELLITE_ONLY_V1",
+  "scenario": {
+    "reference": "NRSC Scenario 7 definition only",
+    "release_fraction": 1.0,
+    "breach_mechanism": "overtopping",
+    "weather_case": "PMS_storm",
+    "simultaneous_ghepang_ghat_breach": false
+  },
+  "data_policy": {
+    "allowed": [
+      "NISAR products already processed",
+      "Copernicus DEM products already acquired/processed",
+      "Sentinel-2 products already acquired/processed",
+      "derivatives of these products"
+    ],
+    "excluded": [
+      "NRSC/TanDEM-X terrain or numerical breach inputs",
+      "IMD rainfall/PMP data",
+      "Ghepang Ghat datasets",
+      "external gauges/discharge",
+      "external land-cover/roughness datasets"
+    ],
+    "note": "NRSC is used only to identify the requested scenario definition, not as a source of numerical model inputs."
+  },
+  "available_inputs": {
+    "sentinel2_lake_area_2026_10_05_ha": 155.187,
+    "sentinel2_net_area_change_2026_09_25_to_2026_10_05_ha": 0.1489,
+    "copernicus_provisional_catchment_area_km2": 154.27872,
+    "copernicus_dem": {
+      "crs": "EPSG:32643",
+      "output_grid_m": 8,
+      "status": "available_with_internal_nodata_gaps",
+      "note": "8 m output grid is not equivalent to native 8 m source detail."
+    },
+    "downstream_trace": {
+      "length_km": 47.457321,
+      "status": "incomplete_endpoint_validation",
+      "termination": "zero_pointer_adjacent_to_internal_nodata"
+    },
+    "nisar_bara_shigri_median_horizontal_velocity_m_per_year": 25.54,
+    "nisar_note": "Bara Shigri is a separate glacier monitoring area; its velocity is not Samudra Tapu breach forcing."
+  },
+  "scenario_interpretation": {
+    "100_percent_release": "Hypothetical complete-release assumption only. No released volume or hydrograph can be calculated without lake storage.",
+    "overtopping": "Scenario label only. Breach dimensions and formation time are not available from current permitted inputs.",
+    "PMS_storm": "Stress-test label only. No rainfall depth, spatial distribution, temporal pattern or runoff hydrograph is available from current permitted inputs."
+  },
+  "run_now": {
+    "model": "terrain_based_flow_corridor_and_topographic_susceptibility",
+    "outputs_allowed": [
+      "lake outlet candidate",
+      "catchment boundary",
+      "D8 drainage network",
+      "flow accumulation",
+      "terrain slope",
+      "HAND or relative-height-to-drainage after validation",
+      "terrain-connected potential flow corridor",
+      "topographic susceptibility screening"
+    ],
+    "outputs_not_allowed": [
+      "breach hydrograph",
+      "dynamic flood depth",
+      "flood velocity",
+      "flood arrival time",
+      "validated inundation extent",
+      "real-time flash-flood warning",
+      "probability or timing of an actual GLOF"
+    ]
+  },
+  "hydrodynamic_run_status": "BLOCKED_PENDING_PHYSICAL_INPUTS_AND_VALIDATION",
+  "required_before_hydrodynamic_run": [
+    "Lake storage or defensible volume/elevation relationship",
+    "Lake outlet and dam geometry",
+    "Breach width/depth/side slopes and formation time with documented basis",
+    "PMP rainfall time series and spatial distribution if PMS runoff is modelled",
+    "Continuous channel/floodplain terrain without critical NoData gaps",
+    "Channel roughness values and sensitivity analysis",
+    "Upstream and downstream hydraulic boundary conditions",
+    "Independent observed flood extent, water level or discharge for validation"
+  ],
+  "validation_gates": [
+    {
+      "id": "V1",
+      "test": "Visual Sentinel-2 lake-boundary, cloud/shadow, ROI and threshold-sensitivity review",
+      "status": "PARTIAL"
+    },
+    {
+      "id": "V2",
+      "test": "Check internal NoData around outlet and full downstream analysis corridor",
+      "status": "OPEN \u2014 known internal NoData near current trace endpoint"
+    },
+    {
+      "id": "V3",
+      "test": "Verify outlet against imagery/terrain and test nearby outlet candidates",
+      "status": "PROVISIONAL"
+    },
+    {
+      "id": "V4",
+      "test": "Demonstrate continuous downstream drainage to a defensible termination",
+      "status": "OPEN"
+    },
+    {
+      "id": "V5",
+      "test": "Verify lake storage, breach hydrograph and rainfall-runoff forcing",
+      "status": "BLOCKED"
+    },
+    {
+      "id": "V6",
+      "test": "Validate hydraulic outputs against independent observations",
+      "status": "BLOCKED"
+    }
+  ],
+  "publication_label": "Scenario-7-inspired satellite-only terrain susceptibility and potential flow-corridor assessment \u2014 not a flood forecast."
+}

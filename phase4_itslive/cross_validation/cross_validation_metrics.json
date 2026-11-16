@@ -1,0 +1,20 @@
+{
+    "comparison": "ITS_LIVE measured-only versus NISAR",
+    "nisar_acquisition": "2026-10-04 to 2026-10-16",
+    "itslive_acquisition": "2026-10-11 to 2026-10-23",
+    "temporal_offset_days": 7,
+    "nisar_valid_pixels": 6898,
+    "common_measured_pixels": 3398,
+    "coverage_percent_of_nisar_valid": 49.2606552623949,
+    "nisar_median_speed_m_per_year": 27.044998168945312,
+    "itslive_median_speed_m_per_year": 23.127387046813965,
+    "mean_bias_itslive_minus_nisar_m_per_year": 2.1764860979383873,
+    "mae_m_per_year": 19.886098019055158,
+    "rmse_m_per_year": 34.10720855261589,
+    "median_absolute_difference_m_per_year": 14.092680931091309,
+    "pearson_correlation": -0.11821464184660287,
+    "nisar_p05_m_per_year": 20.195313453674316,
+    "nisar_p95_m_per_year": 42.85608444213867,
+    "itslive_p05_m_per_year": 4.959179711341859,
+    "itslive_p95_m_per_year": 79.95273399353023
+}

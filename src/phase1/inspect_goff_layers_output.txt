@@ -1,0 +1,1788 @@
+INSPECTING: NISAR_L2_PR_GOFF_032_055_A_018_033_4000_SH_20261004T000523_20261004T000558_20261016T000523_20261016T000558_P05023_N_F_J_001.h5
+
+DATASET INVENTORY
+
+
+PATH: science/LSAR/GOFF/grids/frequencyA/centerFrequency
+SHAPE: ()
+DTYPE: float64
+ATTRIBUTE: description = b'Center frequency of the processed image in hertz'
+ATTRIBUTE: units = b'hertz'
+MIN: 1239000000.0
+MAX: 1239000000.0
+VALID PIXELS: 1
+
+PATH: science/LSAR/GOFF/grids/frequencyA/listOfLayers
+SHAPE: (3,)
+DTYPE: |S6
+ATTRIBUTE: description = b'List of pixel offsets layers'
+
+PATH: science/LSAR/GOFF/grids/frequencyA/listOfPolarizations
+SHAPE: (1,)
+DTYPE: |S2
+ATTRIBUTE: description = b'List of processed polarization layers with frequency A'
+
+PATH: science/LSAR/GOFF/grids/frequencyA/pixelOffsets/HH/layer1/alongTrackOffset
+SHAPE: (4347, 4419)
+DTYPE: float32
+ATTRIBUTE: DIMENSION_LIST = [array([<HDF5 object reference>], dtype=object)
+ array([<HDF5 object reference>], dtype=object)]
+ATTRIBUTE: _FillValue = nan
+ATTRIBUTE: description = b'Raw (unculled, unfiltered) along-track pixel offsets'
+ATTRIBUTE: grid_mapping = b'projection'
+ATTRIBUTE: max_value = 282.56854248046875
+ATTRIBUTE: mean_value = 0.2814249098300934
+ATTRIBUTE: min_value = -283.56475830078125
+ATTRIBUTE: sample_stddev = 32.519168853759766
+ATTRIBUTE: units = b'meters'
+
+PATH: science/LSAR/GOFF/grids/frequencyA/pixelOffsets/HH/layer1/alongTrackOffsetVariance
+SHAPE: (4347, 4419)
+DTYPE: float32
+ATTRIBUTE: DIMENSION_LIST = [array([<HDF5 object reference>], dtype=object)
+ array([<HDF5 object reference>], dtype=object)]
+ATTRIBUTE: _FillValue = nan
+ATTRIBUTE: description = b'Along-track pixel offsets variance'
+ATTRIBUTE: grid_mapping = b'projection'
+ATTRIBUTE: max_value = 6959458.5
+ATTRIBUTE: mean_value = 38.764381408691406
+ATTRIBUTE: min_value = 0.0002614619443193078
+ATTRIBUTE: sample_stddev = 6523.13232421875
+ATTRIBUTE: units = b'meters^2'
+
+PATH: science/LSAR/GOFF/grids/frequencyA/pixelOffsets/HH/layer1/correlationSurfacePeak
+SHAPE: (4347, 4419)
+DTYPE: float32
+ATTRIBUTE: DIMENSION_LIST = [array([<HDF5 object reference>], dtype=object)
+ array([<HDF5 object reference>], dtype=object)]
+ATTRIBUTE: _FillValue = nan
+ATTRIBUTE: description = b'Normalized correlation surface peak'
+ATTRIBUTE: grid_mapping = b'projection'
+ATTRIBUTE: max_value = 0.9953147768974304
+ATTRIBUTE: mean_value = 0.5946485996246338
+ATTRIBUTE: min_value = 0.0
+ATTRIBUTE: sample_stddev = 0.21598199009895325
+ATTRIBUTE: units = b'1'
+
+PATH: science/LSAR/GOFF/grids/frequencyA/pixelOffsets/HH/layer1/crossOffsetVariance
+SHAPE: (4347, 4419)
+DTYPE: float32
+ATTRIBUTE: DIMENSION_LIST = [array([<HDF5 object reference>], dtype=object)
+ array([<HDF5 object reference>], dtype=object)]
+ATTRIBUTE: _FillValue = nan
+ATTRIBUTE: description = b'Off-diagonal term of the pixel offsets covariance matrix'
+ATTRIBUTE: grid_mapping = b'projection'
+ATTRIBUTE: max_value = 365350.65625
+ATTRIBUTE: mean_value = -0.5370851755142212
+ATTRIBUTE: min_value = -352520.09375
+ATTRIBUTE: sample_stddev = 511.0262145996094
+ATTRIBUTE: units = b'meters^2'
+
+PATH: science/LSAR/GOFF/grids/frequencyA/pixelOffsets/HH/layer1/projection
+SHAPE: ()
+DTYPE: uint32
+ATTRIBUTE: description = b'Product map grid projection: EPSG code, with additional projection information as HDF5 Attributes'
+ATTRIBUTE: ellipsoid = b'WGS84'
+ATTRIBUTE: epsg_code = 32643
+ATTRIBUTE: false_easting = 500000.0
+ATTRIBUTE: false_northing = 0.0
+ATTRIBUTE: grid_mapping_name = b'transverse_mercator'
+ATTRIBUTE: inverse_flattening = 298.257223563
+ATTRIBUTE: latitude_of_projection_origin = 0.0
+ATTRIBUTE: longitude_of_central_meridian = 75.0
+ATTRIBUTE: longitude_of_projection_origin = 0.0
+ATTRIBUTE: scale_factor_at_central_meridian = 0.9996
+ATTRIBUTE: semi_major_axis = 6378137.0
+ATTRIBUTE: spatial_ref = b'PROJCS["WGS 84 / UTM zone 43N",GEOGCS["WGS 84",DATUM["WGS_1984",SPHEROID["WGS 84",6378137,298.257223563,AUTHORITY["EPSG","7030"]],AUTHORITY["EPSG","6326"]],PRIMEM["Greenwich",0,AUTHORITY["EPSG","8901"]],UNIT["degree",0.0174532925199433,AUTHORITY["EPSG","9122"]],AUTHORITY["EPSG","4326"]],PROJECTION["Transverse_Mercator"],PARAMETER["latitude_of_origin",0],PARAMETER["central_meridian",75],PARAMETER["scale_factor",0.9996],PARAMETER["false_easting",500000],PARAMETER["false_northing",0],UNIT["metre",1,AUTHORITY["EPSG","9001"]],AXIS["Easting",EAST],AXIS["Northing",NORTH],AUTHORITY["EPSG","32643"]]'
+ATTRIBUTE: utm_zone_number = 43
+MIN: 32643
+MAX: 32643
+VALID PIXELS: 1
+
+PATH: science/LSAR/GOFF/grids/frequencyA/pixelOffsets/HH/layer1/slantRangeOffset
+SHAPE: (4347, 4419)
+DTYPE: float32
+ATTRIBUTE: DIMENSION_LIST = [array([<HDF5 object reference>], dtype=object)
+ array([<HDF5 object reference>], dtype=object)]
+ATTRIBUTE: _FillValue = nan
+ATTRIBUTE: description = b'Raw (unculled, unfiltered) slant range pixel offsets'
+ATTRIBUTE: grid_mapping = b'projection'
+ATTRIBUTE: max_value = 198.84645080566406
+ATTRIBUTE: mean_value = 0.3105922341346741
+ATTRIBUTE: min_value = -199.86163330078125
+ATTRIBUTE: sample_stddev = 23.15892791748047
+ATTRIBUTE: units = b'meters'
+
+PATH: science/LSAR/GOFF/grids/frequencyA/pixelOffsets/HH/layer1/slantRangeOffsetVariance
+SHAPE: (4347, 4419)
+DTYPE: float32
+ATTRIBUTE: DIMENSION_LIST = [array([<HDF5 object reference>], dtype=object)
+ array([<HDF5 object reference>], dtype=object)]
+ATTRIBUTE: _FillValue = nan
+ATTRIBUTE: description = b'Slant range pixel offsets variance'
+ATTRIBUTE: grid_mapping = b'projection'
+ATTRIBUTE: max_value = 5055282.5
+ATTRIBUTE: mean_value = 13.068415641784668
+ATTRIBUTE: min_value = 0.00024077811394818127
+ATTRIBUTE: sample_stddev = 2575.0615234375
+ATTRIBUTE: units = b'meters^2'
+
+PATH: science/LSAR/GOFF/grids/frequencyA/pixelOffsets/HH/layer1/snr
+SHAPE: (4347, 4419)
+DTYPE: float32
+ATTRIBUTE: DIMENSION_LIST = [array([<HDF5 object reference>], dtype=object)
+ array([<HDF5 object reference>], dtype=object)]
+ATTRIBUTE: _FillValue = nan
+ATTRIBUTE: description = b'Pixel offsets signal-to-noise ratio'
+ATTRIBUTE: grid_mapping = b'projection'
+ATTRIBUTE: max_value = 645.0733642578125
+ATTRIBUTE: mean_value = 39.58300018310547
+ATTRIBUTE: min_value = 0.10369079560041428
+ATTRIBUTE: sample_stddev = 41.04660415649414
+ATTRIBUTE: units = b'1'
+
+PATH: science/LSAR/GOFF/grids/frequencyA/pixelOffsets/HH/layer1/xCoordinateSpacing
+SHAPE: ()
+DTYPE: float64
+ATTRIBUTE: description = b'Nominal spacing in meters between consecutive pixels'
+ATTRIBUTE: long_name = b'X coordinates spacing'
+ATTRIBUTE: units = b'meters'
+MIN: 80.0
+MAX: 80.0
+VALID PIXELS: 1
+
+PATH: science/LSAR/GOFF/grids/frequencyA/pixelOffsets/HH/layer1/xCoordinates
+SHAPE: (4419,)
+DTYPE: float64
+ATTRIBUTE: CLASS = b'DIMENSION_SCALE'
+ATTRIBUTE: NAME = b''
+ATTRIBUTE: REFERENCE_LIST = [(<HDF5 object reference>, 1) (<HDF5 object reference>, 1)
+ (<HDF5 object reference>, 1) (<HDF5 object reference>, 1)
+ (<HDF5 object reference>, 1) (<HDF5 object reference>, 1)
+ (<HDF5 object reference>, 1)]
+ATTRIBUTE: description = b'X coordinates in specified projection'
+ATTRIBUTE: long_name = b'X coordinates of projection'
+ATTRIBUTE: standard_name = projection_x_coordinate
+ATTRIBUTE: units = b'meters'
+MIN: 545080.0
+MAX: 898520.0
+VALID PIXELS: 4419
+
+PATH: science/LSAR/GOFF/grids/frequencyA/pixelOffsets/HH/layer1/yCoordinateSpacing
+SHAPE: ()
+DTYPE: float64
+ATTRIBUTE: description = b'Nominal spacing in meters between consecutive lines'
+ATTRIBUTE: long_name = b'Y coordinates spacing'
+ATTRIBUTE: units = b'meters'
+MIN: -80.0
+MAX: -80.0
+VALID PIXELS: 1
+
+PATH: science/LSAR/GOFF/grids/frequencyA/pixelOffsets/HH/layer1/yCoordinates
+SHAPE: (4347,)
+DTYPE: float64
+ATTRIBUTE: CLASS = b'DIMENSION_SCALE'
+ATTRIBUTE: NAME = b''
+ATTRIBUTE: REFERENCE_LIST = [(<HDF5 object reference>, 0) (<HDF5 object reference>, 0)
+ (<HDF5 object reference>, 0) (<HDF5 object reference>, 0)
+ (<HDF5 object reference>, 0) (<HDF5 object reference>, 0)
+ (<HDF5 object reference>, 0)]
+ATTRIBUTE: description = b'Y coordinates in specified projection'
+ATTRIBUTE: long_name = b'Y coordinates of projection'
+ATTRIBUTE: standard_name = projection_y_coordinate
+ATTRIBUTE: units = b'meters'
+MIN: 3443800.0
+MAX: 3791480.0
+VALID PIXELS: 4347
+
+PATH: science/LSAR/GOFF/grids/frequencyA/pixelOffsets/HH/layer2/alongTrackOffset
+SHAPE: (4347, 4419)
+DTYPE: float32
+ATTRIBUTE: DIMENSION_LIST = [array([<HDF5 object reference>], dtype=object)
+ array([<HDF5 object reference>], dtype=object)]
+ATTRIBUTE: _FillValue = nan
+ATTRIBUTE: description = b'Raw (unculled, unfiltered) along-track pixel offsets'
+ATTRIBUTE: grid_mapping = b'projection'
+ATTRIBUTE: max_value = 282.7303161621094
+ATTRIBUTE: mean_value = 0.31187859177589417
+ATTRIBUTE: min_value = -284.3746032714844
+ATTRIBUTE: sample_stddev = 15.629254341125488
+ATTRIBUTE: units = b'meters'
+
+PATH: science/LSAR/GOFF/grids/frequencyA/pixelOffsets/HH/layer2/alongTrackOffsetVariance
+SHAPE: (4347, 4419)
+DTYPE: float32
+ATTRIBUTE: DIMENSION_LIST = [array([<HDF5 object reference>], dtype=object)
+ array([<HDF5 object reference>], dtype=object)]
+ATTRIBUTE: _FillValue = nan
+ATTRIBUTE: description = b'Along-track pixel offsets variance'
+ATTRIBUTE: grid_mapping = b'projection'
+ATTRIBUTE: max_value = 59556272.0
+ATTRIBUTE: mean_value = 681.8702392578125
+ATTRIBUTE: min_value = 0.00014725644723512232
+ATTRIBUTE: sample_stddev = 95407.65625
+ATTRIBUTE: units = b'meters^2'
+
+PATH: science/LSAR/GOFF/grids/frequencyA/pixelOffsets/HH/layer2/correlationSurfacePeak
+SHAPE: (4347, 4419)
+DTYPE: float32
+ATTRIBUTE: DIMENSION_LIST = [array([<HDF5 object reference>], dtype=object)
+ array([<HDF5 object reference>], dtype=object)]
+ATTRIBUTE: _FillValue = nan
+ATTRIBUTE: description = b'Normalized correlation surface peak'
+ATTRIBUTE: grid_mapping = b'projection'
+ATTRIBUTE: max_value = 0.994742214679718
+ATTRIBUTE: mean_value = 0.6545498967170715
+ATTRIBUTE: min_value = 0.0
+ATTRIBUTE: sample_stddev = 0.20045028626918793
+ATTRIBUTE: units = b'1'
+
+PATH: science/LSAR/GOFF/grids/frequencyA/pixelOffsets/HH/layer2/crossOffsetVariance
+SHAPE: (4347, 4419)
+DTYPE: float32
+ATTRIBUTE: DIMENSION_LIST = [array([<HDF5 object reference>], dtype=object)
+ array([<HDF5 object reference>], dtype=object)]
+ATTRIBUTE: _FillValue = nan
+ATTRIBUTE: description = b'Off-diagonal term of the pixel offsets covariance matrix'
+ATTRIBUTE: grid_mapping = b'projection'
+ATTRIBUTE: max_value = 3696320.75
+ATTRIBUTE: mean_value = -11.154306411743164
+ATTRIBUTE: min_value = -2717771.5
+ATTRIBUTE: sample_stddev = 4116.20751953125
+ATTRIBUTE: units = b'meters^2'
+
+PATH: science/LSAR/GOFF/grids/frequencyA/pixelOffsets/HH/layer2/projection
+SHAPE: ()
+DTYPE: uint32
+ATTRIBUTE: description = b'Product map grid projection: EPSG code, with additional projection information as HDF5 Attributes'
+ATTRIBUTE: ellipsoid = b'WGS84'
+ATTRIBUTE: epsg_code = 32643
+ATTRIBUTE: false_easting = 500000.0
+ATTRIBUTE: false_northing = 0.0
+ATTRIBUTE: grid_mapping_name = b'transverse_mercator'
+ATTRIBUTE: inverse_flattening = 298.257223563
+ATTRIBUTE: latitude_of_projection_origin = 0.0
+ATTRIBUTE: longitude_of_central_meridian = 75.0
+ATTRIBUTE: longitude_of_projection_origin = 0.0
+ATTRIBUTE: scale_factor_at_central_meridian = 0.9996
+ATTRIBUTE: semi_major_axis = 6378137.0
+ATTRIBUTE: spatial_ref = b'PROJCS["WGS 84 / UTM zone 43N",GEOGCS["WGS 84",DATUM["WGS_1984",SPHEROID["WGS 84",6378137,298.257223563,AUTHORITY["EPSG","7030"]],AUTHORITY["EPSG","6326"]],PRIMEM["Greenwich",0,AUTHORITY["EPSG","8901"]],UNIT["degree",0.0174532925199433,AUTHORITY["EPSG","9122"]],AUTHORITY["EPSG","4326"]],PROJECTION["Transverse_Mercator"],PARAMETER["latitude_of_origin",0],PARAMETER["central_meridian",75],PARAMETER["scale_factor",0.9996],PARAMETER["false_easting",500000],PARAMETER["false_northing",0],UNIT["metre",1,AUTHORITY["EPSG","9001"]],AXIS["Easting",EAST],AXIS["Northing",NORTH],AUTHORITY["EPSG","32643"]]'
+ATTRIBUTE: utm_zone_number = 43
+MIN: 32643
+MAX: 32643
+VALID PIXELS: 1
+
+PATH: science/LSAR/GOFF/grids/frequencyA/pixelOffsets/HH/layer2/slantRangeOffset
+SHAPE: (4347, 4419)
+DTYPE: float32
+ATTRIBUTE: DIMENSION_LIST = [array([<HDF5 object reference>], dtype=object)
+ array([<HDF5 object reference>], dtype=object)]
+ATTRIBUTE: _FillValue = nan
+ATTRIBUTE: description = b'Raw (unculled, unfiltered) slant range pixel offsets'
+ATTRIBUTE: grid_mapping = b'projection'
+ATTRIBUTE: max_value = 198.62835693359375
+ATTRIBUTE: mean_value = 0.34374311566352844
+ATTRIBUTE: min_value = -199.8616485595703
+ATTRIBUTE: sample_stddev = 11.622373580932617
+ATTRIBUTE: units = b'meters'
+
+PATH: science/LSAR/GOFF/grids/frequencyA/pixelOffsets/HH/layer2/slantRangeOffsetVariance
+SHAPE: (4347, 4419)
+DTYPE: float32
+ATTRIBUTE: DIMENSION_LIST = [array([<HDF5 object reference>], dtype=object)
+ array([<HDF5 object reference>], dtype=object)]
+ATTRIBUTE: _FillValue = nan
+ATTRIBUTE: description = b'Slant range pixel offsets variance'
+ATTRIBUTE: grid_mapping = b'projection'
+ATTRIBUTE: max_value = 4129250.5
+ATTRIBUTE: mean_value = 25.270483016967773
+ATTRIBUTE: min_value = 8.870031888363883e-05
+ATTRIBUTE: sample_stddev = 3142.355224609375
+ATTRIBUTE: units = b'meters^2'
+
+PATH: science/LSAR/GOFF/grids/frequencyA/pixelOffsets/HH/layer2/snr
+SHAPE: (4347, 4419)
+DTYPE: float32
+ATTRIBUTE: DIMENSION_LIST = [array([<HDF5 object reference>], dtype=object)
+ array([<HDF5 object reference>], dtype=object)]
+ATTRIBUTE: _FillValue = nan
+ATTRIBUTE: description = b'Pixel offsets signal-to-noise ratio'
+ATTRIBUTE: grid_mapping = b'projection'
+ATTRIBUTE: max_value = 1400.452392578125
+ATTRIBUTE: mean_value = 30.514312744140625
+ATTRIBUTE: min_value = 0.0009656282491050661
+ATTRIBUTE: sample_stddev = 46.317344665527344
+ATTRIBUTE: units = b'1'
+
+PATH: science/LSAR/GOFF/grids/frequencyA/pixelOffsets/HH/layer2/xCoordinateSpacing
+SHAPE: ()
+DTYPE: float64
+ATTRIBUTE: description = b'Nominal spacing in meters between consecutive pixels'
+ATTRIBUTE: long_name = b'X coordinates spacing'
+ATTRIBUTE: units = b'meters'
+MIN: 80.0
+MAX: 80.0
+VALID PIXELS: 1
+
+PATH: science/LSAR/GOFF/grids/frequencyA/pixelOffsets/HH/layer2/xCoordinates
+SHAPE: (4419,)
+DTYPE: float64
+ATTRIBUTE: CLASS = b'DIMENSION_SCALE'
+ATTRIBUTE: NAME = b''
+ATTRIBUTE: REFERENCE_LIST = [(<HDF5 object reference>, 1) (<HDF5 object reference>, 1)
+ (<HDF5 object reference>, 1) (<HDF5 object reference>, 1)
+ (<HDF5 object reference>, 1) (<HDF5 object reference>, 1)
+ (<HDF5 object reference>, 1)]
+ATTRIBUTE: description = b'X coordinates in specified projection'
+ATTRIBUTE: long_name = b'X coordinates of projection'
+ATTRIBUTE: standard_name = projection_x_coordinate
+ATTRIBUTE: units = b'meters'
+MIN: 545080.0
+MAX: 898520.0
+VALID PIXELS: 4419
+
+PATH: science/LSAR/GOFF/grids/frequencyA/pixelOffsets/HH/layer2/yCoordinateSpacing
+SHAPE: ()
+DTYPE: float64
+ATTRIBUTE: description = b'Nominal spacing in meters between consecutive lines'
+ATTRIBUTE: long_name = b'Y coordinates spacing'
+ATTRIBUTE: units = b'meters'
+MIN: -80.0
+MAX: -80.0
+VALID PIXELS: 1
+
+PATH: science/LSAR/GOFF/grids/frequencyA/pixelOffsets/HH/layer2/yCoordinates
+SHAPE: (4347,)
+DTYPE: float64
+ATTRIBUTE: CLASS = b'DIMENSION_SCALE'
+ATTRIBUTE: NAME = b''
+ATTRIBUTE: REFERENCE_LIST = [(<HDF5 object reference>, 0) (<HDF5 object reference>, 0)
+ (<HDF5 object reference>, 0) (<HDF5 object reference>, 0)
+ (<HDF5 object reference>, 0) (<HDF5 object reference>, 0)
+ (<HDF5 object reference>, 0)]
+ATTRIBUTE: description = b'Y coordinates in specified projection'
+ATTRIBUTE: long_name = b'Y coordinates of projection'
+ATTRIBUTE: standard_name = projection_y_coordinate
+ATTRIBUTE: units = b'meters'
+MIN: 3443800.0
+MAX: 3791480.0
+VALID PIXELS: 4347
+
+PATH: science/LSAR/GOFF/grids/frequencyA/pixelOffsets/HH/layer3/alongTrackOffset
+SHAPE: (4347, 4419)
+DTYPE: float32
+ATTRIBUTE: DIMENSION_LIST = [array([<HDF5 object reference>], dtype=object)
+ array([<HDF5 object reference>], dtype=object)]
+ATTRIBUTE: _FillValue = nan
+ATTRIBUTE: description = b'Raw (unculled, unfiltered) along-track pixel offsets'
+ATTRIBUTE: grid_mapping = b'projection'
+ATTRIBUTE: max_value = 281.8720703125
+ATTRIBUTE: mean_value = 0.3049270212650299
+ATTRIBUTE: min_value = -284.4713439941406
+ATTRIBUTE: sample_stddev = 9.247539520263672
+ATTRIBUTE: units = b'meters'
+
+PATH: science/LSAR/GOFF/grids/frequencyA/pixelOffsets/HH/layer3/alongTrackOffsetVariance
+SHAPE: (4347, 4419)
+DTYPE: float32
+ATTRIBUTE: DIMENSION_LIST = [array([<HDF5 object reference>], dtype=object)
+ array([<HDF5 object reference>], dtype=object)]
+ATTRIBUTE: _FillValue = nan
+ATTRIBUTE: description = b'Along-track pixel offsets variance'
+ATTRIBUTE: grid_mapping = b'projection'
+ATTRIBUTE: max_value = 510926912.0
+ATTRIBUTE: mean_value = 1531.0096435546875
+ATTRIBUTE: min_value = 0.0
+ATTRIBUTE: sample_stddev = 484602.625
+ATTRIBUTE: units = b'meters^2'
+
+PATH: science/LSAR/GOFF/grids/frequencyA/pixelOffsets/HH/layer3/correlationSurfacePeak
+SHAPE: (4347, 4419)
+DTYPE: float32
+ATTRIBUTE: DIMENSION_LIST = [array([<HDF5 object reference>], dtype=object)
+ array([<HDF5 object reference>], dtype=object)]
+ATTRIBUTE: _FillValue = nan
+ATTRIBUTE: description = b'Normalized correlation surface peak'
+ATTRIBUTE: grid_mapping = b'projection'
+ATTRIBUTE: max_value = 0.9918899536132812
+ATTRIBUTE: mean_value = 0.710028886795044
+ATTRIBUTE: min_value = 0.0
+ATTRIBUTE: sample_stddev = 0.16773104667663574
+ATTRIBUTE: units = b'1'
+
+PATH: science/LSAR/GOFF/grids/frequencyA/pixelOffsets/HH/layer3/crossOffsetVariance
+SHAPE: (4347, 4419)
+DTYPE: float32
+ATTRIBUTE: DIMENSION_LIST = [array([<HDF5 object reference>], dtype=object)
+ array([<HDF5 object reference>], dtype=object)]
+ATTRIBUTE: _FillValue = nan
+ATTRIBUTE: description = b'Off-diagonal term of the pixel offsets covariance matrix'
+ATTRIBUTE: grid_mapping = b'projection'
+ATTRIBUTE: max_value = 9280956.0
+ATTRIBUTE: mean_value = -1.0478986501693726
+ATTRIBUTE: min_value = -12470692.0
+ATTRIBUTE: sample_stddev = 10128.990234375
+ATTRIBUTE: units = b'meters^2'
+
+PATH: science/LSAR/GOFF/grids/frequencyA/pixelOffsets/HH/layer3/projection
+SHAPE: ()
+DTYPE: uint32
+ATTRIBUTE: description = b'Product map grid projection: EPSG code, with additional projection information as HDF5 Attributes'
+ATTRIBUTE: ellipsoid = b'WGS84'
+ATTRIBUTE: epsg_code = 32643
+ATTRIBUTE: false_easting = 500000.0
+ATTRIBUTE: false_northing = 0.0
+ATTRIBUTE: grid_mapping_name = b'transverse_mercator'
+ATTRIBUTE: inverse_flattening = 298.257223563
+ATTRIBUTE: latitude_of_projection_origin = 0.0
+ATTRIBUTE: longitude_of_central_meridian = 75.0
+ATTRIBUTE: longitude_of_projection_origin = 0.0
+ATTRIBUTE: scale_factor_at_central_meridian = 0.9996
+ATTRIBUTE: semi_major_axis = 6378137.0
+ATTRIBUTE: spatial_ref = b'PROJCS["WGS 84 / UTM zone 43N",GEOGCS["WGS 84",DATUM["WGS_1984",SPHEROID["WGS 84",6378137,298.257223563,AUTHORITY["EPSG","7030"]],AUTHORITY["EPSG","6326"]],PRIMEM["Greenwich",0,AUTHORITY["EPSG","8901"]],UNIT["degree",0.0174532925199433,AUTHORITY["EPSG","9122"]],AUTHORITY["EPSG","4326"]],PROJECTION["Transverse_Mercator"],PARAMETER["latitude_of_origin",0],PARAMETER["central_meridian",75],PARAMETER["scale_factor",0.9996],PARAMETER["false_easting",500000],PARAMETER["false_northing",0],UNIT["metre",1,AUTHORITY["EPSG","9001"]],AXIS["Easting",EAST],AXIS["Northing",NORTH],AUTHORITY["EPSG","32643"]]'
+ATTRIBUTE: utm_zone_number = 43
+MIN: 32643
+MAX: 32643
+VALID PIXELS: 1
+
+PATH: science/LSAR/GOFF/grids/frequencyA/pixelOffsets/HH/layer3/slantRangeOffset
+SHAPE: (4347, 4419)
+DTYPE: float32
+ATTRIBUTE: DIMENSION_LIST = [array([<HDF5 object reference>], dtype=object)
+ array([<HDF5 object reference>], dtype=object)]
+ATTRIBUTE: _FillValue = nan
+ATTRIBUTE: description = b'Raw (unculled, unfiltered) slant range pixel offsets'
+ATTRIBUTE: grid_mapping = b'projection'
+ATTRIBUTE: max_value = 198.2138671875
+ATTRIBUTE: mean_value = 0.4316549003124237
+ATTRIBUTE: min_value = -199.8616485595703
+ATTRIBUTE: sample_stddev = 6.208468914031982
+ATTRIBUTE: units = b'meters'
+
+PATH: science/LSAR/GOFF/grids/frequencyA/pixelOffsets/HH/layer3/slantRangeOffsetVariance
+SHAPE: (4347, 4419)
+DTYPE: float32
+ATTRIBUTE: DIMENSION_LIST = [array([<HDF5 object reference>], dtype=object)
+ array([<HDF5 object reference>], dtype=object)]
+ATTRIBUTE: _FillValue = nan
+ATTRIBUTE: description = b'Slant range pixel offsets variance'
+ATTRIBUTE: grid_mapping = b'projection'
+ATTRIBUTE: max_value = 7483451.0
+ATTRIBUTE: mean_value = 8.26361083984375
+ATTRIBUTE: min_value = 0.0
+ATTRIBUTE: sample_stddev = 3334.552490234375
+ATTRIBUTE: units = b'meters^2'
+
+PATH: science/LSAR/GOFF/grids/frequencyA/pixelOffsets/HH/layer3/snr
+SHAPE: (4347, 4419)
+DTYPE: float32
+ATTRIBUTE: DIMENSION_LIST = [array([<HDF5 object reference>], dtype=object)
+ array([<HDF5 object reference>], dtype=object)]
+ATTRIBUTE: _FillValue = nan
+ATTRIBUTE: description = b'Pixel offsets signal-to-noise ratio'
+ATTRIBUTE: grid_mapping = b'projection'
+ATTRIBUTE: max_value = 2052.354248046875
+ATTRIBUTE: mean_value = 17.877960205078125
+ATTRIBUTE: min_value = 0.0024392209015786648
+ATTRIBUTE: sample_stddev = 31.479190826416016
+ATTRIBUTE: units = b'1'
+
+PATH: science/LSAR/GOFF/grids/frequencyA/pixelOffsets/HH/layer3/xCoordinateSpacing
+SHAPE: ()
+DTYPE: float64
+ATTRIBUTE: description = b'Nominal spacing in meters between consecutive pixels'
+ATTRIBUTE: long_name = b'X coordinates spacing'
+ATTRIBUTE: units = b'meters'
+MIN: 80.0
+MAX: 80.0
+VALID PIXELS: 1
+
+PATH: science/LSAR/GOFF/grids/frequencyA/pixelOffsets/HH/layer3/xCoordinates
+SHAPE: (4419,)
+DTYPE: float64
+ATTRIBUTE: CLASS = b'DIMENSION_SCALE'
+ATTRIBUTE: NAME = b''
+ATTRIBUTE: REFERENCE_LIST = [(<HDF5 object reference>, 1) (<HDF5 object reference>, 1)
+ (<HDF5 object reference>, 1) (<HDF5 object reference>, 1)
+ (<HDF5 object reference>, 1) (<HDF5 object reference>, 1)
+ (<HDF5 object reference>, 1)]
+ATTRIBUTE: description = b'X coordinates in specified projection'
+ATTRIBUTE: long_name = b'X coordinates of projection'
+ATTRIBUTE: standard_name = projection_x_coordinate
+ATTRIBUTE: units = b'meters'
+MIN: 545080.0
+MAX: 898520.0
+VALID PIXELS: 4419
+
+PATH: science/LSAR/GOFF/grids/frequencyA/pixelOffsets/HH/layer3/yCoordinateSpacing
+SHAPE: ()
+DTYPE: float64
+ATTRIBUTE: description = b'Nominal spacing in meters between consecutive lines'
+ATTRIBUTE: long_name = b'Y coordinates spacing'
+ATTRIBUTE: units = b'meters'
+MIN: -80.0
+MAX: -80.0
+VALID PIXELS: 1
+
+PATH: science/LSAR/GOFF/grids/frequencyA/pixelOffsets/HH/layer3/yCoordinates
+SHAPE: (4347,)
+DTYPE: float64
+ATTRIBUTE: CLASS = b'DIMENSION_SCALE'
+ATTRIBUTE: NAME = b''
+ATTRIBUTE: REFERENCE_LIST = [(<HDF5 object reference>, 0) (<HDF5 object reference>, 0)
+ (<HDF5 object reference>, 0) (<HDF5 object reference>, 0)
+ (<HDF5 object reference>, 0) (<HDF5 object reference>, 0)
+ (<HDF5 object reference>, 0)]
+ATTRIBUTE: description = b'Y coordinates in specified projection'
+ATTRIBUTE: long_name = b'Y coordinates of projection'
+ATTRIBUTE: standard_name = projection_y_coordinate
+ATTRIBUTE: units = b'meters'
+MIN: 3443800.0
+MAX: 3791480.0
+VALID PIXELS: 4347
+
+PATH: science/LSAR/GOFF/grids/frequencyA/pixelOffsets/mask
+SHAPE: (4347, 4419)
+DTYPE: uint32
+ATTRIBUTE: DIMENSION_LIST = [array([<HDF5 object reference>], dtype=object)
+ array([<HDF5 object reference>], dtype=object)]
+ATTRIBUTE: _FillValue = 255
+ATTRIBUTE: description = b'Combination of a water mask, a mask of subswaths of valid samples, and data anomalies in the reference RSLC and the geometrically coregistered secondary RSLC. Each pixel value is encoded as a 32-bit unsigned integer. Bits 0-7 represent subswath encoding, where the most significant digit represents the water flag of that pixel in the reference RSLC, where 1 is water and 0 is non-water; the second most significant digit corresponds to the subswath number of the reference RSLC, and the least significant digit corresponds to the subswath number of the secondary RSLC; a value of 0 in either digit indicates an invalid sample in the corresponding RSLC. Bits 8-15 represent bitwise anomaly flags for the secondary RSLC, and bits 16-23 represent bitwise anomaly flags for the reference RSLC, with each bit corresponding to a specific anomaly condition. A value of 0 in the anomaly bits indicates that no anomaly is detected in the corresponding RSLC. Bits 24-31 are reserved for future use'
+ATTRIBUTE: disclaimer = b'Water Mask for the NASA-ISRO NISAR mission version 0.5, derived through analysis and processing of multiple input datasets, referenced to the WGS84 ellipsoid. Water mask derived at the Jet Propulsion Laboratory, California Institute of Technology, under contract with NASA, using multiple open datasets: JRC Global Surface Water v1.3 (Pekel et al 2016, Nature 540, 418-422,  EC JRC/Google); ESA WorldCover 10 m 2020 ( ESA WorldCover project 2020 / Contains modified Copernicus Sentinel data (2020) processed by ESA WorldCover consortium); OpenStreetMap Water Polygons ( OpenStreetMap contributors, ODbL 1.0); MEaSUREs GIMP Mask v1 (Howat 2017, doi:10.5067/B8X58MQBFUPA; Howat et al 2014). All trademarks and rights remain with their respective owners; NISAR mission organizations assume no liability for use of this product.'
+ATTRIBUTE: grid_mapping = b'projection'
+ATTRIBUTE: percentage_water = 0.5246049734573215
+ATTRIBUTE: valid_min = 0
+
+PATH: science/LSAR/GOFF/grids/frequencyA/pixelOffsets/projection
+SHAPE: ()
+DTYPE: uint32
+ATTRIBUTE: description = b'Product map grid projection: EPSG code, with additional projection information as HDF5 Attributes'
+ATTRIBUTE: ellipsoid = b'WGS84'
+ATTRIBUTE: epsg_code = 32643
+ATTRIBUTE: false_easting = 500000.0
+ATTRIBUTE: false_northing = 0.0
+ATTRIBUTE: grid_mapping_name = b'transverse_mercator'
+ATTRIBUTE: inverse_flattening = 298.257223563
+ATTRIBUTE: latitude_of_projection_origin = 0.0
+ATTRIBUTE: longitude_of_central_meridian = 75.0
+ATTRIBUTE: longitude_of_projection_origin = 0.0
+ATTRIBUTE: scale_factor_at_central_meridian = 0.9996
+ATTRIBUTE: semi_major_axis = 6378137.0
+ATTRIBUTE: spatial_ref = b'PROJCS["WGS 84 / UTM zone 43N",GEOGCS["WGS 84",DATUM["WGS_1984",SPHEROID["WGS 84",6378137,298.257223563,AUTHORITY["EPSG","7030"]],AUTHORITY["EPSG","6326"]],PRIMEM["Greenwich",0,AUTHORITY["EPSG","8901"]],UNIT["degree",0.0174532925199433,AUTHORITY["EPSG","9122"]],AUTHORITY["EPSG","4326"]],PROJECTION["Transverse_Mercator"],PARAMETER["latitude_of_origin",0],PARAMETER["central_meridian",75],PARAMETER["scale_factor",0.9996],PARAMETER["false_easting",500000],PARAMETER["false_northing",0],UNIT["metre",1,AUTHORITY["EPSG","9001"]],AXIS["Easting",EAST],AXIS["Northing",NORTH],AUTHORITY["EPSG","32643"]]'
+ATTRIBUTE: utm_zone_number = 43
+MIN: 32643
+MAX: 32643
+VALID PIXELS: 1
+
+PATH: science/LSAR/GOFF/grids/frequencyA/pixelOffsets/xCoordinateSpacing
+SHAPE: ()
+DTYPE: float64
+ATTRIBUTE: description = b'Nominal spacing in meters between consecutive pixels'
+ATTRIBUTE: long_name = b'X coordinates spacing'
+ATTRIBUTE: units = b'meters'
+MIN: 80.0
+MAX: 80.0
+VALID PIXELS: 1
+
+PATH: science/LSAR/GOFF/grids/frequencyA/pixelOffsets/xCoordinates
+SHAPE: (4419,)
+DTYPE: float64
+ATTRIBUTE: CLASS = b'DIMENSION_SCALE'
+ATTRIBUTE: NAME = b''
+ATTRIBUTE: REFERENCE_LIST = [(<HDF5 object reference>, 1)]
+ATTRIBUTE: description = b'X coordinates in specified projection'
+ATTRIBUTE: long_name = b'X coordinate of projection'
+ATTRIBUTE: standard_name = projection_x_coordinate
+ATTRIBUTE: units = b'meters'
+MIN: 545080.0
+MAX: 898520.0
+VALID PIXELS: 4419
+
+PATH: science/LSAR/GOFF/grids/frequencyA/pixelOffsets/yCoordinateSpacing
+SHAPE: ()
+DTYPE: float64
+ATTRIBUTE: description = b'Nominal spacing in meters between consecutive lines'
+ATTRIBUTE: long_name = b'Y coordinates spacing'
+ATTRIBUTE: units = b'meters'
+MIN: -80.0
+MAX: -80.0
+VALID PIXELS: 1
+
+PATH: science/LSAR/GOFF/grids/frequencyA/pixelOffsets/yCoordinates
+SHAPE: (4347,)
+DTYPE: float64
+ATTRIBUTE: CLASS = b'DIMENSION_SCALE'
+ATTRIBUTE: NAME = b''
+ATTRIBUTE: REFERENCE_LIST = [(<HDF5 object reference>, 0)]
+ATTRIBUTE: description = b'Y coordinates in specified projection'
+ATTRIBUTE: long_name = b'Y coordinate of projection'
+ATTRIBUTE: standard_name = projection_y_coordinate
+ATTRIBUTE: units = b'meters'
+MIN: 3443800.0
+MAX: 3791480.0
+VALID PIXELS: 4347
+
+PATH: science/LSAR/GOFF/metadata/attitude/reference/attitudeType
+SHAPE: ()
+DTYPE: |S10
+ATTRIBUTE: description = b'Attitude type, either "FRP", "NRP", "PRP, or "Custom", where "FRP" stands for Forecast Radar Pointing, "NRP" is Near Real-time Pointing, and "PRP" is Precise Radar Pointing'
+
+PATH: science/LSAR/GOFF/metadata/attitude/reference/eulerAngles
+SHAPE: (385, 3)
+DTYPE: float64
+ATTRIBUTE: description = b'Attitude Euler angles (roll, pitch, yaw)'
+ATTRIBUTE: units = b'degrees'
+MIN: -90.03455366067607
+MAX: 37.02303864943848
+VALID PIXELS: 1155
+
+PATH: science/LSAR/GOFF/metadata/attitude/reference/quaternions
+SHAPE: (385, 4)
+DTYPE: float64
+ATTRIBUTE: description = b'Attitude quaternions (q0, q1, q2, q3)'
+ATTRIBUTE: units = b'1'
+MIN: 0.1739519083263108
+MAX: 0.8827439522843641
+VALID PIXELS: 1540
+
+PATH: science/LSAR/GOFF/metadata/attitude/reference/time
+SHAPE: (385,)
+DTYPE: float64
+ATTRIBUTE: description = b'Time vector record. This record contains the time since UTC epoch corresponding to attitude and quaternion records'
+ATTRIBUTE: units = b'seconds since 2026-10-04T00:00:00'
+MIN: 51.0
+MAX: 435.0
+VALID PIXELS: 385
+
+PATH: science/LSAR/GOFF/metadata/attitude/secondary/attitudeType
+SHAPE: ()
+DTYPE: |S10
+ATTRIBUTE: description = b'Attitude type, either "FRP", "NRP", "PRP, or "Custom", where "FRP" stands for Forecast Radar Pointing, "NRP" is Near Real-time Pointing, and "PRP" is Precise Radar Pointing'
+
+PATH: science/LSAR/GOFF/metadata/attitude/secondary/eulerAngles
+SHAPE: (385, 3)
+DTYPE: float64
+ATTRIBUTE: description = b'Attitude Euler angles (roll, pitch, yaw)'
+ATTRIBUTE: units = b'degrees'
+MIN: -90.03483318438826
+MAX: 37.01535266959243
+VALID PIXELS: 1155
+
+PATH: science/LSAR/GOFF/metadata/attitude/secondary/quaternions
+SHAPE: (385, 4)
+DTYPE: float64
+ATTRIBUTE: description = b'Attitude quaternions (q0, q1, q2, q3)'
+ATTRIBUTE: units = b'1'
+MIN: 0.17399992518623028
+MAX: 0.8826957046154014
+VALID PIXELS: 1540
+
+PATH: science/LSAR/GOFF/metadata/attitude/secondary/time
+SHAPE: (385,)
+DTYPE: float64
+ATTRIBUTE: description = b'Time vector record. This record contains the time since UTC epoch corresponding to attitude and quaternion records'
+ATTRIBUTE: units = b'seconds since 2026-10-16T00:00:00'
+MIN: 51.0
+MAX: 435.0
+VALID PIXELS: 385
+
+PATH: science/LSAR/GOFF/metadata/orbit/reference/interpMethod
+SHAPE: ()
+DTYPE: |S7
+ATTRIBUTE: description = b'Orbit interpolation method, either "Hermite" or "Legendre"'
+
+PATH: science/LSAR/GOFF/metadata/orbit/reference/orbitType
+SHAPE: ()
+DTYPE: |S3
+ATTRIBUTE: description = b'Orbit product type, either "FOE", "NOE", "MOE", "POE", or "Custom", where "FOE" stands for Forecast Orbit Ephemeris, "NOE" is Near real-time Orbit Ephemeris, "MOE" is Medium precision Orbit Ephemeris, and "POE" is Precise Orbit Ephemeris'
+
+PATH: science/LSAR/GOFF/metadata/orbit/reference/position
+SHAPE: (46, 3)
+DTYPE: float64
+ATTRIBUTE: description = b'Position vector record. This record contains the platform position data with respect to WGS84 G1762 reference frame'
+ATTRIBUTE: units = b'meters'
+MIN: 234728.2849324035
+MAX: 6886289.562961952
+VALID PIXELS: 138
+
+PATH: science/LSAR/GOFF/metadata/orbit/reference/time
+SHAPE: (46,)
+DTYPE: float64
+ATTRIBUTE: description = b'Time vector record. This record contains the time since UTC epoch corresponding to position and velocity records'
+ATTRIBUTE: units = b'seconds since 2026-10-04T00:00:00'
+MIN: 22.0
+MAX: 472.0
+VALID PIXELS: 46
+
+PATH: science/LSAR/GOFF/metadata/orbit/reference/velocity
+SHAPE: (46, 3)
+DTYPE: float64
+ATTRIBUTE: description = b'Velocity vector record. This record contains the platform velocity data with respect to WGS84 G1762 reference frame'
+ATTRIBUTE: units = b'meters / second'
+MIN: -5104.3270550061725
+MAX: 7143.466587142749
+VALID PIXELS: 138
+
+PATH: science/LSAR/GOFF/metadata/orbit/secondary/interpMethod
+SHAPE: ()
+DTYPE: |S7
+ATTRIBUTE: description = b'Orbit interpolation method, either "Hermite" or "Legendre"'
+
+PATH: science/LSAR/GOFF/metadata/orbit/secondary/orbitType
+SHAPE: ()
+DTYPE: |S3
+ATTRIBUTE: description = b'Orbit product type, either "FOE", "NOE", "MOE", "POE", or "Custom", where "FOE" stands for Forecast Orbit Ephemeris, "NOE" is Near real-time Orbit Ephemeris, "MOE" is Medium precision Orbit Ephemeris, and "POE" is Precise Orbit Ephemeris'
+
+PATH: science/LSAR/GOFF/metadata/orbit/secondary/position
+SHAPE: (46, 3)
+DTYPE: float64
+ATTRIBUTE: description = b'Position vector record. This record contains the platform position data with respect to WGS84 G1762 reference frame'
+ATTRIBUTE: units = b'meters'
+MIN: 234347.5933109014
+MAX: 6886797.718601478
+VALID PIXELS: 138
+
+PATH: science/LSAR/GOFF/metadata/orbit/secondary/time
+SHAPE: (46,)
+DTYPE: float64
+ATTRIBUTE: description = b'Time vector record. This record contains the time since UTC epoch corresponding to position and velocity records'
+ATTRIBUTE: units = b'seconds since 2026-10-16T00:00:00'
+MIN: 22.0
+MAX: 472.0
+VALID PIXELS: 46
+
+PATH: science/LSAR/GOFF/metadata/orbit/secondary/velocity
+SHAPE: (46, 3)
+DTYPE: float64
+ATTRIBUTE: description = b'Velocity vector record. This record contains the platform velocity data with respect to WGS84 G1762 reference frame'
+ATTRIBUTE: units = b'meters / second'
+MIN: -5102.829281188369
+MAX: 7143.962085058706
+VALID PIXELS: 138
+
+PATH: science/LSAR/GOFF/metadata/orbit/temporalBaseline
+SHAPE: ()
+DTYPE: uint16
+ATTRIBUTE: description = b'Time interval between reference and secondary RSLCs'
+ATTRIBUTE: units = b'days'
+MIN: 12
+MAX: 12
+VALID PIXELS: 1
+
+PATH: science/LSAR/GOFF/metadata/processingInformation/algorithms/coregistration/coregistrationMethod
+SHAPE: ()
+DTYPE: |S59
+ATTRIBUTE: description = b'RSLC coregistration method'
+
+PATH: science/LSAR/GOFF/metadata/processingInformation/algorithms/coregistration/geometryCoregistration
+SHAPE: ()
+DTYPE: |S54
+ATTRIBUTE: description = b'Geometry coregistration algorithm'
+
+PATH: science/LSAR/GOFF/metadata/processingInformation/algorithms/coregistration/resampling
+SHAPE: ()
+DTYPE: |S4
+ATTRIBUTE: description = b'Secondary RSLC resampling algorithm'
+
+PATH: science/LSAR/GOFF/metadata/processingInformation/algorithms/crossCorrelation/layer1/crossCorrelationAlgorithm
+SHAPE: ()
+DTYPE: |S9
+ATTRIBUTE: description = b'Cross-correlation algorithm for layer 1'
+
+PATH: science/LSAR/GOFF/metadata/processingInformation/algorithms/crossCorrelation/layer2/crossCorrelationAlgorithm
+SHAPE: ()
+DTYPE: |S9
+ATTRIBUTE: description = b'Cross-correlation algorithm for layer 2'
+
+PATH: science/LSAR/GOFF/metadata/processingInformation/algorithms/crossCorrelation/layer3/crossCorrelationAlgorithm
+SHAPE: ()
+DTYPE: |S9
+ATTRIBUTE: description = b'Cross-correlation algorithm for layer 3'
+
+PATH: science/LSAR/GOFF/metadata/processingInformation/algorithms/geocoding/complexGeocodingInterpolation
+SHAPE: ()
+DTYPE: |S8
+ATTRIBUTE: description = b'Geocoding interpolation algorithm for complex-valued datasets'
+
+PATH: science/LSAR/GOFF/metadata/processingInformation/algorithms/geocoding/demInterpolation
+SHAPE: ()
+DTYPE: |S9
+ATTRIBUTE: description = b'DEM interpolation algorithm'
+
+PATH: science/LSAR/GOFF/metadata/processingInformation/algorithms/geocoding/floatingGeocodingInterpolation
+SHAPE: ()
+DTYPE: |S8
+ATTRIBUTE: description = b'Geocoding interpolation algorithm for floating point datasets'
+
+PATH: science/LSAR/GOFF/metadata/processingInformation/algorithms/geocoding/integerGeocodingInterpolation
+SHAPE: ()
+DTYPE: |S7
+ATTRIBUTE: description = b'Geocoding interpolation algorithm for integer datasets'
+
+PATH: science/LSAR/GOFF/metadata/processingInformation/algorithms/softwareVersion
+SHAPE: ()
+DTYPE: |S7
+ATTRIBUTE: description = b'Software version used for processing'
+
+PATH: science/LSAR/GOFF/metadata/processingInformation/inputs/configFiles
+SHAPE: ()
+DTYPE: |S4
+ATTRIBUTE: description = b'List of input config files used'
+
+PATH: science/LSAR/GOFF/metadata/processingInformation/inputs/demSource
+SHAPE: ()
+DTYPE: |S1120
+ATTRIBUTE: description = b'Description of the input digital elevation model (DEM)'
+
+PATH: science/LSAR/GOFF/metadata/processingInformation/inputs/l1ReferenceSlcGranules
+SHAPE: (1,)
+DTYPE: |S94
+ATTRIBUTE: description = b'List of input reference L1 RSLC products used'
+
+PATH: science/LSAR/GOFF/metadata/processingInformation/inputs/l1SecondarySlcGranules
+SHAPE: (1,)
+DTYPE: |S94
+ATTRIBUTE: description = b'List of input secondary L1 RSLC products used'
+
+PATH: science/LSAR/GOFF/metadata/processingInformation/inputs/orbitFiles
+SHAPE: (2,)
+DTYPE: |S39
+ATTRIBUTE: description = b'List of input orbit files used'
+
+PATH: science/LSAR/GOFF/metadata/processingInformation/inputs/waterMaskSource
+SHAPE: ()
+DTYPE: |S824
+ATTRIBUTE: description = b'Description of the input water mask'
+
+PATH: science/LSAR/GOFF/metadata/processingInformation/parameters/common/frequencyA/dopplerBandwidth
+SHAPE: ()
+DTYPE: float64
+ATTRIBUTE: description = b'Common Doppler bandwidth between reference and secondary RSLCs'
+ATTRIBUTE: units = b'hertz'
+MIN: 1262.4205936186545
+MAX: 1262.4205936186545
+VALID PIXELS: 1
+
+PATH: science/LSAR/GOFF/metadata/processingInformation/parameters/common/frequencyA/dopplerCentroid
+SHAPE: (384, 110)
+DTYPE: float64
+ATTRIBUTE: description = b'2D LUT of common Doppler centroid between reference and secondary RSLCs'
+ATTRIBUTE: units = b'hertz'
+MIN: 949.3402504587721
+MAX: 972.8921346353009
+VALID PIXELS: 42240
+
+PATH: science/LSAR/GOFF/metadata/processingInformation/parameters/geocoding/azimuthIonosphericCorrectionApplied
+SHAPE: ()
+DTYPE: |S4
+ATTRIBUTE: description = b'Flag to indicate if the azimuth ionospheric correction is applied to improve geolocation'
+
+PATH: science/LSAR/GOFF/metadata/processingInformation/parameters/geocoding/hydrostaticTroposphericCorrectionApplied
+SHAPE: ()
+DTYPE: |S4
+ATTRIBUTE: description = b'Flag to indicate if the hydrostatic tropospheric correction is applied to improve geolocation'
+
+PATH: science/LSAR/GOFF/metadata/processingInformation/parameters/geocoding/rangeIonosphericCorrectionApplied
+SHAPE: ()
+DTYPE: |S4
+ATTRIBUTE: description = b'Flag to indicate if the range ionospheric correction is applied to improve geolocation'
+
+PATH: science/LSAR/GOFF/metadata/processingInformation/parameters/geocoding/wetTroposphericCorrectionApplied
+SHAPE: ()
+DTYPE: |S4
+ATTRIBUTE: description = b'Flag to indicate if the wet tropospheric correction is applied to improve geolocation'
+
+PATH: science/LSAR/GOFF/metadata/processingInformation/parameters/pixelOffsets/frequencyA/alongTrackSkipWindowSize
+SHAPE: ()
+DTYPE: uint32
+ATTRIBUTE: description = b'Along-track cross-correlation skip window size in pixels'
+ATTRIBUTE: units = b'1'
+MIN: 15
+MAX: 15
+VALID PIXELS: 1
+
+PATH: science/LSAR/GOFF/metadata/processingInformation/parameters/pixelOffsets/frequencyA/alongTrackStartPixel
+SHAPE: ()
+DTYPE: uint32
+ATTRIBUTE: description = b'Reference RSLC start pixel in along-track'
+ATTRIBUTE: units = b'1'
+MIN: 314
+MAX: 314
+VALID PIXELS: 1
+
+PATH: science/LSAR/GOFF/metadata/processingInformation/parameters/pixelOffsets/frequencyA/azimuthBandwidth
+SHAPE: ()
+DTYPE: float64
+ATTRIBUTE: description = b'Processed azimuth bandwidth for frequency A pixel offsets layers'
+ATTRIBUTE: units = b'hertz'
+MIN: 1262.4205936186545
+MAX: 1262.4205936186545
+VALID PIXELS: 1
+
+PATH: science/LSAR/GOFF/metadata/processingInformation/parameters/pixelOffsets/frequencyA/correlationSurfaceOversampling
+SHAPE: ()
+DTYPE: uint32
+ATTRIBUTE: description = b'Oversampling factor of the cross-correlation surface'
+ATTRIBUTE: units = b'1'
+MIN: 32
+MAX: 32
+VALID PIXELS: 1
+
+PATH: science/LSAR/GOFF/metadata/processingInformation/parameters/pixelOffsets/frequencyA/layer1/alongTrackSearchWindowSize
+SHAPE: ()
+DTYPE: uint32
+ATTRIBUTE: description = b'Along-track cross-correlation search window size in pixels'
+ATTRIBUTE: units = b'1'
+MIN: 128
+MAX: 128
+VALID PIXELS: 1
+
+PATH: science/LSAR/GOFF/metadata/processingInformation/parameters/pixelOffsets/frequencyA/layer1/alongTrackWindowSize
+SHAPE: ()
+DTYPE: uint32
+ATTRIBUTE: description = b'Along-track cross-correlation window size in pixels'
+ATTRIBUTE: units = b'1'
+MIN: 32
+MAX: 32
+VALID PIXELS: 1
+
+PATH: science/LSAR/GOFF/metadata/processingInformation/parameters/pixelOffsets/frequencyA/layer1/slantRangeSearchWindowSize
+SHAPE: ()
+DTYPE: uint32
+ATTRIBUTE: description = b'Slant range cross-correlation search window size in pixels'
+ATTRIBUTE: units = b'1'
+MIN: 128
+MAX: 128
+VALID PIXELS: 1
+
+PATH: science/LSAR/GOFF/metadata/processingInformation/parameters/pixelOffsets/frequencyA/layer1/slantRangeWindowSize
+SHAPE: ()
+DTYPE: uint32
+ATTRIBUTE: description = b'Slant range cross-correlation window size in pixels'
+ATTRIBUTE: units = b'1'
+MIN: 32
+MAX: 32
+VALID PIXELS: 1
+
+PATH: science/LSAR/GOFF/metadata/processingInformation/parameters/pixelOffsets/frequencyA/layer2/alongTrackSearchWindowSize
+SHAPE: ()
+DTYPE: uint32
+ATTRIBUTE: description = b'Along-track cross-correlation search window size in pixels'
+ATTRIBUTE: units = b'1'
+MIN: 128
+MAX: 128
+VALID PIXELS: 1
+
+PATH: science/LSAR/GOFF/metadata/processingInformation/parameters/pixelOffsets/frequencyA/layer2/alongTrackWindowSize
+SHAPE: ()
+DTYPE: uint32
+ATTRIBUTE: description = b'Along-track cross-correlation window size in pixels'
+ATTRIBUTE: units = b'1'
+MIN: 64
+MAX: 64
+VALID PIXELS: 1
+
+PATH: science/LSAR/GOFF/metadata/processingInformation/parameters/pixelOffsets/frequencyA/layer2/slantRangeSearchWindowSize
+SHAPE: ()
+DTYPE: uint32
+ATTRIBUTE: description = b'Slant range cross-correlation search window size in pixels'
+ATTRIBUTE: units = b'1'
+MIN: 128
+MAX: 128
+VALID PIXELS: 1
+
+PATH: science/LSAR/GOFF/metadata/processingInformation/parameters/pixelOffsets/frequencyA/layer2/slantRangeWindowSize
+SHAPE: ()
+DTYPE: uint32
+ATTRIBUTE: description = b'Slant range cross-correlation window size in pixels'
+ATTRIBUTE: units = b'1'
+MIN: 64
+MAX: 64
+VALID PIXELS: 1
+
+PATH: science/LSAR/GOFF/metadata/processingInformation/parameters/pixelOffsets/frequencyA/layer3/alongTrackSearchWindowSize
+SHAPE: ()
+DTYPE: uint32
+ATTRIBUTE: description = b'Along-track cross-correlation search window size in pixels'
+ATTRIBUTE: units = b'1'
+MIN: 128
+MAX: 128
+VALID PIXELS: 1
+
+PATH: science/LSAR/GOFF/metadata/processingInformation/parameters/pixelOffsets/frequencyA/layer3/alongTrackWindowSize
+SHAPE: ()
+DTYPE: uint32
+ATTRIBUTE: description = b'Along-track cross-correlation window size in pixels'
+ATTRIBUTE: units = b'1'
+MIN: 128
+MAX: 128
+VALID PIXELS: 1
+
+PATH: science/LSAR/GOFF/metadata/processingInformation/parameters/pixelOffsets/frequencyA/layer3/slantRangeSearchWindowSize
+SHAPE: ()
+DTYPE: uint32
+ATTRIBUTE: description = b'Slant range cross-correlation search window size in pixels'
+ATTRIBUTE: units = b'1'
+MIN: 128
+MAX: 128
+VALID PIXELS: 1
+
+PATH: science/LSAR/GOFF/metadata/processingInformation/parameters/pixelOffsets/frequencyA/layer3/slantRangeWindowSize
+SHAPE: ()
+DTYPE: uint32
+ATTRIBUTE: description = b'Slant range cross-correlation window size in pixels'
+ATTRIBUTE: units = b'1'
+MIN: 128
+MAX: 128
+VALID PIXELS: 1
+
+PATH: science/LSAR/GOFF/metadata/processingInformation/parameters/pixelOffsets/frequencyA/margin
+SHAPE: ()
+DTYPE: uint32
+ATTRIBUTE: description = b'Margin in pixels around reference RSLC edges excluded during cross-correlation computation'
+ATTRIBUTE: units = b'1'
+MIN: 250
+MAX: 250
+VALID PIXELS: 1
+
+PATH: science/LSAR/GOFF/metadata/processingInformation/parameters/pixelOffsets/frequencyA/rangeBandwidth
+SHAPE: ()
+DTYPE: float64
+ATTRIBUTE: description = b'Processed slant range bandwidth for frequency A pixel offsets layers'
+ATTRIBUTE: units = b'hertz'
+MIN: 40000000.0
+MAX: 40000000.0
+VALID PIXELS: 1
+
+PATH: science/LSAR/GOFF/metadata/processingInformation/parameters/pixelOffsets/frequencyA/slantRangeSkipWindowSize
+SHAPE: ()
+DTYPE: uint32
+ATTRIBUTE: description = b'Slant range cross-correlation skip window size in pixels'
+ATTRIBUTE: units = b'1'
+MIN: 15
+MAX: 15
+VALID PIXELS: 1
+
+PATH: science/LSAR/GOFF/metadata/processingInformation/parameters/pixelOffsets/frequencyA/slantRangeStartPixel
+SHAPE: ()
+DTYPE: uint32
+ATTRIBUTE: description = b'Reference RSLC start pixel in slant range'
+ATTRIBUTE: units = b'1'
+MIN: 314
+MAX: 314
+VALID PIXELS: 1
+
+PATH: science/LSAR/GOFF/metadata/processingInformation/parameters/reference/frequencyA/azimuthBandwidth
+SHAPE: ()
+DTYPE: float64
+ATTRIBUTE: description = b'Processed azimuth bandwidth for reference RSLC'
+ATTRIBUTE: units = b'hertz'
+MIN: 1262.4205936186545
+MAX: 1262.4205936186545
+VALID PIXELS: 1
+
+PATH: science/LSAR/GOFF/metadata/processingInformation/parameters/reference/frequencyA/dopplerCentroid
+SHAPE: (384, 110)
+DTYPE: float64
+ATTRIBUTE: description = b'2D LUT of Doppler centroid for frequency A'
+ATTRIBUTE: units = b'hertz'
+MIN: 949.3402504587721
+MAX: 972.8921346353009
+VALID PIXELS: 42240
+
+PATH: science/LSAR/GOFF/metadata/processingInformation/parameters/reference/frequencyA/numberOfAzimuthLines
+SHAPE: ()
+DTYPE: uint64
+ATTRIBUTE: description = b'Number of azimuth lines within the reference RSLC'
+ATTRIBUTE: units = b'1'
+MIN: 54720
+MAX: 54720
+VALID PIXELS: 1
+
+PATH: science/LSAR/GOFF/metadata/processingInformation/parameters/reference/frequencyA/numberOfRangeSamples
+SHAPE: ()
+DTYPE: uint64
+ATTRIBUTE: description = b'Number of slant range samples for each azimuth line within the reference RSLC'
+ATTRIBUTE: units = b'1'
+MIN: 53764
+MAX: 53764
+VALID PIXELS: 1
+
+PATH: science/LSAR/GOFF/metadata/processingInformation/parameters/reference/frequencyA/rangeBandwidth
+SHAPE: ()
+DTYPE: float64
+ATTRIBUTE: description = b'Processed slant range bandwidth for reference RSLC'
+ATTRIBUTE: units = b'hertz'
+MIN: 40000000.0
+MAX: 40000000.0
+VALID PIXELS: 1
+
+PATH: science/LSAR/GOFF/metadata/processingInformation/parameters/reference/frequencyA/slantRangeSpacing
+SHAPE: ()
+DTYPE: float64
+ATTRIBUTE: description = Slant range spacing of reference RSLC
+ATTRIBUTE: units = b'meters'
+MIN: 3.1228381041666666
+MAX: 3.1228381041666666
+VALID PIXELS: 1
+
+PATH: science/LSAR/GOFF/metadata/processingInformation/parameters/reference/frequencyA/slantRangeStart
+SHAPE: ()
+DTYPE: float64
+ATTRIBUTE: description = b'Slant range start distance for the reference RSLC'
+ATTRIBUTE: units = b'meters'
+MIN: 880190.656688
+MAX: 880190.656688
+VALID PIXELS: 1
+
+PATH: science/LSAR/GOFF/metadata/processingInformation/parameters/reference/frequencyA/zeroDopplerEndTime
+SHAPE: ()
+DTYPE: |S29
+ATTRIBUTE: description = b'Azimuth stop time (in UTC) of the reference RSLC product in the format YYYY-mm-ddTHH:MM:SS.sssssssss'
+
+PATH: science/LSAR/GOFF/metadata/processingInformation/parameters/reference/frequencyA/zeroDopplerStartTime
+SHAPE: ()
+DTYPE: |S29
+ATTRIBUTE: description = b'Azimuth start time (in UTC) of the reference RSLC product in the format YYYY-mm-ddTHH:MM:SS.sssssssss'
+
+PATH: science/LSAR/GOFF/metadata/processingInformation/parameters/reference/frequencyA/zeroDopplerTimeSpacing
+SHAPE: ()
+DTYPE: float64
+ATTRIBUTE: description = b'Time interval in the along-track direction for reference RSLC raster layers'
+ATTRIBUTE: units = b'seconds'
+MIN: 0.0006578947368421052
+MAX: 0.0006578947368421052
+VALID PIXELS: 1
+
+PATH: science/LSAR/GOFF/metadata/processingInformation/parameters/reference/isMixedMode
+SHAPE: ()
+DTYPE: |S5
+ATTRIBUTE: description = b'"True" if reference RSLC is a composite of data collected in multiple radar modes, "False" otherwise'
+
+PATH: science/LSAR/GOFF/metadata/processingInformation/parameters/reference/referenceTerrainHeight
+SHAPE: (384,)
+DTYPE: float32
+ATTRIBUTE: description = b'Reference terrain height as a function of map coordinates for reference RSLC'
+ATTRIBUTE: units = b'meters'
+MIN: 0.0
+MAX: 0.0
+VALID PIXELS: 384
+
+PATH: science/LSAR/GOFF/metadata/processingInformation/parameters/reference/rfiMitigation
+SHAPE: ()
+DTYPE: |S9
+ATTRIBUTE: description = b'Algorithm used for radio frequency interference (RFI) mitigation in the reference RSLC, either "ST-EVD" or "FDNF" (or "disabled" if no RFI mitigation was applied)'
+
+PATH: science/LSAR/GOFF/metadata/processingInformation/parameters/reference/rfiMitigationApplied
+SHAPE: ()
+DTYPE: |S4
+ATTRIBUTE: description = b'Flag to indicate if radio frequency interference (RFI) mitigation was applied during the generation of the reference RSLC'
+
+PATH: science/LSAR/GOFF/metadata/processingInformation/parameters/runConfigurationContents
+SHAPE: ()
+DTYPE: |S21919
+ATTRIBUTE: description = b'Contents of the run configuration file with parameters used for processing'
+
+PATH: science/LSAR/GOFF/metadata/processingInformation/parameters/secondary/frequencyA/azimuthBandwidth
+SHAPE: ()
+DTYPE: float64
+ATTRIBUTE: description = b'Processed azimuth bandwidth for secondary RSLC'
+ATTRIBUTE: units = b'hertz'
+MIN: 1262.4187453048269
+MAX: 1262.4187453048269
+VALID PIXELS: 1
+
+PATH: science/LSAR/GOFF/metadata/processingInformation/parameters/secondary/frequencyA/dopplerCentroid
+SHAPE: (384, 110)
+DTYPE: float64
+ATTRIBUTE: description = b'2D LUT of Doppler centroid for frequency A'
+ATTRIBUTE: units = b'hertz'
+MIN: 947.978827640005
+MAX: 971.3245139931414
+VALID PIXELS: 42240
+
+PATH: science/LSAR/GOFF/metadata/processingInformation/parameters/secondary/frequencyA/numberOfAzimuthLines
+SHAPE: ()
+DTYPE: uint64
+ATTRIBUTE: description = b'Number of azimuth lines within the secondary RSLC'
+ATTRIBUTE: units = b'1'
+MIN: 54720
+MAX: 54720
+VALID PIXELS: 1
+
+PATH: science/LSAR/GOFF/metadata/processingInformation/parameters/secondary/frequencyA/numberOfRangeSamples
+SHAPE: ()
+DTYPE: uint64
+ATTRIBUTE: description = b'Number of slant range samples for each azimuth line within the secondary RSLC'
+ATTRIBUTE: units = b'1'
+MIN: 53764
+MAX: 53764
+VALID PIXELS: 1
+
+PATH: science/LSAR/GOFF/metadata/processingInformation/parameters/secondary/frequencyA/rangeBandwidth
+SHAPE: ()
+DTYPE: float64
+ATTRIBUTE: description = b'Processed slant range bandwidth for secondary RSLC'
+ATTRIBUTE: units = b'hertz'
+MIN: 40000000.0
+MAX: 40000000.0
+VALID PIXELS: 1
+
+PATH: science/LSAR/GOFF/metadata/processingInformation/parameters/secondary/frequencyA/slantRangeSpacing
+SHAPE: ()
+DTYPE: float64
+ATTRIBUTE: description = Slant range spacing of secondary RSLC
+ATTRIBUTE: units = b'meters'
+MIN: 3.1228381041666666
+MAX: 3.1228381041666666
+VALID PIXELS: 1
+
+PATH: science/LSAR/GOFF/metadata/processingInformation/parameters/secondary/frequencyA/slantRangeStart
+SHAPE: ()
+DTYPE: float64
+ATTRIBUTE: description = b'Slant range start distance for the secondary RSLC'
+ATTRIBUTE: units = b'meters'
+MIN: 880190.656688
+MAX: 880190.656688
+VALID PIXELS: 1
+
+PATH: science/LSAR/GOFF/metadata/processingInformation/parameters/secondary/frequencyA/zeroDopplerEndTime
+SHAPE: ()
+DTYPE: |S29
+ATTRIBUTE: description = b'Azimuth stop time (in UTC) of the secondary RSLC product in the format YYYY-mm-ddTHH:MM:SS.sssssssss'
+
+PATH: science/LSAR/GOFF/metadata/processingInformation/parameters/secondary/frequencyA/zeroDopplerStartTime
+SHAPE: ()
+DTYPE: |S29
+ATTRIBUTE: description = b'Azimuth start time (in UTC) of the secondary RSLC product in the format YYYY-mm-ddTHH:MM:SS.sssssssss'
+
+PATH: science/LSAR/GOFF/metadata/processingInformation/parameters/secondary/frequencyA/zeroDopplerTimeSpacing
+SHAPE: ()
+DTYPE: float64
+ATTRIBUTE: description = b'Time interval in the along-track direction for secondary RSLC raster layers'
+ATTRIBUTE: units = b'seconds'
+MIN: 0.0006578947368421052
+MAX: 0.0006578947368421052
+VALID PIXELS: 1
+
+PATH: science/LSAR/GOFF/metadata/processingInformation/parameters/secondary/isMixedMode
+SHAPE: ()
+DTYPE: |S5
+ATTRIBUTE: description = b'"True" if secondary RSLC is a composite of data collected in multiple radar modes, "False" otherwise'
+
+PATH: science/LSAR/GOFF/metadata/processingInformation/parameters/secondary/referenceTerrainHeight
+SHAPE: (384,)
+DTYPE: float32
+ATTRIBUTE: description = b'Reference terrain height as a function of map coordinates for secondary RSLC'
+ATTRIBUTE: units = b'meters'
+MIN: 0.0
+MAX: 0.0
+VALID PIXELS: 384
+
+PATH: science/LSAR/GOFF/metadata/processingInformation/parameters/secondary/rfiMitigation
+SHAPE: ()
+DTYPE: |S9
+ATTRIBUTE: description = b'Algorithm used for radio frequency interference (RFI) mitigation in the secondary RSLC, either "ST-EVD" or "FDNF" (or "disabled" if no RFI mitigation was applied)'
+
+PATH: science/LSAR/GOFF/metadata/processingInformation/parameters/secondary/rfiMitigationApplied
+SHAPE: ()
+DTYPE: |S4
+ATTRIBUTE: description = b'Flag to indicate if radio frequency interference (RFI) mitigation was applied during the generation of the secondary RSLC'
+
+PATH: science/LSAR/GOFF/metadata/radarGrid/alongTrackUnitVectorX
+SHAPE: (20, 708, 719)
+DTYPE: float32
+ATTRIBUTE: DIMENSION_LIST = [array([<HDF5 object reference>], dtype=object)
+ array([<HDF5 object reference>], dtype=object)
+ array([<HDF5 object reference>], dtype=object)]
+ATTRIBUTE: _FillValue = nan
+ATTRIBUTE: description = b'East component of the along-track unit vector at the target location, expressed in the east-north-up (ENU) coordinate system and projected onto the horizontal plane (i.e., excluding the up component)'
+ATTRIBUTE: grid_mapping = b'projection'
+ATTRIBUTE: long_name = b'Along-track unit vector X'
+ATTRIBUTE: units = b'1'
+ATTRIBUTE: valid_max = 1.0
+ATTRIBUTE: valid_min = -1.0
+
+PATH: science/LSAR/GOFF/metadata/radarGrid/alongTrackUnitVectorY
+SHAPE: (20, 708, 719)
+DTYPE: float32
+ATTRIBUTE: DIMENSION_LIST = [array([<HDF5 object reference>], dtype=object)
+ array([<HDF5 object reference>], dtype=object)
+ array([<HDF5 object reference>], dtype=object)]
+ATTRIBUTE: _FillValue = nan
+ATTRIBUTE: description = b'North component of the along-track unit vector at the target location, expressed in the east-north-up (ENU) coordinate system and projected onto the horizontal plane (i.e., excluding the up component)'
+ATTRIBUTE: grid_mapping = b'projection'
+ATTRIBUTE: long_name = b'Along-track unit vector Y'
+ATTRIBUTE: units = b'1'
+ATTRIBUTE: valid_max = 1.0
+ATTRIBUTE: valid_min = -1.0
+
+PATH: science/LSAR/GOFF/metadata/radarGrid/elevationAngle
+SHAPE: (20, 708, 719)
+DTYPE: float32
+ATTRIBUTE: DIMENSION_LIST = [array([<HDF5 object reference>], dtype=object)
+ array([<HDF5 object reference>], dtype=object)
+ array([<HDF5 object reference>], dtype=object)]
+ATTRIBUTE: _FillValue = nan
+ATTRIBUTE: description = b'Elevation angle is defined as the angle between the LOS vector and the normal to the ellipsoid at the sensor'
+ATTRIBUTE: grid_mapping = b'projection'
+ATTRIBUTE: long_name = b'Elevation angle'
+ATTRIBUTE: units = b'degrees'
+ATTRIBUTE: valid_max = 90.0
+ATTRIBUTE: valid_min = 0.0
+
+PATH: science/LSAR/GOFF/metadata/radarGrid/groundTrackVelocity
+SHAPE: (20, 708, 719)
+DTYPE: float64
+ATTRIBUTE: DIMENSION_LIST = [array([<HDF5 object reference>], dtype=object)
+ array([<HDF5 object reference>], dtype=object)
+ array([<HDF5 object reference>], dtype=object)]
+ATTRIBUTE: _FillValue = nan
+ATTRIBUTE: description = b'Absolute value of the platform velocity scaled at the target height'
+ATTRIBUTE: grid_mapping = b'projection'
+ATTRIBUTE: long_name = b'Ground track velocity'
+ATTRIBUTE: units = b'meters / second'
+
+PATH: science/LSAR/GOFF/metadata/radarGrid/heightAboveEllipsoid
+SHAPE: (20,)
+DTYPE: float64
+ATTRIBUTE: CLASS = b'DIMENSION_SCALE'
+ATTRIBUTE: NAME = b''
+ATTRIBUTE: REFERENCE_LIST = [(<HDF5 object reference>, 0) (<HDF5 object reference>, 0)
+ (<HDF5 object reference>, 0) (<HDF5 object reference>, 0)
+ (<HDF5 object reference>, 0) (<HDF5 object reference>, 0)
+ (<HDF5 object reference>, 0) (<HDF5 object reference>, 0)
+ (<HDF5 object reference>, 0) (<HDF5 object reference>, 0)
+ (<HDF5 object reference>, 0) (<HDF5 object reference>, 0)
+ (<HDF5 object reference>, 0)]
+ATTRIBUTE: description = b'Height values above WGS84 Ellipsoid corresponding to the radar grid'
+ATTRIBUTE: standard_name = b'height_above_reference_ellipsoid'
+ATTRIBUTE: units = b'meters'
+MIN: -500.0
+MAX: 9000.0
+VALID PIXELS: 20
+
+PATH: science/LSAR/GOFF/metadata/radarGrid/incidenceAngle
+SHAPE: (20, 708, 719)
+DTYPE: float32
+ATTRIBUTE: DIMENSION_LIST = [array([<HDF5 object reference>], dtype=object)
+ array([<HDF5 object reference>], dtype=object)
+ array([<HDF5 object reference>], dtype=object)]
+ATTRIBUTE: _FillValue = nan
+ATTRIBUTE: description = b'Incidence angle is defined as the angle between the LOS vector and the normal to the ellipsoid at the target height'
+ATTRIBUTE: grid_mapping = b'projection'
+ATTRIBUTE: long_name = b'Incidence angle'
+ATTRIBUTE: units = b'degrees'
+ATTRIBUTE: valid_max = 90.0
+ATTRIBUTE: valid_min = 0.0
+
+PATH: science/LSAR/GOFF/metadata/radarGrid/losUnitVectorX
+SHAPE: (20, 708, 719)
+DTYPE: float32
+ATTRIBUTE: DIMENSION_LIST = [array([<HDF5 object reference>], dtype=object)
+ array([<HDF5 object reference>], dtype=object)
+ array([<HDF5 object reference>], dtype=object)]
+ATTRIBUTE: _FillValue = nan
+ATTRIBUTE: description = b'East component of the line-of-sight (LOS) unit vector, defined from the target to the sensor, expressed in the east-north-up (ENU) coordinate system with its origin at the target location'
+ATTRIBUTE: grid_mapping = b'projection'
+ATTRIBUTE: long_name = b'LOS unit vector X'
+ATTRIBUTE: units = b'1'
+ATTRIBUTE: valid_max = 1.0
+ATTRIBUTE: valid_min = -1.0
+
+PATH: science/LSAR/GOFF/metadata/radarGrid/losUnitVectorY
+SHAPE: (20, 708, 719)
+DTYPE: float32
+ATTRIBUTE: DIMENSION_LIST = [array([<HDF5 object reference>], dtype=object)
+ array([<HDF5 object reference>], dtype=object)
+ array([<HDF5 object reference>], dtype=object)]
+ATTRIBUTE: _FillValue = nan
+ATTRIBUTE: description = b'North component of the line-of-sight (LOS) unit vector, defined from the target to the sensor, expressed in the east-north-up (ENU) coordinate system with its origin at the target location'
+ATTRIBUTE: grid_mapping = b'projection'
+ATTRIBUTE: long_name = b'LOS unit vector Y'
+ATTRIBUTE: units = b'1'
+ATTRIBUTE: valid_max = 1.0
+ATTRIBUTE: valid_min = -1.0
+
+PATH: science/LSAR/GOFF/metadata/radarGrid/parallelBaseline
+SHAPE: (20, 708, 719)
+DTYPE: float32
+ATTRIBUTE: DIMENSION_LIST = [array([<HDF5 object reference>], dtype=object)
+ array([<HDF5 object reference>], dtype=object)
+ array([<HDF5 object reference>], dtype=object)]
+ATTRIBUTE: _FillValue = nan
+ATTRIBUTE: description = b'Parallel component of the InSAR baseline'
+ATTRIBUTE: grid_mapping = b'projection'
+ATTRIBUTE: long_name = b'Parallel baseline'
+ATTRIBUTE: max_value = -1.936836838722229
+ATTRIBUTE: mean_value = -3.5981476306915283
+ATTRIBUTE: min_value = -5.471099853515625
+ATTRIBUTE: sample_stddev = 0.9937545657157898
+ATTRIBUTE: units = b'meters'
+
+PATH: science/LSAR/GOFF/metadata/radarGrid/perpendicularBaseline
+SHAPE: (20, 708, 719)
+DTYPE: float32
+ATTRIBUTE: DIMENSION_LIST = [array([<HDF5 object reference>], dtype=object)
+ array([<HDF5 object reference>], dtype=object)
+ array([<HDF5 object reference>], dtype=object)]
+ATTRIBUTE: _FillValue = nan
+ATTRIBUTE: description = b'Perpendicular component of the InSAR baseline'
+ATTRIBUTE: grid_mapping = b'projection'
+ATTRIBUTE: long_name = b'Perpendicular baseline'
+ATTRIBUTE: max_value = 18.245027542114258
+ATTRIBUTE: mean_value = 17.82070541381836
+ATTRIBUTE: min_value = 17.23550796508789
+ATTRIBUTE: sample_stddev = 0.22277195751667023
+ATTRIBUTE: units = b'meters'
+
+PATH: science/LSAR/GOFF/metadata/radarGrid/projection
+SHAPE: ()
+DTYPE: uint32
+ATTRIBUTE: description = b'Product map grid projection: EPSG code, with additional projection information as HDF5 Attributes'
+ATTRIBUTE: ellipsoid = b'WGS84'
+ATTRIBUTE: epsg_code = 32643
+ATTRIBUTE: false_easting = 500000.0
+ATTRIBUTE: false_northing = 0.0
+ATTRIBUTE: grid_mapping_name = b'transverse_mercator'
+ATTRIBUTE: inverse_flattening = 298.257223563
+ATTRIBUTE: latitude_of_projection_origin = 0.0
+ATTRIBUTE: longitude_of_central_meridian = 75.0
+ATTRIBUTE: longitude_of_projection_origin = 0.0
+ATTRIBUTE: scale_factor_at_central_meridian = 0.9996
+ATTRIBUTE: semi_major_axis = 6378137.0
+ATTRIBUTE: spatial_ref = b'PROJCS["WGS 84 / UTM zone 43N",GEOGCS["WGS 84",DATUM["WGS_1984",SPHEROID["WGS 84",6378137,298.257223563,AUTHORITY["EPSG","7030"]],AUTHORITY["EPSG","6326"]],PRIMEM["Greenwich",0,AUTHORITY["EPSG","8901"]],UNIT["degree",0.0174532925199433,AUTHORITY["EPSG","9122"]],AUTHORITY["EPSG","4326"]],PROJECTION["Transverse_Mercator"],PARAMETER["latitude_of_origin",0],PARAMETER["central_meridian",75],PARAMETER["scale_factor",0.9996],PARAMETER["false_easting",500000],PARAMETER["false_northing",0],UNIT["metre",1,AUTHORITY["EPSG","9001"]],AXIS["Easting",EAST],AXIS["Northing",NORTH],AUTHORITY["EPSG","32643"]]'
+ATTRIBUTE: utm_zone_number = 43
+MIN: 32643
+MAX: 32643
+VALID PIXELS: 1
+
+PATH: science/LSAR/GOFF/metadata/radarGrid/referenceSlantRange
+SHAPE: (20, 708, 719)
+DTYPE: float64
+ATTRIBUTE: DIMENSION_LIST = [array([<HDF5 object reference>], dtype=object)
+ array([<HDF5 object reference>], dtype=object)
+ array([<HDF5 object reference>], dtype=object)]
+ATTRIBUTE: _FillValue = nan
+ATTRIBUTE: description = b'Slant range of the reference RSLC in meters'
+ATTRIBUTE: grid_mapping = b'projection'
+ATTRIBUTE: long_name = b'Slant range'
+ATTRIBUTE: units = b'meters'
+
+PATH: science/LSAR/GOFF/metadata/radarGrid/referenceZeroDopplerAzimuthTime
+SHAPE: (20, 708, 719)
+DTYPE: float64
+ATTRIBUTE: DIMENSION_LIST = [array([<HDF5 object reference>], dtype=object)
+ array([<HDF5 object reference>], dtype=object)
+ array([<HDF5 object reference>], dtype=object)]
+ATTRIBUTE: _FillValue = nan
+ATTRIBUTE: description = b'Zero Doppler azimuth time in seconds since UTC epoch of the reference RSLC image'
+ATTRIBUTE: grid_mapping = b'projection'
+ATTRIBUTE: long_name = b'Zero Doppler azimuth time'
+ATTRIBUTE: units = b'seconds since 2026-10-04T00:00:00'
+
+PATH: science/LSAR/GOFF/metadata/radarGrid/secondarySlantRange
+SHAPE: (20, 708, 719)
+DTYPE: float64
+ATTRIBUTE: DIMENSION_LIST = [array([<HDF5 object reference>], dtype=object)
+ array([<HDF5 object reference>], dtype=object)
+ array([<HDF5 object reference>], dtype=object)]
+ATTRIBUTE: _FillValue = nan
+ATTRIBUTE: description = b'Slant range of the secondary RSLC in meters'
+ATTRIBUTE: grid_mapping = b'projection'
+ATTRIBUTE: long_name = b'Slant range'
+ATTRIBUTE: units = b'meters'
+
+PATH: science/LSAR/GOFF/metadata/radarGrid/secondaryZeroDopplerAzimuthTime
+SHAPE: (20, 708, 719)
+DTYPE: float64
+ATTRIBUTE: DIMENSION_LIST = [array([<HDF5 object reference>], dtype=object)
+ array([<HDF5 object reference>], dtype=object)
+ array([<HDF5 object reference>], dtype=object)]
+ATTRIBUTE: _FillValue = nan
+ATTRIBUTE: description = b'Zero Doppler azimuth time in seconds since UTC epoch of the secondary RSLC image'
+ATTRIBUTE: grid_mapping = b'projection'
+ATTRIBUTE: long_name = b'Zero Doppler azimuth time'
+ATTRIBUTE: units = b'seconds since 2026-10-16T00:00:00'
+
+PATH: science/LSAR/GOFF/metadata/radarGrid/xCoordinates
+SHAPE: (719,)
+DTYPE: float64
+ATTRIBUTE: CLASS = b'DIMENSION_SCALE'
+ATTRIBUTE: NAME = b''
+ATTRIBUTE: REFERENCE_LIST = [(<HDF5 object reference>, 2) (<HDF5 object reference>, 2)
+ (<HDF5 object reference>, 2) (<HDF5 object reference>, 2)
+ (<HDF5 object reference>, 2) (<HDF5 object reference>, 2)
+ (<HDF5 object reference>, 2) (<HDF5 object reference>, 2)
+ (<HDF5 object reference>, 2) (<HDF5 object reference>, 2)
+ (<HDF5 object reference>, 2) (<HDF5 object reference>, 2)
+ (<HDF5 object reference>, 2)]
+ATTRIBUTE: description = b'X coordinates in specified projection'
+ATTRIBUTE: long_name = b'X coordinate of projection'
+ATTRIBUTE: standard_name = projection_x_coordinate
+ATTRIBUTE: units = b'meters'
+MIN: 542750.0
+MAX: 901750.0
+VALID PIXELS: 719
+
+PATH: science/LSAR/GOFF/metadata/radarGrid/yCoordinates
+SHAPE: (708,)
+DTYPE: float64
+ATTRIBUTE: CLASS = b'DIMENSION_SCALE'
+ATTRIBUTE: NAME = b''
+ATTRIBUTE: REFERENCE_LIST = [(<HDF5 object reference>, 1) (<HDF5 object reference>, 1)
+ (<HDF5 object reference>, 1) (<HDF5 object reference>, 1)
+ (<HDF5 object reference>, 1) (<HDF5 object reference>, 1)
+ (<HDF5 object reference>, 1) (<HDF5 object reference>, 1)
+ (<HDF5 object reference>, 1) (<HDF5 object reference>, 1)
+ (<HDF5 object reference>, 1) (<HDF5 object reference>, 1)
+ (<HDF5 object reference>, 1)]
+ATTRIBUTE: description = b'Y coordinates in specified projection'
+ATTRIBUTE: long_name = b'Y coordinate of projection'
+ATTRIBUTE: standard_name = projection_y_coordinate
+ATTRIBUTE: units = b'meters'
+MIN: 3440750.0
+MAX: 3794250.0
+VALID PIXELS: 708
+
+PATH: science/LSAR/identification/boundingPolygon
+SHAPE: ()
+DTYPE: |S2083
+ATTRIBUTE: description = b'OGR compatible WKT representing the bounding polygon of the image. Horizontal coordinates are WGS84 longitude followed by latitude (both in degrees), and the vertical coordinate is the height above the WGS84 ellipsoid in meters. The first point corresponds to the start-time, near-range radar coordinate, and the perimeter is traversed in counterclockwise order on the map. This means the traversal order in radar coordinates differs for left-looking and right-looking sensors. The polygon includes the four corners of the radar grid, with equal numbers of points distributed evenly in radar coordinates along each edge'
+ATTRIBUTE: epsg = b'4326'
+ATTRIBUTE: ogr_geometry = b'polygon'
+
+PATH: science/LSAR/identification/compositeReleaseId
+SHAPE: ()
+DTYPE: |S6
+ATTRIBUTE: description = b'Unique version identifier of the science data production system'
+
+PATH: science/LSAR/identification/diagnosticModeFlag
+SHAPE: ()
+DTYPE: uint32
+ATTRIBUTE: description = b'Indicates if the radar operation mode is a diagnostic mode (1-2) or DBFed science (0): 0, 1, or 2'
+MIN: 0
+MAX: 0
+VALID PIXELS: 1
+
+PATH: science/LSAR/identification/frameNumber
+SHAPE: ()
+DTYPE: uint16
+ATTRIBUTE: description = b'Frame number'
+MIN: 18
+MAX: 18
+VALID PIXELS: 1
+
+PATH: science/LSAR/identification/granuleId
+SHAPE: ()
+DTYPE: |S123
+ATTRIBUTE: description = b'Unique granule identification name'
+
+PATH: science/LSAR/identification/instrumentName
+SHAPE: ()
+DTYPE: |S5
+ATTRIBUTE: description = b'Name of the instrument used to collect the remote sensing data provided in this product'
+
+PATH: science/LSAR/identification/isDithered
+SHAPE: ()
+DTYPE: |S4
+ATTRIBUTE: description = b'"True" if the pulse timing was varied (dithered) during acquisition, "False" otherwise'
+
+PATH: science/LSAR/identification/isFullFrame
+SHAPE: ()
+DTYPE: |S4
+ATTRIBUTE: description = b'"True" if the product fully covers a NISAR frame, "False" if partial coverage'
+ATTRIBUTE: frameCoveragePercentage = 97.00279333485837
+ATTRIBUTE: thresholdPercentage = 75.0
+
+PATH: science/LSAR/identification/isGeocoded
+SHAPE: ()
+DTYPE: |S4
+ATTRIBUTE: description = b'Flag to indicate if the product data is in the radar geometry ("False") or in the map geometry ("True")'
+
+PATH: science/LSAR/identification/isMixedMode
+SHAPE: ()
+DTYPE: |S5
+ATTRIBUTE: description = b'"True" if this product is generated from reference and secondary RSLCs with different range bandwidths, "False" otherwise'
+
+PATH: science/LSAR/identification/isUrgentObservation
+SHAPE: ()
+DTYPE: |S5
+ATTRIBUTE: description = b'Flag indicating if observation is nominal ("False") or urgent ("True")'
+
+PATH: science/LSAR/identification/listOfFrequencies
+SHAPE: (1,)
+DTYPE: |S1
+ATTRIBUTE: description = b'List of frequency layers available in the product'
+
+PATH: science/LSAR/identification/lookDirection
+SHAPE: ()
+DTYPE: |S4
+ATTRIBUTE: description = b'Look direction, either "Left" or "Right"'
+
+PATH: science/LSAR/identification/missionId
+SHAPE: ()
+DTYPE: |S5
+ATTRIBUTE: description = b'Mission identifier'
+
+PATH: science/LSAR/identification/orbitPassDirection
+SHAPE: ()
+DTYPE: |S9
+ATTRIBUTE: description = b'Orbit direction, either "Ascending" or "Descending"'
+
+PATH: science/LSAR/identification/platformName
+SHAPE: ()
+DTYPE: |S5
+ATTRIBUTE: description = b'Name of the platform used to collect the remote sensing data provided in this product'
+
+PATH: science/LSAR/identification/processingCenter
+SHAPE: ()
+DTYPE: |S3
+ATTRIBUTE: description = b'Data processing center'
+
+PATH: science/LSAR/identification/processingDateTime
+SHAPE: ()
+DTYPE: |S19
+ATTRIBUTE: description = b'Processing date and time (in UTC) in the format YYYY-mm-ddTHH:MM:SS'
+
+PATH: science/LSAR/identification/processingType
+SHAPE: ()
+DTYPE: |S7
+ATTRIBUTE: description = b'Processing pipeline used to generate this granule. "Nominal": standard production system; "Urgent": time-sensitive processing in response to urgent response events; "Custom": user-initiated processing outside the nominal production system'
+
+PATH: science/LSAR/identification/productDoi
+SHAPE: ()
+DTYPE: |S19
+ATTRIBUTE: description = b'Digital Object Identifier (DOI) for the product'
+
+PATH: science/LSAR/identification/productLevel
+SHAPE: ()
+DTYPE: |S2
+ATTRIBUTE: description = b'Product level. "L0A": Unprocessed instrument data; "L0B": Reformatted, unprocessed instrument data; "L1": Processed instrument data in radar coordinates system; and "L2": Processed instrument data in geocoded coordinates system'
+
+PATH: science/LSAR/identification/productSpecificationVersion
+SHAPE: ()
+DTYPE: |S5
+ATTRIBUTE: description = b'Product specification version which represents the schema of this product'
+
+PATH: science/LSAR/identification/productType
+SHAPE: ()
+DTYPE: |S4
+ATTRIBUTE: description = b'Product type'
+
+PATH: science/LSAR/identification/productVersion
+SHAPE: ()
+DTYPE: |S6
+ATTRIBUTE: description = b'Product version which represents the structure of the product and the science content governed by the algorithm, input data, and processing parameters'
+
+PATH: science/LSAR/identification/radarBand
+SHAPE: ()
+DTYPE: |S1
+ATTRIBUTE: description = b'Acquired frequency band, either "L" or "S"'
+
+PATH: science/LSAR/identification/referenceAbsoluteOrbitNumber
+SHAPE: ()
+DTYPE: uint32
+ATTRIBUTE: description = b'Absolute orbit number for the reference RSLC'
+ATTRIBUTE: units = b'unitless'
+MIN: 6209
+MAX: 6209
+VALID PIXELS: 1
+
+PATH: science/LSAR/identification/referenceHasInputDataException
+SHAPE: ()
+DTYPE: uint8
+ATTRIBUTE: description = b'Indication of input reference RSLC data exceptions or anomalies. Zero when no known exception affects this product, otherwise the bitwise OR of exception codes (2: NISAR LSAR qFSP-H1 sample slip)'
+MIN: 0
+MAX: 0
+VALID PIXELS: 1
+
+PATH: science/LSAR/identification/referenceIsJointObservation
+SHAPE: ()
+DTYPE: |S4
+ATTRIBUTE: description = b'"True" if any portion of the reference RSLC was acquired in a joint observation mode (e.g., L-band and S-band simultaneously), "False" otherwise'
+
+PATH: science/LSAR/identification/referenceListOfObservationModes
+SHAPE: (1,)
+DTYPE: |S15
+ATTRIBUTE: description = b'List of observation modes of the L0B granules used to generate the reference RSLC (one mode per L0B)'
+
+PATH: science/LSAR/identification/referencePlannedDatatakeId
+SHAPE: (1,)
+DTYPE: |S18
+ATTRIBUTE: description = b'List of planned datatakes included in the reference RSLC'
+
+PATH: science/LSAR/identification/referencePlannedObservationId
+SHAPE: (1,)
+DTYPE: |S17
+ATTRIBUTE: description = b'List of planned observations included in the reference RSLC'
+
+PATH: science/LSAR/identification/referenceZeroDopplerEndTime
+SHAPE: ()
+DTYPE: |S29
+ATTRIBUTE: description = b'Azimuth stop time (in UTC) of reference RSLC product in the format YYYY-mm-ddTHH:MM:SS.sssssssss'
+
+PATH: science/LSAR/identification/referenceZeroDopplerStartTime
+SHAPE: ()
+DTYPE: |S29
+ATTRIBUTE: description = b'Azimuth start time (in UTC) of reference RSLC product in the format YYYY-mm-ddTHH:MM:SS.sssssssss'
+
+PATH: science/LSAR/identification/secondaryAbsoluteOrbitNumber
+SHAPE: ()
+DTYPE: uint32
+ATTRIBUTE: description = b'Absolute orbit number for the secondary RSLC'
+ATTRIBUTE: units = b'unitless'
+MIN: 6382
+MAX: 6382
+VALID PIXELS: 1
+
+PATH: science/LSAR/identification/secondaryHasInputDataException
+SHAPE: ()
+DTYPE: uint8
+ATTRIBUTE: description = b'Indication of input secondary RSLC data exceptions or anomalies. Zero when no known exception affects this product, otherwise the bitwise OR of exception codes (2: NISAR LSAR qFSP-H1 sample slip)'
+MIN: 0
+MAX: 0
+VALID PIXELS: 1
+
+PATH: science/LSAR/identification/secondaryIsJointObservation
+SHAPE: ()
+DTYPE: |S4
+ATTRIBUTE: description = b'"True" if any portion of the secondary RSLC was acquired in a joint observation mode (e.g., L-band and S-band simultaneously), "False" otherwise'
+
+PATH: science/LSAR/identification/secondaryListOfObservationModes
+SHAPE: (1,)
+DTYPE: |S15
+ATTRIBUTE: description = b'List of observation modes of the L0B granules used to generate the secondary RSLC (one mode per L0B)'
+
+PATH: science/LSAR/identification/secondaryPlannedDatatakeId
+SHAPE: (1,)
+DTYPE: |S18
+ATTRIBUTE: description = b'List of planned datatakes included in the secondary RSLC'
+
+PATH: science/LSAR/identification/secondaryPlannedObservationId
+SHAPE: (1,)
+DTYPE: |S17
+ATTRIBUTE: description = b'List of planned observations included in the secondary RSLC'
+
+PATH: science/LSAR/identification/secondaryZeroDopplerEndTime
+SHAPE: ()
+DTYPE: |S29
+ATTRIBUTE: description = b'Azimuth stop time (in UTC) of secondary RSLC product in the format YYYY-mm-ddTHH:MM:SS.sssssssss'
+
+PATH: science/LSAR/identification/secondaryZeroDopplerStartTime
+SHAPE: ()
+DTYPE: |S29
+ATTRIBUTE: description = b'Azimuth start time (in UTC) of secondary RSLC product in the format YYYY-mm-ddTHH:MM:SS.sssssssss'
+
+PATH: science/LSAR/identification/staticLayersDataAccess
+SHAPE: ()
+DTYPE: |S193
+ATTRIBUTE: description = b'Location of the static layers product associated with this product (URL or DOI)'
+
+PATH: science/LSAR/identification/trackNumber
+SHAPE: ()
+DTYPE: uint32
+ATTRIBUTE: description = b'Track number'
+MIN: 55
+MAX: 55
+VALID PIXELS: 1

@@ -1,0 +1,10 @@
+parameter,value,unit
+Computation Time Step,1,s
+Theta,1,dimensionless
+Water Surface Tolerance,0.003,m
+Volume Tolerance,0.003,m
+Equation Set,SWE-ELM,
+Turbulence Model,None,
+Coriolis Effect,None,
+Matrix Solver,PARDISO (Direct),
+Maximum Iterations,30,

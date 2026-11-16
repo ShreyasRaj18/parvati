@@ -1,0 +1,3585 @@
+
+--- PAGE 1 ---
+ 
+ 
+
+
+--- PAGE 2 ---
+ 
+GLOF Risk Asesment of 
+Samudra Tapu
+ Glacial Lake in Indus River Basin
+ 
+ 
+ 
+ 
+~ i ~ 
+ 
+ 
+ 
+
+
+--- PAGE 3 ---
+ 
+GLOF Risk Asesment of 
+Samudra Tapu
+ Glacial Lake in Indus River Basin
+ 
+ 
+ 
+ 
+~ i ~ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Copyright © 202
+4 
+National Remote Sensing Centre, ISRO
+ 
+ 
+Published by
+ 
+National Remote Sensing Centre, ISRO
+ 
+Department of Space, Government of India
+ 
+Hyderabad 
+- 50 037,
+ Telangana, India
+ 
+htps:/w.nrsc.gov.in
+ 
+ 
+Production
+ 
+NRSC has taken up several activities under the National Hydrology Project (NHP), 
+sponsored by the Department of Water Resources, River Development and Ganga 
+Rejuvenation (DoWR, RD&GR), Ministry of Jal S
+hakti, Government of India (GOI) with 
+financial aid from the World Bank
+. 
+Reproduction
+ 
+This publication may be produced in whole or in part and in any form for educational or 
+non
+- profit purposes without permision from the copyright holder, provided the 
+ack
+nowledgement and citation of the source is made in al type of publications, which 
+include research articles, journal papers, conference procedings, boks, bok chapters, 
+scientific reports, disertation, etc. NRSC would apreciate receiving a copy of any
+ 
+publication that uses this publication as a source. No use of this publication may be made 
+for resale or for any other comercial purposes.
+ 
+The views and interpretations in this publication are those of the author(s). They are not 
+atributable to NRSC and
+ do not imply the expresion of any opinion concerning the legal 
+status of any country, teritory, city or area of its authorities, or concerning the 
+delimitation of its frontiers or boundaries, or the endorsement of any product. The 
+administrative boundar
+ies presented in this publication are only for scientific study and 
+not for statutory purpose.
+ 
+
+
+--- PAGE 4 ---
+ 
+GLOF Risk Asesment of 
+Samudra Tapu
+ Glacial Lake in Indus River Basin
+ 
+ 
+ 
+ 
+~ i ~ 
+ 
+DOCUMENT CONTROL SHET
+ 
+1 
+Security Clasification 
+ 
+Oficial
+ 
+2 
+Distribution 
+ 
+General
+ 
+3 
+Report/Document 
+version
+ 
+(a) Isue no. 1
+ 
+(b) Revision 
+& Date 
+ 
+ 
+4 
+Report/Document Type
+ 
+Technical report
+ 
+5 
+Document Control 
+Number
+ 
+NRSC
+- RSA
+- WATER RE
+- WRAD
+- SEP2024
+- TR
+- 02540
+- V1.0
+ 
+6 
+Title 
+ 
+GLOF Risk Asesment 
+o f Samudra Tapu
+ Glacial Lake
+ in 
+Indus River Basin
+ 
+7 
+Particulars of colation 
+ 
+Pages: 
+16
+ 
+Figures: 
+6 1 
+Tables: 
+30
+ 
+8 
+Author(s) 
+ 
+B. Simhadri Rao, 
+Saksham Joshi, 
+Pamir Roy, 
+Sweta 
+and
+ 
+K. Abdul Hakem
+ 
+9 
+Afiliation of authors
+ 
+Water Resources Asesment Division (WRAD), 
+Water Resources Group
+, RSA, NRSC, ISRO, Hyderabad
+ 
+10
+ 
+Project Team
+ 
+Mr. 
+K. Abdul 
+Hakem
+ 
+Scientist/Engin
+G ’ 
+ 
+Group Director (WRG)
+ & 
+Deputy Project Director
+ 
+Mr. B. Simhadri Rao 
+ 
+Scientist/Engin
+ 
+Head, WRAD
+ & 
+Deputy Project Director
+ 
+Mr. Saksham Joshi
+ 
+Principal Investigator
+ 
+Scientist/Engin
+E ’, WR
+ 
+Techncial Team
+ 
+Mr. Pamir Roy, 
+S RF, WRAD 
+ 
+Mrs. Sweta, R
+S , WRAD
+ 
+1
+ 
+Scrutiny mechanism
+ 
+Compiled by
+ 
+  
+Mr. Saksham 
+Joshi
+ & 
+Mr.Pamir Roy
+ 
+Reviewed by
+ 
+ 
+ Mr.B.Simhadri Rao 
+& 
+Mr.K.Abdul Hakem
+ 
+Aproved / 
+Controled by
+ 
+Dr. K. Srenivas,
+ 
+Deputy Director 
+(RSA)
+ 
+12
+ 
+Originating unit
+ 
+Water Resources Group (WRG)
+ 
+Remote Sensing Aplications Area (RSA)
+ 
+National Remote Sensing Centre, Hyderabad
+- 50 037
+ 
+13
+ 
+Sponsor/Name &Adres
+ 
+National Hydrology Project
+ 
+Ministry of Jal Shakti, New Delhi, Govt. of India
+ 
+14
+ 
+Date of 
+Initiation
+ 
+April
+ 2024
+ 
+15
+ 
+Date of Publication
+ 
+September
+  202
+4 
+16
+ 
+Abstract:
+ 
+This report describes the GLOF risk asesment of the 
+Samudra Tapu
+ glacial lake in 
+the Indus River Basin. It contains detailed description about the study area, data 
+used, and the methodologies for hydrodynamic GLOF modeling simulations and 
+GLOF risk 
+asesment for
+ various GLOF scenarios. 
+High resolution satelite image
+s 
+are used for maping of 
+infrastructure
+ and other public utilities along the river 
+reach for identifying the elements of exposure
+ due to GLOF
+. A total of eight GLOF 
+scenarios based on the volume of lake 
+released
+ in case of moraine breach (10%, 
+75%, and 50%), weather condition (clear weather/PMP)
+, and failure mode 
+(overtoping/
+piping), were simulated 
+using
+ the 2D hydrodynamic dam
+- break 
+modeling
+ software
+. The results of each simulation and consequent GLOF risk ma
+ps 
+are also included in this report.
+ 
+ 
+Keywords: Glacial Lakes, Remote Sensing, 
+Indus
+ River basin, 
+GLOF modeling and 
+GLOF risk
+ 
+
+
+--- PAGE 5 ---
+ 
+GLOF Risk Asesment of 
+Samudra Tapu
+ Glacial Lake in Indus River Basin
+ 
+ 
+ 
+ 
+~ iv ~ 
+ 
+Table of Contents
+ 
+ 
+List of Figures
+ .
+.
+.
+.
+.
+ vi 
+List of Tables
+ .
+.
+.
+.
+.
+ vi
+ 
+List of Abreviations
+ .
+.
+.
+.
+ ix 
+ 
+S umary
+ .
+.
+.
+.
+.
+ 1 
+ 
+1.
+ 
+Introduction
+.
+.
+.
+.
+. 3 
+1.1.
+ About the Project
+ .
+.
+.
+.
+ 3 
+1.2.
+ The GLOF Component
+ .
+.
+.
+.
+ 3 
+1.3.
+ Organization of the Report
+ .
+.
+.
+.
+ 5 
+ 
+2.
+ 
+Literature Review
+.
+.
+.
+.
+ 6 
+2.1.
+ Glacial Lake Outburst Flods
+ .
+.
+.
+ 6 
+2.2.
+ Role of Remote Sensing and GIS
+ .
+.
+.
+ 7 
+2.3.
+ GLOF Modeling Aproaches
+ .
+.
+.
+. 8 
+2.4.
+ Risk Asesment of GLOFs
+ .
+.
+.
+.
+ 9 
+ 
+3.
+ 
+Study Area
+ and Data Used
+ .
+.
+.
+.
+ 1
+ 
+3.1.
+ Samudra Tapu Glacial Lake and its GLOF Potential
+ .
+.
+ 1
+ 
+3.2.
+ Catchment Area of Samudra Tapu glacial lake
+ .
+.
+ 1 4 
+3.3.
+ Description of the Lake and its Moraine
+.
+.
+.
+ 15
+ 
+3.4.
+ Data Used
+ .
+.
+.
+.
+ 16
+ 
+ 
+4.
+ 
+Methodology
+ .
+.
+.
+.
+ 18
+ 
+4.1.
+ GLOF Inundation Modeling
+ .
+.
+.
+. 19
+ 
+4.1.1.
+ 
+Study Area Boundaries
+ .
+.
+.
+. 19
+ 
+4.1.2.
+ 
+GLOF Scenarios
+ .
+.
+.
+.
+ 20
+ 
+4.1.3.
+ 
+Procesing of GLOF Model Inputs
+ .
+.
+.
+ 2
+ 
+4.1.3.1.
+ 
+Digital Terain Model
+ .
+.
+.
+. 2
+ 
+4.1.3.2.
+ 
+Land Cover and Manning’s n Values
+ .
+.
+.
+ 23
+ 
+4.1.3.3.
+ 
+Dam Breach Parameters
+ .
+.
+.
+ 24
+ 
+4.1.3.4.
+ 
+PMP and R
+unof
+ .
+.
+.
+.
+ 25
+ 
+
+
+--- PAGE 6 ---
+ 
+GLOF Risk Asesment of 
+Samudra Tapu
+ Glacial Lake in Indus River Basin
+ 
+ 
+ 
+ 
+~ v ~ 
+ 
+4.1.4.
+ 
+Dam Breach Model Setup
+ .
+.
+.
+ 29
+ 
+4.1.5.
+ 
+Validation of Peak Discharge
+.
+.
+.
+ 32
+ 
+4.2.
+ Maping of Exposed Elements
+ .
+.
+.
+ 32
+ 
+4.3.
+ GLOF Risk Asesment
+ .
+.
+.
+.
+ 35
+ 
+ 
+5.
+ 
+Results
+ .
+.
+.
+.
+.
+ 38
+ 
+5.1.
+ GLOF Inundation Modeling
+ .
+.
+.
+. 38
+ 
+5.1.1.
+ 
+GLOF Scenarios
+ 1 & 2 (10% release)
+.
+.
+.
+ 38
+ 
+5.1.2.
+ 
+GLOF Scenarios 7&8 (10% release with PMP)
+ .
+.
+ 4
+ 
+5.2.
+ GLOF Risk Asesment
+ .
+.
+.
+.
+ 50
+ 
+5.2.1.
+ 
+GLOF Scenarios 1&7 (10% release & PMP)
+ .
+.
+ 50
+ 
+5.2.2
+. 
+GLOF Scenarios 2&8 (10% release & PMP)
+ .
+.
+ 53
+ 
+5.3.
+ Limitations
+ .
+.
+.
+.
+ 56
+ 
+ 
+6.
+ 
+Conclusions
+ .
+.
+.
+.
+. 57
+ 
+ 
+References
+ .
+.
+.
+.
+.
+ 58
+ 
+ 
+Anexure 1: Results of GLOF Scenarios of 3 to 6
+ .
+.
+.
+ 68
+ 
+1.
+ 
+GLOF Scenarios 3 & 4 (75% release)
+ .
+.
+.
+ 68
+ 
+2.
+ 
+GLOF Scenarios 5 & 6 (50% release)
+ .
+.
+.
+ 73
+ 
+Anexure 2: Results of GLOF Risk Asesment for Scenarios of 3 to 6
+ .
+.
+ 80
+ 
+1.
+ 
+GLOF Risk for Scenario 3 (75% release
+- Overtoping failure mode)
+ .
+ 80
+ 
+2.
+ 
+GLOF Risk for Scenario 4 (75% release
+- Piping failure mode)
+ .
+.
+ 82
+ 
+3.
+ 
+GLOF Risk for Scenario 5 (50% release
+- Overtopi
+ng failure mode)
+ .
+ 85
+ 
+4.
+ 
+GLOF Risk for Scenario 6 (50% release
+- Piping failure mode)
+ .
+.
+ 87
+ 
+Anexure 3: GLOF Risk maps for Scenarios of 1 and 7
+ .
+.
+ 89
+ 
+ 
+ 
+ 
+ 
+
+
+--- PAGE 7 ---
+ 
+GLOF Risk Asesment of 
+Samudra Tapu
+ Glacial Lake in Indus River Basin
+ 
+ 
+ 
+ 
+~ vi ~ 
+ 
+List of Figures
+ 
+ 
+Figure 1: Components of Risk
+ .
+.
+.
+.
+ 9 
+Figure 2: Location of Sam
+udra Tapu Glacial Lake
+ .
+.
+.
+ 1
+ 
+Figure 3: Samudra Tapu Glacial Lake and its environs
+ .
+.
+ 12
+ 
+Figure 4: Long
+- term changes in Samudra Tapu Glacial Lake water spread area
+ .
+ 13
+ 
+Figure 5: Urban expansion at Udaipur
+ .
+.
+.
+ 13
+ 
+Figure 6: Upstream of Samudra Tapu Glacia
+l Lake
+ .
+.
+.
+ 14
+ 
+Figure 7: Slopes upstream of Samudra Tapu Glacial Lake
+ .
+.
+ 15
+ 
+Figure 8: DTM of Samudra Tapu Glacial Lake and its environs
+ .
+.
+ 16
+ 
+Figure 9: Flow Chart of Methodology used in the study
+ .
+.
+ 18
+ 
+Figure 10: Methodology of GLOF Inundation Modeling used in the study
+ .
+ 19
+ 
+Figure 1: Study Area Boundary of Samudra Tapu Lake for G
+LOF Inundation Modeling
+ .
+ 20
+ 
+Figure 12: Reconditioned TanDEM
+- X DTM of Study Area
+ .
+.
+ 2
+ 
+Figure 13: Reconditioned TanDEM
+- X DTM of Ghepang Ghat Lake
+ .
+.
+ 23
+ 
+Figure 14: Probable Maximum Storm used for Runof Estimation
+ .
+.
+ 27
+ 
+Figure 15: Area Contributing to R
+ainfal
+- Runof Considered in HEC
+- HMS Model
+ .
+ 28
+ 
+Figure 16: HEC
+- RAS Grid Cel and underlying Terain Information
+ .
+.
+ 30
+ 
+Figure 17: Hydraulic properties of Each Cel in HEC
+- RAS
+ .
+.
+ 30
+ 
+Figure 18: Sample Infrastructure Maps of the study area
+ .
+.
+ 34
+ 
+Figure 19: Flow Chart of Methodology of GLOF Risk Asesment
+ .
+.
+ 35
+ 
+Figure 20: GLOF hydrograph for Scenario
+- 1 (10% volume discharge 
+– Overtoping failure)
+ .
+.
+.
+.
+.
+ 38
+ 
+Figure 21: GLOF hydrographs at 
+Diferent Downstream Locations for scenario
+- 1 .
+ 39
+ 
+Figure 2: GLOF hydrograph for Scenario
+- 2 (10% volume discharge 
+– Piping failure
+) .
+ 39
+ 
+Figure 23: GLOF hydrographs at Diferent Downstream Locations for scenario
+- 2 .
+ 40
+ 
+Figure 24: Map of Flod Inundation Extent for GLOF Scenario
+- 1 .
+.
+ 42
+ 
+Figure 25: Map showing extent of inundation for Scenario
+- 2 .
+.
+ 42
+ 
+Figure 26: 
+Map showing Close View of extent of inundation for Scenarios 
+- 1 and 2
+ .
+ 4
+ 
+Figure 27: GLOF hydrograph for Scenario
+- 7 (10% volume 
+discharge & PMP with 
+simultaneous breach of 10% volume of Ghepang Ghat glacial lake 
+– Overtoping)
+ .
+ 45
+ 
+Figure 28: GLOF hydrograph 
+for Scenario
+- 7 (10% volume discharge & PMP with 
+simultaneous breach of 10% volume of Ghepang Ghat glacial lake 
+– Piping)
+ .
+ 45
+ 
+Fig
+ure 29: Map of Flod Inundation Extent for GLOF Scenario
+- 7 .
+.
+ 47
+ 
+Figure 30: Map showing extent of inundation for Scenario
+- 8 .
+.
+ 48
+ 
+Figure 31: Map showing Close View of part of flod inundation for Scenarios 
+- 7 and 8
+ .
+ 50
+ 
+Figure 32: GLOF Risk Map for the Study Area (Scenario
+- 1 and 7)
+ .
+.
+ 51
+ 
+Figure 3: GLOF Risk Map showing Afected Infrastructure at Khoksar (Scenario
+- 1 and 7)
+ . 52
+ 
+Figure 34: GLOF Ris
+k Map showing Afected Agricultural Land at Khoksar (Scenario
+- 1 and 7)
+ .
+.
+.
+.
+.
+ 53
+ 
+Figure 35
+: GLOF Risk Map for the Study Area (Scenario
+- 2 and 8)
+ .
+.
+ 54
+ 
+Figure 36: GLOF Risk Map showing Afected Infrastructure at Khoksar (Scen
+ario
+- 2 and 8)
+ . 5
+ 
+Figure 37: GLOF Risk Map showing Afected Agricultural Land at Khoksar (Scenario
+- 2 & 8)
+5
+ 
+Figure 38: GLOF hydrograph for Scenario
+- 3 (75% volume discharge 
+– Overtoping failure)
+. 68
+ 
+Figure 39: GLOF hydrographs at Diferent Downstream Locations for scenario
+- 3 .
+ 68
+ 
+Figure 40: GLOF hydrograph for Scenario
+- 4 (75% volume discharge 
+– Piping failure)
+ .
+ 69
+ 
+
+
+--- PAGE 8 ---
+ 
+GLOF Risk Asesment of 
+Samudra Tapu
+ Glacial Lake in Indus River Basin
+ 
+ 
+ 
+ 
+~ vi
+ ~ 
+ 
+Figure 41: GLOF hydrographs at Diferent Downstream Locations for scenario
+- 4 .
+ 69
+ 
+Figure 42: Map of Flo
+od Inundation Extent for GLOF Scenario
+- 3 .
+.
+ 71
+ 
+Figure 43: Map showing extent of inundation for Scenario
+- 4 .
+.
+ 72
+ 
+Figure 4: GLOF hydrograph for Scenario
+- 5 (50% volume discharge 
+– Overtoping failure)
+. 74
+ 
+Figure 45: GLOF hydrographs at Diferent Downstream Locations for scenario
+- 5 .
+ 74
+ 
+Figure 46: GLOF hydrograph for Scenario
+- 6 (10% volume discharge 
+– Piping failure)
+ .
+ 75
+ 
+Figure 47
+: GLOF hydrographs at Diferent Downstream Locations for scenario
+- 6 .
+ 75
+ 
+Figure 48
+: Map of Flod Inundation Extent for GLOF Scenario
+- 5 .
+.
+ 7
+ 
+Figure 49: Map showing extent of inundation for Scenario
+- 6 .
+.
+ 78
+ 
+Figure 50: GLOF Risk Map for the Study Area (Scenario
+- 3)
+ .
+.
+ 80
+ 
+Figure 51: GLOF Risk Map showing Afected Infrastructure at Khoksar (Scenario
+- 3)
+ .
+ 81
+ 
+F igure 52: GLOF Risk Map showing Afected Agricultural Land at Khoksar (Scenario
+- 3)
+ .
+ 82
+ 
+Figure 53
+: GLOF Risk Map for the Study Area (Scenario
+- 4)
+ .
+.
+ 83
+ 
+Figure 54: GLOF Risk Map showing Afected Infrastructure at Khoksar (Scenario
+- 4 ) .
+ 84
+ 
+Figure 5: GLOF Risk Map showing Afected Agricultural Land at Khoksar (Scenario
+- 4)
+ .
+ 84
+ 
+Figure 56: GLOF Risk Map for the Study Area (Scenario
+- 5)
+ .
+.
+ 85
+ 
+Figure 57: GLOF Risk Map showing Afected Infrastructure at Khoksar (Scenario
+- 5)
+ .
+ 86
+ 
+Figure 58: GLOF Risk Map showing Afected Agricultural Land at Khoksar (Scenario
+- 5)
+ .
+ 86
+ 
+Figure 59: GLOF Risk Map for the Study Area (Scenario
+- 6)
+ .
+.
+ 87
+ 
+Figure 60: GLOF Risk Map showing Afect
+ed Infrastructure at Khoksar (Scenario
+- 6)
+ .
+ 8
+ 
+Figure 61: GLOF Risk Map showing Afected Agricultural Land at Khoksar (Scenario
+- 6)
+ .
+ 8
+ 
+ 
+ 
+ 
+
+
+--- PAGE 9 ---
+ 
+GLOF Risk Asesment of 
+Samudra Tapu
+ Glacial Lake in Indus River Basin
+ 
+ 
+ 
+ 
+~ vi
+ ~ 
+ 
+List of Tables
+ 
+ 
+Table 1: GLOF scenarios simulated in this study
+ .
+.
+.
+ 21
+ 
+Table 2: Manning’s n used for different Land cov
+ .
+.
+ 24
+ 
+Table 3: Dam Breach Parameters for Various GLOF Scenarios
+ .
+.
+ 25
+ 
+Table 4: Design of the PMS using a Severe Reference Storm
+ from the Himalayan Region
+ . 26
+ 
+Table 5: Computations Setings used HEC
+- RAS Model
+ .
+.
+. 32
+ 
+Table 6: Details of Infrastructure Maped using Satelite data
+ .
+.
+ 3
+ 
+Table 7: Flod severity clasification
+ .
+.
+.
+ 36
+ 
+Table 8: Clasification of Flod Wave Arival Time
+ .
+.
+.
+ 36
+ 
+Table 9: Flod Wave Characteristics of GLOF Scenario 1
+ .
+.
+ 40
+ 
+Table 10: Flod Wave Characteristics of GLOF Scenario 2
+ .
+.
+ 41
+ 
+Table 1: Infrastructure afected in GLOF Scenarios 1 and 2
+ .
+.
+ 43
+ 
+Table 12: Details of Setlements afected in GLOF Scenarios 1 a
+nd 2
+ .
+.
+ 43
+ 
+Table 13: Flod Wave Characteristics of GLOF Scenario 7
+ .
+.
+ 46
+ 
+Table 14: Flod Wave Characteristics of GLOF Scenario 8
+ .
+.
+ 46
+ 
+Table 15: Infrastructure afected in GLOF Scenarios 7 and 8
+ .
+.
+ 48
+ 
+Table 16: Details of Setlements afected in GLOF Scenarios 7 and 8
+ .
+.
+ 49
+ 
+Table 17: Zone wise details of Infrastructure afected in GLOF Scenarios 1 and 7
+ .
+ 52
+ 
+Table 18
+: Zone wise details of Infrastructure afected in GLOF Scenarios 2 and 8
+ .
+ 54
+ 
+Table 19: Flod Wave Characteristics of GLOF Scenario
+ 3 .
+.
+ 70
+ 
+Table 20: Flod Wave Characteristics of GLOF Scenario 4
+ .
+.
+ 70
+ 
+Table 21: Infrastructure afected in GLOF Scenarios 3 and 4
+ .
+.
+ 72
+ 
+Tab
+le 2: Names of Setlements afected in GLOF Scenarios 3 and 4
+ .
+.
+ 72
+ 
+Table 23: Flod Wave Characteristics of GLOF Scenario 5
+ .
+.
+ 76
+ 
+Table 24: Flod Wave Characteristics of GLOF Scenario 6
+ .
+.
+ 76
+ 
+Table 25: Infrastructure afected in GLOF Scenarios 5 and 6
+ .
+.
+ 78
+ 
+Table 26: N
+ames of Setlements afected in GLOF Scenarios 5 and 6
+ .
+.
+ 78
+ 
+Table 27
+: Zone wise details of Infrastructure afected in GLOF Scenario 3
+ .
+ 81
+ 
+Table 28: Zone wise details of Infrastructure afected in GLO
+F Scenario 4
+ .
+ 83
+ 
+Table 29: Zone wise details of Infrastructure afected in GLOF Scenario 5
+ .
+ 85
+ 
+Table 30: Zone wise details of Infrastructure afected in GLOF Scenario 6
+ .
+ 87
+ 
+ 
+ 
+ 
+
+
+--- PAGE 10 ---
+ 
+GLOF Risk Asesment of 
+Samudra Tapu
+ Glacial Lake in Indus River Basin
+ 
+ 
+ 
+ 
+~ ix ~ 
+ 
+List of Abreviations
+ 
+ 
+amsl
+ 
+Above
+ Mean Sea Level
+ 
+AWiFS
+ 
+Advanced Wide Field Sensor
+ 
+CWC
+ 
+Central Water Comision
+ 
+D T M 
+Digital 
+Terain
+ Model
+ 
+DoWR, RD&GR
+ 
+Department of Water Resources, River Development and Ganga 
+Rejuvenation
+ 
+FC
+ 
+False Colour Composite
+ 
+GL
+ 
+Glacial Lake
+ 
+GLOF
+ 
+Glacial Lake 
+Outburst Flod
+ 
+GOI
+ 
+Government of India 
+ 
+ha
+ 
+Hectare
+ 
+HEC
+ 
+Hydrologic Enginering centre
+ 
+HIS
+ 
+Hydrological Information System
+ 
+HKH
+ 
+Hindu Kush
+- Himalayas
+ 
+HP
+ 
+Himachal Pradesh
+ 
+I(d)
+ 
+Glacier Ice
+- damed Lake
+ 
+I(s)
+ 
+Supra
+- glacial Lake
+ 
+ICIMOD
+ 
+International Centre 
+for Integrated Mountain Development
+ 
+IHR
+ 
+Indian Himalayan Region
+ 
+India
+- WRIS
+ 
+ India 
+- Water Resources Information System
+ 
+IRS
+ 
+Indian Remote Sensing Satelite
+ 
+ISRO
+ 
+Indian Space Research Organisation
+ 
+JK
+ 
+Jamu& Kashmir (UT)
+ 
+Km
+2 
+Square Kilometre
+ 
+LA
+ 
+Ladakh 
+(UT)
+ 
+Landsat
+ 
+Land Resources Satelite
+ 
+LIS
+- I 
+ 
+Linear Imaging Self Scaning Sensor 
+- I
+ 
+LIS
+- IV 
+ 
+Linear Imaging Self Scaning Sensor 
+- IV
+ 
+m
+ 
+Metre
+ 
+M(e)
+ 
+End
+- moraine Damed Lake
+ 
+M(l)
+ 
+Lateral Moraine Damed Lake
+ 
+M(lg)
+ 
+Lateral Moraine Damed Lake (with
+ ice)
+ 
+M(o)
+ 
+Other Moraine Damed Lake
+ 
+NDWI
+ 
+Normalized Diference Water Index
+ 
+NHP
+ 
+National Hydrology Project
+ 
+NIR
+ 
+Near InfraRed
+ 
+NRSC
+ 
+National Remote Sensing Centre
+ 
+NWIC
+ 
+National Water Informatics Centre
+ 
+PMS
+ 
+Probable Maximum Storm
+ 
+PMP
+ 
+Probable Maximum 
+Precipitation
+ 
+RAS
+ 
+River Analysis system
+ 
+RS
+ 
+Remote Sensing
+ 
+RS
+- 2 
+Resourcesat
+- 2 
+SOI
+ 
+Survey of India
+ 
+TM
+ 
+Thematic Maper
+ 
+USGS
+ 
+United States Geological Survey
+ 
+UT
+ 
+Union Teritory
+ 
+
+
+--- PAGE 11 ---
+ 
+GLOF Risk Asesment of 
+Samudra
+ Tapu
+ Glacial Lake in Indus River Basin
+ 
+ 
+National Remote Sensing Centre, ISRO, Hyderabad
+ 
+1 
+ 
+Sumary
+ 
+ 
+National Remote Sensing Centre (NRSC), Indian Space Research Organisation (ISRO), 
+Hyderabad as one of the Implementing Agency under the National Hydrology Project 
+(NHP), is carying out hydrological studies using satelite data and geo
+- spatial techniques. 
+As part of 
+NHP
+, a detailed glacial lake inventory, prioritization of glacial lakes, 
+Glacial 
+Lake Outburst Flod (
+GLOF
+) inundation simulation and GLOF risk asesment for selected 
+lakes are taken up for entire catchment of Indian Himalayan Rivers covering I
+ndus, Ganga, 
+and Brahmaputra River basins. 
+ 
+A total of 28,043 glacial lakes have ben maped in the 
+entire catchment area of 
+Indian 
+Himalayan River basins using a total of 397 high resolution multispectral R
+esourcesat
+- 2 
+LIS
+- IV 
+satelite 
+images, with a tot
+al lake water spread area of 1,31,070
+ ha and further 
+details are available in Glacial lake atlas of Indian Himalayan River Basins
+ 
+( htps:/w.nrsc.gov.in/Atlas_Glacial_Lake
+) . 
+T echnical report
+s 
+on inventory and 
+prioritization of glacial lakes in Indus
+, Gan
+ga 
+and 
+Brahmaputra 
+river basins are published 
+describing the details 
+of prioritization methodologies. 
+In each river basin, top five 
+prioritized glacial lakes are selected for further detailed study of GLOF inundation 
+simulation and GLOF risk asesment. 
+This technical report provides the details of 
+GLOF 
+inundation simulation for various scenarios and GLOF risk asesment
+ of 
+Samudra Tapu
+ 
+lake which is one of the five prioritized glacial lakes in Indus river basin
+. 
+The 
+Samudra Tapu
+ Glacial Lake is
+ located a
+t an elevation of 4
+, 156
+ m a.m.s.l. in the 
+S tate 
+of Himachal Pradesh, India.
+ The stream originating from 
+Samudra Tapu
+ glacial lake joins 
+the 
+Chandra River 
+from
+ right side 
+about 
+6 km from its origin.
+ A change analysis of the lake 
+water spread area caried ou
+t using 
+Corona KH
+- 4 of 1965 
+and Sentinel
+- 2 of 202 multi
+-
+temporal 
+satelite
+ imagery revealed a 
+905
+% increase in size from 
+14
+. 1 9 ha to 1
+42.69
+ ha.
+ 
+Such alarming rate of lake expansion and the rapid urbanization of its downstream 
+setlements have increased the 
+posibilities
+ of a catastrophic 
+impact due to 
+GLOF event
+ by 
+many folds
+. This necesitated a de
+tailed GLOF 
+r isk 
+a sesment in case of a breach o
+f the 
+natural moraine dam holding about 
+57
+ MCM of water.
+ A high resolution Digital Terain 
+Model of Tandem
+- X with a spatial resolution of 5 m was used in the study to simulate GLOF 
+inundations of various scenarios. 
+A series
+ of 2D hydrodynamic dam
+- b reach si
+mulations in 
+HEC
+- RAS 
+software 
+are 
+developed for 
+8 
+diferent failure modes (overtoping and piping), 
+diferent volumes of water released in case of a failure of the 
+lake moraine
+ (10%, 75%, 
+and 50%), and under 
+two 
+weather conditions 
+(clear
+- weather and
+ P robable Maximum 
+Precipitation
+). To acount for the worst GLOF scenario, the simultaneous breach of 
+Ghepang Ghat glacial lake located 84 km downstream of Samudra Tapu lake
+ was also 
+considered with the Probable Maximum Precipitation.
+ The worst
+- case scenario
+ (scenario 
+7 ) 
+was the one with 
+a 10% discharge of the lake water under 
+overtoping
+ failure 
+due to 
+PMP 
+ocurence 
+over the catchment
+ area of glacial lake
+ and the simultaneous breach of 
+Ghepang Ghat lake
+. The breach depth in the worst
+- case was calculated as 
+39
+. 98
+ m with an 
+average breach width of 
+154
+. 3 m, and it formed within 
+58
+ minutes
+ since the start of 
+breach. The 
+GLOF peak 
+hydrograph 
+of 24,730 
+cumecs
+ propagated from the 
+moraine 
+dam to 
+the nearest setlement of 
+Batal
+ in just 
+52
+ min
+utes
+ where it was 
+estimated
+ as 
+17,342
+ 
+cumecs
+. The
+ valey
+ from the downstream of glacial lake to 
+Batal
+ vilage has resulted in
+ 
+high f
+lod depths of around 
+18
+ m
+ along with velocities of 
+aprox
+imately
+ 1
+ m/s
+ during the 
+peak of the flod wave
+ near the vilage
+. The simulated GLO
+F peak
+ of flod hydrographs
+ for 
+10%, 75% and 50% of lake water release
+s scenarios
+ (scenario 1, 3 and 5)
+ yielded
+ 15,692
+ 
+
+
+--- PAGE 12 ---
+ 
+GLOF Risk Asesment of 
+Samudra
+ Tapu
+ Glacial Lake in Indus River Basin
+ 
+ 
+National Remote Sensing Centre, ISRO, Hyderabad
+ 
+2 
+ 
+cumecs, 
+5,385
+ cumecs and 
+2,181
+ cumecs near 
+Batal
+ vilage for overtoping failure
+. 
+The 
+GLOF
+ hydrograph 
+was routed downstream up to a distance of 
+28
+ km from the 
+glacial lake
+ 
+where it was atenuated near to the normal average flow of the stream. 
+Samudra Tapu
+ 
+lake GLOF 
+outputs of 
+flod 
+depth, 
+flod 
+velocity, inundation extent, and flod wave 
+arival time were
+ used to generate hazard 
+and risk 
+maps for the downstream areas
+ along 
+the river reach
+. GLOF hazard maps are prepared by integrating flod depth and flod 
+velocity for diferent scenarios.
+  
+High resolution satelite images
+ ( spatial resolution
+ of 
+0.5 m
+) are 
+used for maping of 
+setlements, agriculture lands, road network, road bridges, hydropower 
+projects and
+ other 
+utilities 
+along the river reach for identifying the elements of 
+exposure due
+ to the various 
+Samudra Tapu
+ lake GLOF scenarios.
+ The maped infrastructure was integrated with GLOF 
+simulated inundation extent to identify the afected elements. 
+The total number of 
+setlements, agricultural land, bridges, and road length inundated in the worst
+- case 
+scenario (scenario 
+7 ) are 
+42
+, 204 ha,
+ 57 and 106 km respectively. Al the 
+42
+ setlements 
+except Batal 
+are partialy floded by the GLOF inundation extent. 
+Batal is completely 
+inundated in the simulation
+.  
+Finaly, 
+GLOF risk maps are prepared by 
+integrating flod
+ hazard (flod depth X flod 
+ve
+locity) and flod wave arival 
+time, which was clasified,
+ into zones of high, medium, 
+and low risk. 
+The combination of flod 
+hazard
+ and flod wave arival time 
+for flod risk 
+maping
+ present
+s a unique aproach to 
+flod 
+risk asesment
+ as demonstrated in t
+his 
+study
+. 
+Zones of high risk a
+re defined as those regions where flod severity was either 
+medium or high, and the flod wave arival time was within 
+2 hours since the start of the 
+breach. Consequently, 
+Batal
+ vilage and nearby areas 
+fals under the 
+high
+- risk
+ zone, and 
+further downstream, 
+the risk reduces to medium 
+about 3.6 km downstream of Batal
+ for 
+scenarios 1 & 2, 7 &
+ 8 . The medium risk zone extends for a distance of 
+95
+ km along the 
+river reach from lake covering the setlements of 
+Chatru
+, Khoksa
+r, Sisu, Tandi, 
+and 
+Tibok
+.  
+ 
+ 
+
+
+--- PAGE 13 ---
+ 
+GLOF Risk Asesment of 
+Samudra
+ Tapu
+ Glacial Lake in Indus River Basin
+ 
+ 
+National Remote Sensing Centre, ISRO, Hyderabad
+ 
+3 
+ 
+1.
+ Introduction
+ 
+ 
+1.1.
+ About 
+the 
+Project
+ 
+The National Hydrology Project (NHP) 
+sponsored by the Department
+ of Water Resources, 
+River Development and Ganga Rejuvenation (DoWR, RD&GR
+), Ministry of Jal Shakti, 
+Government
+ of India
+, with 
+financial aid from the World Bank
+. It
+ aims to improve the 
+extent and acesibility of water resources information and strengthen institutional 
+capacity to improve water resources planing and management acros India. 
+Its
+ mision is 
+to establish a sound and
+ efective hydrologic database and a Hydrological Information 
+System 
+while also
+ develop
+ing scientific and consistent tols/
+aids to 
+asist
+ the concerned 
+stakeholders in efective water resources planing and management
+ of the Implementing 
+Agencies
+.  
+Nationa
+l Remote Sensing Centre (NRSC) as one of the Central Implementing Agency under 
+NHP is engaged with generation of geo
+- spatial products & services pertaining to water 
+resources sector. The activities include generation of high resolution Digital Elevation 
+Mo
+dels (DEM), development of flod early warning systems, Glacial Lake Outburst Flod 
+(GLOF) risk asesment, spatial snowmelt runof modeling, decision suport system 
+development for irigation water management, modeling & disemination of hydrological 
+pr
+oducts to suport water resources management and capacity building to NHP 
+stakeholders. The satelite data based geo
+- spatial products & services, mainly 
+encompasing the folowing:
+ 
+ñ 
+Satelite Data/Geo
+- Spatial Data Hosting & Services through Bhuvan Web Porta
+l  
+ñ 
+Water Resources Information Products & Services (Satelite/Model derived 
+– 
+Bhuvan/India
+- Water Resources Information System (India
+- WRIS)/National Water 
+Informatics Centre (NWIC)
+ 
+ñ 
+Customized Aplications Development (Flod Forecasting, Irigation Water 
+M anagement)
+ 
+ñ 
+Hydro
+- conditioned Digital Elevation Model (Satelite & Aerial)
+ 
+ñ 
+Capacity Building (Customized Training & Hand Holding)
+ 
+As part of various NHP technical studies carrie
+Outburst Flod (GLOF) Risk Asesment of 
+Glacial Lakes in the Himalayan Region of Indian 
+River Basins”. Under this activity, it was prop
+glacial lakes, prioritization and selection of critical glacial lakes based on certain 
+characteristics, GLOF modeling an
+d flod inundation simulation for selected few lakes 
+using high resolution Digital Terain Model (DTM) for downstream of the lakes along their 
+river reach, and to ases GLOF risk. 
+ 
+ 
+1.2.
+ The GLOF Component
+ 
+Glaciers are esentialy 
+huge mases of ice flowing un
+der the influence of gravity. 
+Glacial 
+lakes 
+are
+ water bodies that 
+are fed by glacier melt water and extend with a fre surface 
+on, in, under, 
+in front, 
+or beside the glaciers, and are usualy damed by glacial ice or 
+
+
+--- PAGE 14 ---
+ 
+GLOF Risk Asesment of 
+Samudra
+ Tapu
+ Glacial Lake in Indus River Basin
+ 
+ 
+National Remote Sensing Centre, ISRO, Hyderabad
+ 
+4 
+ 
+losely consolidated moraine deposits. 
+At times
+, the
+ glacial lake 
+dams breach due 
+to 
+various 
+reasons such as failure of the
+ unstable
+ moraine, avalanches/landslides into the 
+lake, heavy rainfal, etc., the torential amounts of water and debris released from the 
+lake causes catastrophic floding
+ in its downstream
+. This 
+phenomenon
+ is caled
+ a Glacial 
+Lake Outburst Flod and it is a comon disaster ocuring in the Himalayan Region of the 
+Indian River Basins. 
+Many GLOF events are reported in Himal
+a yan mountain region 
+resulting in los of lives and 
+damages to public infrastructure. 
+ 
+The risk of catastrophic GLOF events in the Indian Himalayan Region (IHR) has increased 
+due to the rise in global temperatures. The glacier ice and snow in the IHR serves as a 
+direct indicator of climate change and global
+ warming. Many studies
+ have noted the 
+acelerated melting of glaciers and their retreat in the last few decades due to climate 
+change. 
+Consequently, the glacial lakes have generaly increased in number and size 
+indicating a spike in their damage potential 
+in case they undergo a GLOF event. It is a fact 
+that GLOFs are an emerging threat to the socio
+- economy of the high mountain regions of 
+the world, particularly in India where they tend to cause significant damage. 
+Therefore, it 
+is imperative to 
+identify tho
+se glacial lakes that pose a significant threat to the 
+downstream comunities and ases the risk wel in advance so that detailed Disaster 
+Management Plans (DMPs) can be created to mitigate the damage
+s due to GLOFs
+. 
+Towards the asesment of risk of GLOFs
+, NRSC
+/ ISRO has taken up the folowing tasks 
+under this component:
+ 
+i. 
+To prepare a comprehensive 
+inventory of 
+glacial lake lakes 
+of size greater than 
+0.25 hectare using R
+esourcesat
+- 2 LIS
+- IV 
+multispectral satelite images
+ of spatial 
+resolution of 5.8 m 
+in 
+entire Himalayan region
+ 
+i.
+ 
+Prioritization of inventoried glacial lakes to 
+identify
+ the critical 
+glacial lakes 
+ 
+i.
+ 
+GLOF modeling (dam breach modeling) for the prioritized glacial lakes and 
+identification
+ of 
+infrastructure elements 
+ which gets exposed due to simul
+ated 
+GLOF events
+  
+iv.
+ 
+GLOF 
+risk asesment 
+for selected glacial lakes 
+ 
+A total of 28,043 glacial lakes have ben maped in the I
+ndian Himalayan Region (I
+HR
+) 
+covering Indus, Gang and Brahmaputra
+ river basins using a total of 397 high resolution 
+Resourcesat
+- 2 LIS
+- IV 
+multispectral 
+images with a total lake water spread area of 
+1,31,070.90 hectare. Each of these glacial lakes has ben asigned a unique ID along with 
+several key atribute information related to its hydrology, geometry, geography and 
+topography.
+ Based on
+ the proces of lake formation, location, and type of daming 
+material, the glacial lakes ha
+s ben clasified into four major categories viz. moraine
+-
+damed, ice
+- damed, glacier erosion, and other 
+glacial 
+lakes.
+ Using glacial lake 
+database, basin
+- wise atlases of Indus, Ganga and Brahmaputra are 
+published on December 
+2020 (NRSC
+- RSA
+- WRG
+- WRAD
+- Nov2020
+- TR
+- 01702
+- V1.0), June 2021 (NRSC
+- RSA
+- WRG
+-
+WRAD
+- Mar2021
+- TR
+- 01818
+- V1.0), and July 202 (NRSC
+- RSA
+- WRG
+- WRAD
+- May202
+- TR
+-
+02026
+- V1.0) respectively
+. C
+ombi
+ned atlas for the entire IHR 
+was 
+published on March 
+2023 (NRSC
+- RSA
+- WATER RE
+- WRAD
+- Mar2023
+- TR
+- 02176
+- V1.0).
+ Al the
+se
+ glacial lake atlases 
+are 
+frely 
+available 
+to 
+download 
+at 
+the 
+oficial 
+website
+s 
+of 
+the 
+NRSC 
+( htps:/w.nrsc.gov.in/Atlas_Glacial_Lake
+) and 
+NHP
+ ( htps:/nhp.mowr.gov.in
+). 
+
+
+--- PAGE 15 ---
+ 
+GLOF Risk Asesment of 
+Samudra
+ Tapu
+ Glacial Lake in Indus River Basin
+ 
+ 
+National Remote Sensing Centre, ISRO, Hyderabad
+ 
+5 
+ 
+The inventor
+ied
+ glacial 
+lakes were
+ prioritized for further detailed study 
+through a rigorous 
+two
+- step procedure
+ i.e.
+ preliminary screning, folowed by ranking. 
+Preliminary scren
+ing 
+of glacial lakes was caried out based on four parameter criteria comprising lake type, 
+lake area, lake asociation with glacier and lake with setlements enroute river reach
+. The 
+preliminary screned in
+ glacial lakes were ranked based on a total of 6 
+criteria viz. lake 
+area, lake type, distance betwen glacier snout and lake inlet, slope betwen glacier 
+snout and lake inlet, distance betwen lake outlet and nearest setlement, and slope 
+betwen lake outlet and nearest setlement.
+ T hre
+ technical report
+s on inventory and 
+prioritization of glacial lakes in Indus (NRSC
+- RSA
+- WATERE
+- WRAD
+- FEB2021
+- TR01805
+-
+V1.0)
+, 
+Ganga
+ (NRSC
+- RSA
+- WATER RE
+- WRAD
+- NOV202
+- TR
+- 0216
+- V1.0)
+ and
+ Brahmaputra
+ 
+(NRSC
+- RSA
+- WATER 
+RE
+- WRAD
+- JAN2024
+- TR
+- 0239
+- V1.0)
+ 
+river 
+basins 
+are 
+published 
+d escribing the details of prioritization methodologies. In each river basin, top five 
+prioritized glacial lakes are selected for further detailed study of GLOF inundation 
+simulation and GLOF risk asesment. This technical report provides the details of GLO
+F 
+inundation simulation for various scenarios and GLOF risk asesment of 
+Samudra Tapu
+ 
+lake which is one of the five prioritized glacial lakes in Indus river basin.
+  
+The 
+Samudra Tapu
+ glacial lake dam breach was simulated using
+ HEC
+- RAS 
+2D hydrodynamic 
+modeling to estimate the flod extents, flod depths, 
+flod peak discharges, 
+flod 
+velocities
+, and flod wave arival time
+ in case of a probable GLOF event.
+ A series of 2D 
+hydrodynamic dam
+- breach simulations in HEC
+- RAS software are develope
+d for 
+8 
+diferent 
+scenarios with two failure
+ modes (overtoping and piping), diferent volumes of water 
+released in case of a failure of the dam (10%, 75%, and 50%), and under diferent weather 
+conditions (clear
+- weather and Probable Maximum Precipitation)
+. 
+The results of HEC
+- RAS 
+simulations 
+were used for generating hazard maps of flod severity (depth x velocity) and 
+GLOF risk asesment. A new method of generating
+ GLOF risk
+ maps was devised in this 
+study which combines flod severity with flod wave ariv
+al time using a matrix method. 
+The details of the study are given in apropriate sections.
+ 
+ 
+1.3.
+ Organization
+ of 
+the 
+Report
+ 
+This is a technical report 
+provides details 
+on the hydrodynamic modeling of Glacial Lake 
+Outburst Flods
+ (Dam Break analysis)
+, and the 
+risk asesment of GLOFs in the downstream 
+areas.
+ The key elements of this report include: 
+ 
+° 
+Review of Literature on GLOF modeling
+ and Risk Asesment
+ 
+° 
+Study Area and Data Used
+ 
+° 
+Hydrodynamic Modeling of GLOF
+ (Dam Break analysis)
+: 
+° 
+Selection of apropriate stud
+y area limits
+ 
+° 
+Description of Dam Breach Scenarios
+ 
+° 
+Data Requirements of the hydraulic model
+ 
+° 
+Estimation of Dam Breach Parameters
+ 
+° 
+Development of the model
+ 
+° 
+Flod Inundation and Hazard Maping
+ 
+° 
+Elements of Exposure due to GLOF
+ 
+° 
+GLOF 
+Risk Asesment 
+ 
+° 
+Conclusions
+ 
+
+
+--- PAGE 16 ---
+ 
+GLOF Risk Asesment of 
+Samudra
+ Tapu
+ Glacial Lake in Indus River Basin
+ 
+ 
+National Remote Sensing Centre, ISRO, Hyderabad
+ 
+6 
+ 
+2.
+ Literature
+ Review
+ 
+ 
+2.1.
+ Glacial Lake
+ Outburst Flods
+ 
+The IHR houses the largest volume of glaciers and perenial snow outside the Poles thus 
+rec
+eiving the name
+ ‘Third Pole’ (Rao et 
+al., 2023; Zheng et. al., 2021
+) . 
+Being densely 
+glaciated, the IHR is very sensitive to climate change and serves as a god indicator of its 
+impacts (Maskey et al., 2020; 
+Kraijenbrink et al., 2017; Haeberli et al., 2013; ICIMOD, 
+201)
+. 
+Recent decades have witnesed rapid global land surfa
+ce warming rates (+0.03 
+°C/year) that exced the global mean surface temperature rate (0.01 °C/year) from 
+1 951 to 2012 (Zhang et al., 2015; IPC, 2014).
+ This rapid warming phenomena
+ has induced 
+an extensive shrinkage of glaciers causing a significant redu
+ction of glacier length in the 
+IHR (Dubey and Goyal, 2020; Maurer et al., 2019; Sakai & Fujita, 2017; Cogley, 2016
+). This 
+reduction in
+ length of glaciers is known as glacial retreat 
+which aids in the formation of 
+new glacial lakes, and expansion of existin
+g ones
+ (Nie et al
+. , 2018; Song et al., 2017; 
+Westoby et al., 2014; 
+Kang et al., 2010).
+ Glacier bed topographies have ben modeled in 
+the Himalayas, and it has ben predicted that around 5,0 depresions may turn into 
+glacial lakes in 
+the near 
+future (Lins
+bauer et al., 2016)
+. The International Centre for 
+Integrated Mountain Development 
+(ICIMOD) 
+prepared an inventory of around 9,0
+ glacia
+l 
+lakes of size > 0.3 hectares in the Himalayas
+ betwen 19 and 205
+ (Mol, 205). 
+The 
+latest and most comprehensive glacial lake inventory showing 28,043 glacial lakes in the 
+IHR of size 
+≥ 0.25 hectares has ben published by NRSC, ISRO (Rao et al., 2023). 
+These 
+inventories highlight the marked increase in the number of glacial lakes ove
+r time in the 
+IHR.
+ The formation of pro
+- glacial lakes acelerates the melting of glaciers further in what 
+is caled a positive
+- fedback mechanism
+ that results in more expansion of the lakes
+ 
+(Tsutaki et al., 2019; King et al., 2018).
+ An increase in the numb
+er and areal extent of 
+glacial lakes brings both large oportunities and risks (Zheng et. al., 2021; Farinoti et al., 
+2019; Haeberli et al., 2016). 
+Glacial lakes are important water resources as they serve as 
+sources of pristine water for the downstream c
+omunities (Rawat et al., 202; Brighenti 
+et al., 2021; Hus et al., 2017)
+. 
+Unfortunately, glacial lakes also behave as sources of 
+great danger to the lives and livelihods in their downstream in the form of catastrophic 
+Glacial Lake Outburst Flod (GLOF) 
+events (Dubey et al., 2020; Cok et al., 2018). 
+ 
+Glacial lakes are mostly bound by losely consolidated glacial deposits caled moraines, or 
+glacial ice dams, or moraines with ice cores, and surounded by unstable slopes or hanging 
+glaciers (Rinzin et al.,
+ 2023; Oto, 2019). Mas movements into the lake as a result of 
+slope failure may cause impulse waves that would overtop the moraine or ice dam causing 
+its overtoping failure. Overtoping of the dam may also be caused due to pluvial, nival, 
+and glacial ru
+nof induced overfiling of the lake (Taylor et al., 2023; Rounce et al., 2016; 
+Emer et al., 2013). Overtoping failure ocurs when water flows over the daming 
+material and erodes the downstream face of the dam. Another mode of dam failure ocurs 
+due to 
+piping failure under which the hydrostatic presure of the water tends to create a 
+pipe
+- like hole that eventualy grows big enough to cause the dam to colapse (Chowdhury 
+et al., 2021; Schmidt et al., 2020). Moraines may also fail due to slope undercuting
+ by 
+glacio
+- fluvial erosion and heavy monsonal rainfal (Barnard et al., 201; Owen et al., 
+196). Ice
+- dam failures are mostly concentrated in the Pamir and Karakoram regions 
+
+
+--- PAGE 17 ---
+ 
+GLOF Risk Asesment of 
+Samudra
+ Tapu
+ Glacial Lake in Indus River Basin
+ 
+ 
+National Remote Sensing Centre, ISRO, Hyderabad
+ 
+7 
+ 
+(Bhambri et al., 2019; Hewit and Liu, 2010), while moraine
+- dam failures are more
+ 
+comon in the IHR (Nie et al., 2018). In the event of failure of the dam, there is a suden 
+high magnitude discharge of water with a high velocity of flow from the glacial lake that 
+tends to flod the downstream areas (Rinzin et al., 2021; Begam et al., 2
+018). This 
+phenomenon is termed Glacial Lake Outburst Flod (GLOF) and it can devastate entire 
+towns and setlements in its way downstream (Dubey and Goyal, 2020; Cok et al., 2018). 
+Fifty
+- one incidents of GLOFs have ben reported from the IHR (Nie et al.,
+ 2018). An 
+inventory of GLOFs reported that the maximum number of casualties have ocured in the 
+Central Himalayas with fewer flods but higher damage (Carivick and Twed, 2016). 
+GLOFs have ben recognized as one of the most serious natural hazards in th
+e IHR (Chen 
+et al., 2021; Veh et al., 2020). These events are more catastrophic in the IHR due to the 
+step slopes and narow flow chanels in the terain (Satar et al., 2019; Worni et al., 
+2012). 
+GLOFs are significantly hazardous and destructive causing 
+widespread damage to 
+property, infrastructure, agricultural land and livelihods, thereby resulting in extensive 
+los of life (Rinzin et al., 2023; Taylor et al., 2023; Alen et al., 2019). 
+One of the most 
+notable examples of GLOFs in the IHR was the Chora
+bari Lake GLOF that ocured on 16
+th 
+June 2013 in Kedarnath, Utarakhand. This GLOF event was trigered by heavy rainfal 
+induced mas movements into the lake and it devastated the vilages of Kedarnath, 
+Rambara, and Gaurikund on its way (Das et al., 2015;
+ Martha et al., 2014). Around 6,0 
+people were kiled in the region, and most of the deaths were directly linked to the GLOF 
+(Alen et al., 2015; Guha
+- Sapir et al., 2014). Countles bridges and roads were washed 
+away or damaged, and about thirty hydropowe
+r plants were afected or completely 
+devastated (Sati and Gahalaut, 2013). In light of the highly hazardous nature of GLOF 
+events, it becomes necesary to lay out risk management and mitigation plans in advance 
+to prevent los of life. 
+ 
+As mentioned in the
+ previous section, 
+Samudra Tapu
+ glacial 
+lake is one of the five 
+prioritized glacial lakes in Indus river basin
+ and considered for detailed study
+. The
+ vilage 
+of Batal
+ is located in the path of potential GLOFs from th
+is lake. Gupta et al. (2021) have 
+prioritized potentialy critical glacial lakes in the Indus River Basin using satelite derived 
+parameters and they also confirm the fact that 
+Samudra Tapu
+ is one such high risk glacial 
+lake for GLOFs
+. Kaushik et al. (2020) 
+also highlight
+ed
+ the increasing trend of mean anual 
+temperature in the basin at a rate of 0.021ЎC/
+induced high negative mas balance has caused retreat of the
+ glacier feding
+ Samudra 
+Tapu
+ at an unprecedented rate leadi
+ng to the rapid expansion of the lake. Furthermore, 
+there is a significant amount of ice los at the glacier snout due to calving which ads to 
+the pace of expansion (Prakash & Nagarajan, 2017). 
+ 
+ 
+2.2.
+ R ole of Remote Sensing and GIS
+ 
+The preparation of 
+GLOF 
+risk
+ management
+ plans, however, requires a lot of data to 
+analyze the susceptibility of the lake to outburst, its geometry, how the failure would be 
+trigered, what magnitude of discharge would be expected, how the flod wave wil 
+propagate downstream, and how
+ it would impact the lives and livelihod on its course. 
+Considering the chalenging terain where these lakes are usualy situated, gathering in
+-
+situ data becomes very tedious and often imposible (Guru et al., 2019; Pratap et al., 
+
+
+--- PAGE 18 ---
+ 
+GLOF Risk Asesment of 
+Samudra
+ Tapu
+ Glacial Lake in Indus River Basin
+ 
+ 
+National Remote Sensing Centre, ISRO, Hyderabad
+ 
+8 
+ 
+2016). In such scenario
+s, Remote Sensing (RS), and Geographical Information Systems (GIS) 
+serve as highly indispensible tols
+ in providing the required information on glacial lakes 
+(Gupta et al., 2019; Cogley et al., 201). High spatio
+- temporal and spectral resolution 
+satelites
+ provide extremely valuable information on glacial lake location, geometry, 
+water spread 
+area, type, etc. (Rao et al., 2023
+; Sharma et al., 2013
+). RS and GIS 
+techniques coupled with hydro
+logic and hydraulic
+ modeling aproaches alow rapid 
+investigation of 
+these chalenging glaciated te
+rains and they could play a key role in 
+prioritizing critical glacial lakes and monitoring GLOF events in near real
+- time (Ahmed et 
+al., 202; Ahmed et al., 2021; Gilany and Iqbal, 2020).
+  
+There is a plethora of research on the 
+aplications of RS and GIS for glacial lakes and GLOF 
+studies. The studies include preparation of glacial lake inventory and asesment of glacial 
+lake distribution, GLOF susceptibility analysis, GLOF modeling, and GL
+OF risk asesment.
+ 
+Worni et al. (2013) inventoried glacial lakes in the Indian Himalayas and also caried out 
+risk asesment for those lakes. ICIMOD (Ives et al., 2010) has a similar inventory of glacial 
+lakes for the Hindu Kush Himalayas.
+ Many regional 
+glacial lake studies were also 
+conducted (Satar et al., 2019; Agarwal et al., 2017; Raj et al., 2013). Al these studies 
+extensively use remotely sensed data such as Landsat, Sentinel, RS
+- 2 imagery, etc.
+, that 
+have ben procesed using GIS software and t
+ols.
+  
+ 
+2.3.
+ GLOF
+ Modeling Aproaches
+ 
+GLOFs have ben modeled using diferent aproaches in various studies. 
+Many researchers 
+aply analytical and numerical models to simulate the impact waves generated due to 
+mas movements into the lake (L'Heureux et al., 201
+1; Biscarini, 2010; Heler et al., 
+208a; Falapi and Galati, 207) that can triger GLOFs. Some of the numerical models 
+used for impact wave modeling include 2D
+- BING (L'Heureux et al., 201), LS3D
+ (Ataie
+-
+Ashthiani and Yavari
+- Ramshe, 201)
+, and FUNWAVE (W
+ei et al., 195). Other studies 
+simulate the dam breach proces and outflow discharges using various diferent 
+aproaches and models, often combined with the impact wave efects (Satar et al., 2023; 
+Psomiadis et al., 2021; 
+Worni et al., 2014
+; Westoby et a
+l., 2014). 
+Various dam breach 
+models were used even before the year 20, such as Lou Model, BED, BRDAM, BREACH, 
+NWS DAMBRK (Singh, 196, Fread, 1982). There are empirical models that use regresion 
+equations based on the analyses of real dam failures to 
+estimate dam breach parameters 
+like breach formation time, breach geometry, and peak discharges (Wahl, 2010; Xu and 
+Zhang, 209; MacDonald and Langridge
+- Monopolis, 1984; Froehlich 195a, b).
+ P arametric 
+models aply
+ user defined dam breach parameters to pro
+vide breach hydrographs, such as 
+HEC
+- RAS
+, MIKE 1,
+ and NWS DAMBRK. Physical models on the other hand use hydraulic 
+principles, erosion rates and geotechnical considerations to model the breach
+ (Worni et 
+al., 2014)
+, e.g., BREACH, BRDAM, BED, etc. 
+BASEMENT (Faeh et al., 2012) and HR
+-
+BREACH (Moris et al., 208) are some other models to simulate embankment failures. In 
+adition, there are various models to simulate the flows ocuring from a dam break such 
+as HEC
+- RAS, NWS
+- FLDWAV, TELEMAC
+- 2D, DASFLOW
+, SOBEK, Delft3D, FLO
+- 2D, RAMS, 
+IBER, and BASEMENT. The state
+- of
+- the
+- art models mostly use 1
+- D and/or 2
+- D hydrodynamic 
+models to simulate GLOFs. HEC
+- RAS and MIKE 1 are 
+widely used software
+ that provide 
+dam break modeling capabilities to the user. These a
+plications can solve the St. Venant 
+Equations to simulate the GLOF proces and flod wave hydrodynamic routing.
+ 
+
+
+--- PAGE 19 ---
+ 
+GLOF Risk Asesment of 
+Samudra
+ Tapu
+ Glacial Lake in Indus River Basin
+ 
+ 
+National Remote Sensing Centre, ISRO, Hyderabad
+ 
+9 
+ 
+2.4.
+ Risk Asesment of GLOFs
+ 
+Asesment of risk of GLOFs requires the understanding of the terms risk, hazard, 
+vulnerability, and exposure. The ter
+ms can be defined as:
+ 
+Risk
+ is the probability of a los that depends on hazard, vulnerability, and exposure 
+(Figure
+ 1 ). The most comon definition of risk is the combination of flod hazard and 
+flod vulnerability at a given location.
+ 
+ 
+Figure 
+1 : Components of Risk
+ 
+Mathematicaly, risk can be defined as (Lie et al., 2012; UN, 192):
+ 
+Risk = Hazard × Vulnerability
+ 
+Hazard 
+reflects the consequence of damage that could result from a flod of a 
+given intensity. Or, it may also
+ be defined as the potential ocurence of a natural or 
+anthropogenic event that may cause los of life, injury, health impacts, and damage to 
+property, infrastructure, livelihods, service provision, ecosystems, and environmental 
+resources.
+ 
+Vulnerability 
+in simple terms is the extent of harm that may ocur to the 
+elements exposed to the hazardous event. It can be expresed as:
+ 
+Vulnerability = Exposure + Susceptibility 
+– Resilience
+ 
+Therefore, vulnerability is highly context specific. It varies with the elem
+ent under 
+consideration, e.g. Physical vulnerability for physical elements such as houses, roads, 
+infrastructure, etc. Other types of vulnerability are social and economic vulnerability 
+related to the society and the economy respectively.
+ 
+Exposure 
+is the p
+resence of vulnerable elements within the extent of flod 
+inundation. It is asesed based on an inventory of anthropogenic elements such as 
+vilages, roads, bridges, hydropower stations, etc. that may be afected by the hazard.
+ 
+There are various sources t
+hat describe the diferent risk asesment methodologies, 
+among which the 
+latest
+ ones are NDMA Guidelines on Management of GLOFs (NDMA, 2020), 
+CWC Guidelines for Maping Flod Risks Asociated with Dams (CWC, 2018), GAPHAZ 
+Asesment of Glacier and Permafr
+ost Hazards in Mountain Regions 
+– Technical Guidance 
+Document (GAPHAZ, 2017), and AEMI Australian Emergency Management Handbok Series, 
+Technical Flod Risk Management Guideline (AEMI, 2014). 
+In general, t
+o ases the GLOF 
+risk, firstly, hazard asesment 
+is caried out involving (i) estimation of peak discharge and 
+breach hydrographs, (i) estimating water depths, velocities, inundation extent, and 
+severity of floding, and (i) identifying the inundated elements. It can be caried out 
+
+
+--- PAGE 20 ---
+ 
+GLOF Risk Asesment of 
+Samudra
+ Tapu
+ Glacial Lake in Indus River Basin
+ 
+ 
+National Remote Sensing Centre, ISRO, Hyderabad
+ 
+10
+ 
+ 
+using 1D or 2D unst
+eady flow hydrodynamic modeling in HEC
+- RAS or similar software. 
+Secondly, vulnerability asesment can be caried out to estimate the damages likely to be 
+caused by GLOFs. It involves the use of depth
+- damage curves
+ (Huizinga et al., 2017)
+ to 
+ases the sus
+ceptibility of exposed elements to undergo damage. 
+Finaly, risk asesment 
+is caried out by combining the hazard and vulnerability asesments to generate GLOF risk 
+maps that represent the adverse consequences asociated with the GLOF events. 
+Many 
+studie
+s have ben conducted to ases the GLOF risks
+ such as GLOF risk asesment in 
+Nepal (Washakh et al., 2019; Shrestha et al., 2010), Bhutan (Rinzin et al., 2023)
+, and in 
+the Indian Himalayan regions (Rawat et al., 2023; Pandey et al., 202; Ahmed et al., 20
+2; 
+Satar et al., 2021; ICIMOD, 2010), etc. It has ben observed that most of the glacial lake 
+outburst flod risk asesment methodologies difer from each other, and a comon 
+methodology is not 
+available
+. GLOF risk asesment studies comonly terminate 
+up
+ to the 
+asesment of hazard and do not generate risk maps due to the lack of vulnerability data.
+ 
+Therefore, 
+it is
+ propose
+d a unique aproach to GLOF risk asesment in this study. The 
+aproach can be folowed even when detailed vulnerability information
+ is lacking, o
+r the 
+information is incomplete
+. 
+In the present study 
+risk asesment aproach involves the 
+generation of risk maps directly using 
+hazard maps (
+hydrodynamic mode
+ling outputs of 
+depth, velocity)
+ and flod wave arival time. An overview 
+of 
+the aproach 
+and details are 
+given
+ in Chapter 3
+ and
+ Chapter 8
+ corespondingly
+. 
+ 
+ 
+ 
+
+
+--- PAGE 21 ---
+ 
+GLOF Risk Asesment of 
+Samudra
+ Tapu
+ Glacial Lake in Indus River Basin
+ 
+ 
+National Remote Sensing Centre, ISRO, Hyderabad
+ 
+1
+ 
+ 
+3.
+ Study Area
+ and Data Used
+ 
+3.1.
+ Samudra Tapu
+ Glacial 
+L ake and its GLOF 
+P otential
+ 
+Samudra Tapu
+ glacial lake 
+is one the five prioritized glacial lakes in Indus 
+R iver basin and 
+hence taken 
+up 
+for further detailed study. The glacial lake is located at an elevation of 
+4,
+15
+6 m a.m.s.l in the uper reaches of 
+in the Chandra sub
+- basin of the Indus Basin, 
+Himachal Pradesh (Figure
+ 2)
+. The geographical co
+- ordinates of 
+Samu
+dra Tapu
+ Glacial Lake 
+are 32Ў 
+29
+’ 
+5
+’’ N and 77Ў 
+32
+’ 
+46
+’’ E.  
+The river Chenab is formed after the two streams 
+the Chandra and the Bhaga merge with each other. The Chandra and the Bhaga originate 
+from the south
+- west and north
+- west faces of Barelacha pas r
+espectively in the Himalayan 
+canton of Lahul and Spiti valey in Himachal Pradesh. 
+Samudra Tapu lake is fed by 
+meltwaters from the Samudra Tapu Glacier which is the second largest in the basin
+. The 
+stream originating from 
+Samudra Tapu
+ glacial lake joins 
+th
+e 
+Chandra River
+ on right side 
+about 
+6 km from its origin. 
+About 72 km further downstream, Ghepang Ghat glacial lake 
+drains into the Chandra River through the Sisu Nala (stream). 
+The Chandra initialy 
+flowing southeast for about 8 km sweps round the base
+ of the mid
+- Himalayas and joins 
+the Bhaga at Tandi, after traversing a total length of about 125 km. Thereafter the united 
+stream, known as the Chenab or Chandra Bhaga, flows in a north
+- westerly course for about 
+46 km where it receives its first major trib
+utary the Miyar Nala on the right bank.
+ Then it 
+flows for another 90 km generaly in a northerly direction in Himachal Pradesh when it 
+croses the Pangi valey before entering to Pader area of Doda district of Jamu province 
+in Jamu & Kashmir State. 
+  
+ 
+Figure 
+2 : Location of 
+Samudra
+ Tapu
+ Glacial Lake
+ 
+
+
+--- PAGE 22 ---
+ 
+GLOF Risk Asesment of 
+Samudra
+ Tapu
+ Glacial Lake in Indus River Basin
+ 
+ 
+National Remote Sensing Centre, ISRO, Hyderabad
+ 
+12
+ 
+ 
+ 
+Figure 
+3 : Samudra Tapu
+ Glacial Lake and its environs
+ 
+Figure 3 shows Resourcest
+- 2 LIS
+- IV multispectral satelite image of 
+Samudra
+ Tapu
+ glacial 
+lake and it
+s suroundings. 
+The nearest setlement of 
+Batal
+ lies around 1
+8 km downstream 
+of the lake at an elevation of 3,
+9
+0 m a.m.s.l, i.e., 
+16
+ m below the lake. Th
+e 
+stream 
+from 
+Samudra
+ Tapu lake 
+up to
+ Batal
+ has 
+a gentle
+ slope with an average fal of about 9 
+meter
+ per 
+kilometer
+ betwen the lake and 
+Batal
+ vilage
+. The chanel valey 
+narows down 
+from
+ 1 km wid
+th
+ near the outlet of the lake to about 
+20 m near Batal leading to higher 
+flow depths and velocities at this setlement location. 
+These conditions are highly 
+f avorable for catastrophic floding in case of a GLOF event. Aditionaly, the slopes at the 
+periphery of the lake are susceptible to avalanches and mas 
+movements, which
+ act as 
+trigering factors for overtoping wave failure of the moraine dam. 
+ 
+An analysi
+s of multi
+- temporal satelite data using 
+Corona KH
+- 4 of 19
+65
+ and Sentinel
+- 2 of 
+202 
+revealed a 
+905
+% increase 
+in
+ size
+. Figure 4
+ shows
+ the lake water
+- spread area
+ at 
+diferent time periods, which
+ increased from 
+14
+. 1 9 hectare
+ (ha) 
+to 
+1 42
+. 69 hectare
+ in a 
+span of 
+57
+ years. Satar et al. (2023) have caried out a comparison of the downstream 
+setlements over a 
+12
+- year
+ period (2010
+- 202) and provided evidence of significant 
+infrastructure and agricultural land development. Such alarming rate of lake exp
+ansion 
+and the rapid urbanization of its downstream setlements have increased the chances of a 
+catastrophic GLOF event by many folds.
+ Figure 5 shows the typical example of urban 
+expansion near 
+Udaipur
+ ( source: Gogle Earth Images).
+ 
+
+
+--- PAGE 23 ---
+ 
+GLOF Risk Asesment of 
+Samudra
+ Tapu
+ Glacial Lake in Indus River Basin
+ 
+ 
+National Remote Sensing Centre, ISRO, Hyderabad
+ 
+13
+ 
+ 
+ 
+Figure 
+4 : Long
+- term changes in 
+Samudra Tapu
+ Glacial Lake water spread area
+ 
+ 
+ 
+Figure 
+5 : Urban expansion at 
+Udaipur
+ 
+ 
+ 
+
+
+--- PAGE 24 ---
+ 
+GLOF Risk Asesment of 
+Samudra
+ Tapu
+ Glacial Lake in Indus River Basin
+ 
+ 
+National Remote Sensing Centre, ISRO, Hyderabad
+ 
+14
+ 
+ 
+3.2.
+ Catchment Area of 
+Samudra Tapu
+ glacial lake
+ 
+ 
+Samudra
+ Tapu
+ glacial lake is fed by snowmelt and precipitation runof from a catchment 
+of area 
+16,097
+ hectare. Asuming 
+rainfal
+ ocurs 
+below
+ 4,50 m elevation
+, about
+ 1,4
+28
+ 
+hectare
+ of catchment area
+ contributes to rainfal runof into the lake. The minimum and 
+maximum
+ elevations of the catchment are
+a up to the lake are
+ 4,
+139
+ m and 
+6,430
+ m 
+respectively. The catchment area of the lake is located 
+in Chenab sub
+- basin in the Indus 
+Basin 
+in the Lahul and Spiti district of Himachal Pradesh
+ State.
+ Figure 
+6 shows the 
+drainage p
+attern upstream of the lake. Slopes in the 
+75
+Ў near 
+the peaks. Many studies mention the ocurence of ice and rock
+- ice avalanches over slopes 
+≥ 
+25Ў or 30Ў (Mohanty and Maiti, 2021; Allen et a
+ most 
+comon cause of GLOFs in the Himalayas (Wang et al., 201). A preliminary visual
+-
+interpretation of the slope map and high
+- resolution 3D
+- imagery from Gogle Earth Pro was 
+used to identify some avalanche potential zones in the catchment as shown in Fig
+ure 
+7 . 
+Another source of GLOF is landslide phenomena ocuring at step slopes in the vicinity of 
+the lake. The 
+Samudra Tapu
+ 
+catchment has step non
+- vegetated slopes 
+with 
+unconsolidated sediments 
+that comonly result in mas movements (Peduzi, 2010) and 
+m
+ay triger a GLOF (Walder et al., 203; Clague and Evans, 20). Mas movements like 
+avalanches and landslides into the lake generate large impulse waves that may overtop 
+the moraine dam and eventualy erode it to failure causing a suden release of the la
+ke 
+water in a short duration leading to catastrophic floding downstream.
+ 
+ 
+ 
+Figure 
+6 : Upstream of 
+Samudra
+ Tapu
+ Glacial Lake 
+ 
+
+
+--- PAGE 25 ---
+ 
+GLOF Risk Asesment of 
+Samudra
+ Tapu
+ Glacial Lake in Indus River Basin
+ 
+ 
+National Remote Sensing Centre, ISRO, Hyderabad
+ 
+15
+ 
+ 
+ 
+Figure 
+7 : Slopes upstream of 
+Samudra
+ Tapu
+ Glacial Lake
+ 
+ 
+3.3.
+ Description of the 
+L ake and its 
+M oraine
+ 
+Samudra
+ Tapu
+ glacial lake has a water
+ spread area of 
+14
+1.
+69
+ h a as on Oct 202 at an
+ 
+elevation of 4
+,156
+ m. It has a length of 2,4
+26
+ m with a maximum width of 
+87
+ m
+. Due to 
+the 
+absence of the 
+actual volume of water stored in the lake
+, Huggel et al.’s em
+formula
+ is used
+ for estimating the lake volume. Acording to Hugel et al. (202), the avg. 
+depth (D), and volume (V) of a glacial lake can be related to its water
+ spread area (A) by 
+the folowing empirical relationships:
+ 
+D = 0.10
+4 × A
+0.42
+ 
+… (i)
+ 
+V = 0.104 × A
+1.42
+ 
+… (ii)
+ 
+where, A is in m
+2 , D is in m, and V is in m
+3 . 
+Using equations (i) and (i), the avg. depth of the lake was estimated to be 
+39
+. 98
+ m, and 
+the volume of the lake 
+estimated as
+ 57
+.0
+5 Milion C
+ubic 
+M et
+r e (MCM). 
+Due to the absence 
+of an elevated moraine at the outlet of the lake, reconditioning t
+he TanDEM
+- X 
+D igital 
+Terain
+ model (D
+T M) to 
+represent
+ l akebed profile that gave 
+57.05
+ MCM of water volume 
+is 
+not feasible
+. Therefore, a standard elevation
+- volume 
+relationship is adopted with a 
+storage area artificialy situated on the terain to represent the lake
+. Figure
+ 8 shows the 
+D T M lake elevation 
+details
+. In this case, a level
+- pol routing aproach is folowed to model 
+the lake
+ hydraulics, and flod hydraulic
+s for downstream regions is modeled as fuly 
+hydrodynamic routing
+. We asume that the lake contains clear water at a density of 1,0 
+kg/m
+3 throughout the simulation proces.
+ 
+
+
+--- PAGE 26 ---
+
+
+--- PAGE 27 ---
+
+
+--- PAGE 28 ---
+
+
+--- PAGE 29 ---
+
+
+--- PAGE 30 ---
+
+
+--- PAGE 31 ---
+
+
+--- PAGE 32 ---
+
+
+--- PAGE 33 ---
+
+
+--- PAGE 34 ---
+
+
+--- PAGE 35 ---
+
+
+--- PAGE 36 ---
+
+
+--- PAGE 37 ---
+
+
+--- PAGE 38 ---
+
+
+--- PAGE 39 ---
+
+
+--- PAGE 40 ---
+
+
+--- PAGE 41 ---
+
+
+--- PAGE 42 ---
+
+
+--- PAGE 43 ---
+
+
+--- PAGE 44 ---
+
+
+--- PAGE 45 ---
+
+
+--- PAGE 46 ---
+
+
+--- PAGE 47 ---
+
+
+--- PAGE 48 ---
+
+
+--- PAGE 49 ---
+
+
+--- PAGE 50 ---
+
+
+--- PAGE 51 ---
+
+
+--- PAGE 52 ---
+
+
+--- PAGE 53 ---
+
+
+--- PAGE 54 ---
+
+
+--- PAGE 55 ---
+
+
+--- PAGE 56 ---
+
+
+--- PAGE 57 ---
+
+
+--- PAGE 58 ---
+
+
+--- PAGE 59 ---
+
+
+--- PAGE 60 ---
+
+
+--- PAGE 61 ---
+
+
+--- PAGE 62 ---
+
+
+--- PAGE 63 ---
+
+
+--- PAGE 64 ---
+
+
+--- PAGE 65 ---
+
+
+--- PAGE 66 ---
+
+
+--- PAGE 67 ---
+
+
+--- PAGE 68 ---
+
+
+--- PAGE 69 ---
+
+
+--- PAGE 70 ---
+
+
+--- PAGE 71 ---
+
+
+--- PAGE 72 ---
+
+
+--- PAGE 73 ---
+
+
+--- PAGE 74 ---
+
+
+--- PAGE 75 ---
+
+
+--- PAGE 76 ---
+
+
+--- PAGE 77 ---
+
+
+--- PAGE 78 ---
+
+
+--- PAGE 79 ---
+
+
+--- PAGE 80 ---
+
+
+--- PAGE 81 ---
+
+
+--- PAGE 82 ---
+
+
+--- PAGE 83 ---
+
+
+--- PAGE 84 ---
+
+
+--- PAGE 85 ---
+
+
+--- PAGE 86 ---
+
+
+--- PAGE 87 ---
+
+
+--- PAGE 88 ---
+
+
+--- PAGE 89 ---
+
+
+--- PAGE 90 ---
+
+
+--- PAGE 91 ---
+
+
+--- PAGE 92 ---
+
+
+--- PAGE 93 ---
+
+
+--- PAGE 94 ---
+
+
+--- PAGE 95 ---
+
+
+--- PAGE 96 ---
+
+
+--- PAGE 97 ---
+
+
+--- PAGE 98 ---
+
+
+--- PAGE 99 ---
+
+
+--- PAGE 100 ---
+
+
+--- PAGE 101 ---
+
+
+--- PAGE 102 ---
+
+
+--- PAGE 103 ---
+
+
+--- PAGE 104 ---
+
+
+--- PAGE 105 ---
+
+
+--- PAGE 106 ---
+
+
+--- PAGE 107 ---
+
+
+--- PAGE 108 ---
+
+
+--- PAGE 109 ---
+
+
+--- PAGE 110 ---
+
+
+--- PAGE 111 ---
+
+
+--- PAGE 112 ---
+
+
+--- PAGE 113 ---
+
+
+--- PAGE 114 ---
+
+
+--- PAGE 115 ---
+
+
+--- PAGE 116 ---
+
+
+--- PAGE 117 ---
+
+
+--- PAGE 118 ---
+
+
+--- PAGE 119 ---
+
+
+--- PAGE 120 ---
+
+
+--- PAGE 121 ---
+
+
+--- PAGE 122 ---
+
+
+--- PAGE 123 ---
+
+
+--- PAGE 124 ---
+
+
+--- PAGE 125 ---
+
+
+--- PAGE 126 ---
+
+
+--- PAGE 127 ---

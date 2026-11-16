@@ -1,0 +1,44 @@
+# Python environments and generated files
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local caches and generated outputs
+/cache/
+/outputs/
+
+# Archives
+*.zip
+*.7z
+*.rar
+*.tar
+*.tar.gz
+*.tgz
+
+# Large geospatial and scientific data
+*.tif
+*.tiff
+*.jp2
+*.img
+*.vrt
+*.nc
+*.h5
+*.hdf
+*.hdf5
+*.gpkg
+
+# Downloaded datasets and generated reports kept at the repository root
+/NISAR_*
+/Bara_Shigri_NISAR_DEM_AOI.geojson
+/goff_footprints.txt
+/phase1_*quality_report.csv
+/tmp6qpn5jrf
+/data/historical_glof/lake_inventory_2022/Glacial_Lake_2022.shp
+/RGI/RGI2000-v7.0-G-14_south_asia_west.shp
+/RGI/RGI2000-v7.0-G-14_south_asia_west.dbf
+/data/samudra_tapu/NRSC_SamudraTapu_GLOF_Report.pdf
+/outputs/samudra_tapu

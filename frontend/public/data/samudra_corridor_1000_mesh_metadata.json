@@ -1,0 +1,14 @@
+{
+    "name": "Samudra Tapu Filled Potential Flow Corridor",
+    "crs": "EPSG:32643",
+    "threshold_cells": 1000,
+    "source_raster": "F:\\parvati\\outputs\\samudra_tapu\\terrain_susceptibility\\flow_corridors\\samudra_potential_corridor_1000cells.tif",
+    "input_corridor_pixels": 21896,
+    "rendered_pixels": 21891,
+    "skipped_pixels": 5,
+    "triangle_count": 43782,
+    "vertex_count": 131346,
+    "height_offset_m": 3.0,
+    "binary_file": "samudra_corridor_1000_mesh.bin",
+    "binary_size_bytes": 1576152
+}

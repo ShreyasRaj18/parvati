@@ -1,0 +1,699 @@
+{
+  "type": "FeatureCollection",
+  "links": [
+    {
+      "rel": "root",
+      "type": "application/json",
+      "href": "https://stac.itslive.cloud/"
+    },
+    {
+      "rel": "self",
+      "type": "application/geo+json",
+      "href": "https://stac.itslive.cloud/search"
+    }
+  ],
+  "features": [
+    {
+      "id": "itslive-6e975910-483d-46b3-93e5-9cd9c649230b",
+      "bbox": [
+        77.108486,
+        31.596036,
+        78.19274,
+        32.519328
+      ],
+      "type": "Feature",
+      "links": [
+        {
+          "rel": "collection",
+          "type": "application/json",
+          "href": "https://stac.itslive.cloud/collections/itslive-cubes"
+        },
+        {
+          "rel": "parent",
+          "type": "application/json",
+          "href": "https://stac.itslive.cloud/collections/itslive-cubes"
+        },
+        {
+          "rel": "root",
+          "type": "application/json",
+          "href": "https://stac.itslive.cloud/"
+        },
+        {
+          "rel": "self",
+          "type": "application/geo+json",
+          "href": "https://stac.itslive.cloud/collections/itslive-cubes/items/itslive-6e975910-483d-46b3-93e5-9cd9c649230b"
+        }
+      ],
+      "assets": {
+        "v": {
+          "href": "https://its-live-data.s3.amazonaws.com/datacubes/v2-updated-october2024/N30E070/ITS_LIVE_vel_EPSG32643_G0120_X750000_Y3550000.zarr",
+          "type": "application/vnd.zarr",
+          "roles": [
+            "data"
+          ],
+          "title": "v",
+          "raster:bands": [
+            {
+              "name": "v",
+              "units": "meter/year",
+              "sampling": "point",
+              "data_type": "float32",
+              "description": "Ice velocity measurement in meters per year"
+            }
+          ],
+          "cube:dimensions": {
+            "x": {
+              "type": "spatial"
+            },
+            "y": {
+              "type": "spatial"
+            },
+            "mid_date": {
+              "type": "temporal"
+            }
+          }
+        },
+        "vx": {
+          "href": "https://its-live-data.s3.amazonaws.com/datacubes/v2-updated-october2024/N30E070/ITS_LIVE_vel_EPSG32643_G0120_X750000_Y3550000.zarr",
+          "type": "application/vnd.zarr",
+          "roles": [
+            "data"
+          ],
+          "title": "vx",
+          "raster:bands": [
+            {
+              "name": "vx",
+              "units": "meter/year",
+              "sampling": "point",
+              "data_type": "float32",
+              "description": "Ice velocity component in x direction"
+            }
+          ],
+          "cube:dimensions": {
+            "x": {
+              "type": "spatial"
+            },
+            "y": {
+              "type": "spatial"
+            },
+            "mid_date": {
+              "type": "temporal"
+            }
+          }
+        },
+        "vy": {
+          "href": "https://its-live-data.s3.amazonaws.com/datacubes/v2-updated-october2024/N30E070/ITS_LIVE_vel_EPSG32643_G0120_X750000_Y3550000.zarr",
+          "type": "application/vnd.zarr",
+          "roles": [
+            "data"
+          ],
+          "title": "vy",
+          "raster:bands": [
+            {
+              "name": "vy",
+              "units": "meter/year",
+              "sampling": "point",
+              "data_type": "float32",
+              "description": "Ice velocity component in y direction"
+            }
+          ],
+          "cube:dimensions": {
+            "x": {
+              "type": "spatial"
+            },
+            "y": {
+              "type": "spatial"
+            },
+            "mid_date": {
+              "type": "temporal"
+            }
+          }
+        },
+        "zarr": {
+          "href": "https://its-live-data.s3.amazonaws.com/datacubes/v2-updated-october2024/N30E070/ITS_LIVE_vel_EPSG32643_G0120_X750000_Y3550000.zarr",
+          "type": "application/vnd.zarr",
+          "roles": [
+            "data"
+          ],
+          "title": "ITS_LIVE Zarr datacube"
+        },
+        "v_error": {
+          "href": "https://its-live-data.s3.amazonaws.com/datacubes/v2-updated-october2024/N30E070/ITS_LIVE_vel_EPSG32643_G0120_X750000_Y3550000.zarr",
+          "type": "application/vnd.zarr",
+          "roles": [
+            "data"
+          ],
+          "title": "v_error",
+          "raster:bands": [
+            {
+              "name": "v_error",
+              "units": "meter/year",
+              "sampling": "point",
+              "data_type": "float32",
+              "description": "Ice velocity magnitude error"
+            }
+          ],
+          "cube:dimensions": {
+            "x": {
+              "type": "spatial"
+            },
+            "y": {
+              "type": "spatial"
+            },
+            "mid_date": {
+              "type": "temporal"
+            }
+          }
+        },
+        "interp_mask": {
+          "href": "https://its-live-data.s3.amazonaws.com/datacubes/v2-updated-october2024/N30E070/ITS_LIVE_vel_EPSG32643_G0120_X750000_Y3550000.zarr",
+          "type": "application/vnd.zarr",
+          "roles": [
+            "data"
+          ],
+          "title": "interp_mask",
+          "raster:bands": [
+            {
+              "name": "interp_mask",
+              "sampling": "point",
+              "data_type": "float32",
+              "description": "True where velocity values have been interpolated"
+            }
+          ],
+          "cube:dimensions": {
+            "x": {
+              "type": "spatial"
+            },
+            "y": {
+              "type": "spatial"
+            },
+            "mid_date": {
+              "type": "temporal"
+            }
+          }
+        },
+        "img_pair_info": {
+          "href": "https://its-live-data.s3.amazonaws.com/datacubes/v2-updated-october2024/N30E070/ITS_LIVE_vel_EPSG32643_G0120_X750000_Y3550000.zarr",
+          "type": "application/vnd.zarr",
+          "roles": [
+            "data"
+          ],
+          "title": "img_pair_info",
+          "raster:bands": [
+            {
+              "name": "img_pair_info",
+              "sampling": "point",
+              "data_type": "float32",
+              "description": "File attributes"
+            }
+          ],
+          "cube:dimensions": {
+            "mid_date": {
+              "type": "temporal"
+            }
+          }
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.108486,
+              31.617775
+            ],
+            [
+              78.161589,
+              31.596036
+            ],
+            [
+              78.19274,
+              32.496819
+            ],
+            [
+              77.129284,
+              32.519328
+            ],
+            [
+              77.108486,
+              31.617775
+            ]
+          ]
+        ]
+      },
+      "collection": "itslive-cubes",
+      "properties": {
+        "title": "ITS_LIVE datacube of image pair velocities",
+        "proj:bbox": [
+          700000,
+          3500000,
+          800000,
+          3600000
+        ],
+        "proj:code": "EPSG:32643",
+        "proj:shape": [
+          833,
+          833
+        ],
+        "description": "ITS_LIVE datacube of image pair velocities",
+        "end_datetime": "2021-12-16T23:36:33.557084928+00:00",
+        "granule_count": 97290,
+        "cube:variables": {
+          "v": {
+            "type": "data",
+            "unit": "meter/year",
+            "dimensions": [
+              "mid_date",
+              "y",
+              "x"
+            ],
+            "description": "Ice velocity measurement in meters per year"
+          },
+          "vx": {
+            "type": "data",
+            "unit": "meter/year",
+            "dimensions": [
+              "mid_date",
+              "y",
+              "x"
+            ],
+            "description": "Ice velocity component in x direction"
+          },
+          "vy": {
+            "type": "data",
+            "unit": "meter/year",
+            "dimensions": [
+              "mid_date",
+              "y",
+              "x"
+            ],
+            "description": "Ice velocity component in y direction"
+          },
+          "v_error": {
+            "type": "data",
+            "unit": "meter/year",
+            "dimensions": [
+              "mid_date",
+              "y",
+              "x"
+            ],
+            "description": "Ice velocity magnitude error"
+          },
+          "interp_mask": {
+            "type": "data",
+            "dimensions": [
+              "mid_date",
+              "y",
+              "x"
+            ],
+            "description": "True where velocity values have been interpolated"
+          },
+          "img_pair_info": {
+            "type": "data",
+            "dimensions": [
+              "mid_date"
+            ],
+            "description": "File attributes"
+          }
+        },
+        "start_datetime": "2016-04-28T23:36:30.722953216+00:00",
+        "cube:dimensions": {
+          "x": {
+            "axis": "x",
+            "type": "spatial",
+            "extent": [
+              700000,
+              3500000
+            ],
+            "reference_system": 32643
+          },
+          "y": {
+            "axis": "y",
+            "type": "spatial",
+            "extent": [
+              800000,
+              3600000
+            ],
+            "reference_system": 32643
+          },
+          "mid_date": {
+            "type": "temporal",
+            "extent": [
+              "2016-04-28T23:36:30.722953216+00:00",
+              "2021-12-16T23:36:33.557084928+00:00"
+            ]
+          }
+        },
+        "roi_percent_coverage": 96.18152182841925
+      },
+      "stac_version": "1.1.0",
+      "stac_extensions": [
+        "https://stac-extensions.github.io/projection/v2.0.0/schema.json",
+        "https://stac-extensions.github.io/datacube/v2.2.0/schema.json",
+        "https://stac-extensions.github.io/raster/v1.1.0/schema.json"
+      ]
+    },
+    {
+      "id": "itslive-346cea19-4fcd-4b2a-ae5d-3c1b95244110",
+      "bbox": [
+        77.80726,
+        31.596036,
+        78.891514,
+        32.519328
+      ],
+      "type": "Feature",
+      "links": [
+        {
+          "rel": "collection",
+          "type": "application/json",
+          "href": "https://stac.itslive.cloud/collections/itslive-cubes"
+        },
+        {
+          "rel": "parent",
+          "type": "application/json",
+          "href": "https://stac.itslive.cloud/collections/itslive-cubes"
+        },
+        {
+          "rel": "root",
+          "type": "application/json",
+          "href": "https://stac.itslive.cloud/"
+        },
+        {
+          "rel": "self",
+          "type": "application/geo+json",
+          "href": "https://stac.itslive.cloud/collections/itslive-cubes/items/itslive-346cea19-4fcd-4b2a-ae5d-3c1b95244110"
+        }
+      ],
+      "assets": {
+        "v": {
+          "href": "https://its-live-data.s3.amazonaws.com/datacubes/v2-updated-october2024/N30E070/ITS_LIVE_vel_EPSG32644_G0120_X250000_Y3550000.zarr",
+          "type": "application/vnd.zarr",
+          "roles": [
+            "data"
+          ],
+          "title": "v",
+          "raster:bands": [
+            {
+              "name": "v",
+              "units": "meter/year",
+              "sampling": "point",
+              "data_type": "float32",
+              "description": "Ice velocity measurement in meters per year"
+            }
+          ],
+          "cube:dimensions": {
+            "x": {
+              "type": "spatial"
+            },
+            "y": {
+              "type": "spatial"
+            },
+            "mid_date": {
+              "type": "temporal"
+            }
+          }
+        },
+        "vx": {
+          "href": "https://its-live-data.s3.amazonaws.com/datacubes/v2-updated-october2024/N30E070/ITS_LIVE_vel_EPSG32644_G0120_X250000_Y3550000.zarr",
+          "type": "application/vnd.zarr",
+          "roles": [
+            "data"
+          ],
+          "title": "vx",
+          "raster:bands": [
+            {
+              "name": "vx",
+              "units": "meter/year",
+              "sampling": "point",
+              "data_type": "float32",
+              "description": "Ice velocity component in x direction"
+            }
+          ],
+          "cube:dimensions": {
+            "x": {
+              "type": "spatial"
+            },
+            "y": {
+              "type": "spatial"
+            },
+            "mid_date": {
+              "type": "temporal"
+            }
+          }
+        },
+        "vy": {
+          "href": "https://its-live-data.s3.amazonaws.com/datacubes/v2-updated-october2024/N30E070/ITS_LIVE_vel_EPSG32644_G0120_X250000_Y3550000.zarr",
+          "type": "application/vnd.zarr",
+          "roles": [
+            "data"
+          ],
+          "title": "vy",
+          "raster:bands": [
+            {
+              "name": "vy",
+              "units": "meter/year",
+              "sampling": "point",
+              "data_type": "float32",
+              "description": "Ice velocity component in y direction"
+            }
+          ],
+          "cube:dimensions": {
+            "x": {
+              "type": "spatial"
+            },
+            "y": {
+              "type": "spatial"
+            },
+            "mid_date": {
+              "type": "temporal"
+            }
+          }
+        },
+        "zarr": {
+          "href": "https://its-live-data.s3.amazonaws.com/datacubes/v2-updated-october2024/N30E070/ITS_LIVE_vel_EPSG32644_G0120_X250000_Y3550000.zarr",
+          "type": "application/vnd.zarr",
+          "roles": [
+            "data"
+          ],
+          "title": "ITS_LIVE Zarr datacube"
+        },
+        "v_error": {
+          "href": "https://its-live-data.s3.amazonaws.com/datacubes/v2-updated-october2024/N30E070/ITS_LIVE_vel_EPSG32644_G0120_X250000_Y3550000.zarr",
+          "type": "application/vnd.zarr",
+          "roles": [
+            "data"
+          ],
+          "title": "v_error",
+          "raster:bands": [
+            {
+              "name": "v_error",
+              "units": "meter/year",
+              "sampling": "point",
+              "data_type": "float32",
+              "description": "Ice velocity magnitude error"
+            }
+          ],
+          "cube:dimensions": {
+            "x": {
+              "type": "spatial"
+            },
+            "y": {
+              "type": "spatial"
+            },
+            "mid_date": {
+              "type": "temporal"
+            }
+          }
+        },
+        "interp_mask": {
+          "href": "https://its-live-data.s3.amazonaws.com/datacubes/v2-updated-october2024/N30E070/ITS_LIVE_vel_EPSG32644_G0120_X250000_Y3550000.zarr",
+          "type": "application/vnd.zarr",
+          "roles": [
+            "data"
+          ],
+          "title": "interp_mask",
+          "raster:bands": [
+            {
+              "name": "interp_mask",
+              "sampling": "point",
+              "data_type": "float32",
+              "description": "True where velocity values have been interpolated"
+            }
+          ],
+          "cube:dimensions": {
+            "x": {
+              "type": "spatial"
+            },
+            "y": {
+              "type": "spatial"
+            },
+            "mid_date": {
+              "type": "temporal"
+            }
+          }
+        },
+        "img_pair_info": {
+          "href": "https://its-live-data.s3.amazonaws.com/datacubes/v2-updated-october2024/N30E070/ITS_LIVE_vel_EPSG32644_G0120_X250000_Y3550000.zarr",
+          "type": "application/vnd.zarr",
+          "roles": [
+            "data"
+          ],
+          "title": "img_pair_info",
+          "raster:bands": [
+            {
+              "name": "img_pair_info",
+              "sampling": "point",
+              "data_type": "float32",
+              "description": "File attributes"
+            }
+          ],
+          "cube:dimensions": {
+            "mid_date": {
+              "type": "temporal"
+            }
+          }
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.838411,
+              31.596036
+            ],
+            [
+              78.891514,
+              31.617775
+            ],
+            [
+              78.870716,
+              32.519328
+            ],
+            [
+              77.80726,
+              32.496819
+            ],
+            [
+              77.838411,
+              31.596036
+            ]
+          ]
+        ]
+      },
+      "collection": "itslive-cubes",
+      "properties": {
+        "title": "ITS_LIVE datacube of image pair velocities",
+        "proj:bbox": [
+          200000,
+          3500000,
+          300000,
+          3600000
+        ],
+        "proj:code": "EPSG:32644",
+        "proj:shape": [
+          833,
+          833
+        ],
+        "description": "ITS_LIVE datacube of image pair velocities",
+        "end_datetime": "2021-12-16T23:36:33.557084928+00:00",
+        "granule_count": 103866,
+        "cube:variables": {
+          "v": {
+            "type": "data",
+            "unit": "meter/year",
+            "dimensions": [
+              "mid_date",
+              "y",
+              "x"
+            ],
+            "description": "Ice velocity measurement in meters per year"
+          },
+          "vx": {
+            "type": "data",
+            "unit": "meter/year",
+            "dimensions": [
+              "mid_date",
+              "y",
+              "x"
+            ],
+            "description": "Ice velocity component in x direction"
+          },
+          "vy": {
+            "type": "data",
+            "unit": "meter/year",
+            "dimensions": [
+              "mid_date",
+              "y",
+              "x"
+            ],
+            "description": "Ice velocity component in y direction"
+          },
+          "v_error": {
+            "type": "data",
+            "unit": "meter/year",
+            "dimensions": [
+              "mid_date",
+              "y",
+              "x"
+            ],
+            "description": "Ice velocity magnitude error"
+          },
+          "interp_mask": {
+            "type": "data",
+            "dimensions": [
+              "mid_date",
+              "y",
+              "x"
+            ],
+            "description": "True where velocity values have been interpolated"
+          },
+          "img_pair_info": {
+            "type": "data",
+            "dimensions": [
+              "mid_date"
+            ],
+            "description": "File attributes"
+          }
+        },
+        "start_datetime": "2016-04-28T23:36:30.722953216+00:00",
+        "cube:dimensions": {
+          "x": {
+            "axis": "x",
+            "type": "spatial",
+            "extent": [
+              200000,
+              3500000
+            ],
+            "reference_system": 32644
+          },
+          "y": {
+            "axis": "y",
+            "type": "spatial",
+            "extent": [
+              300000,
+              3600000
+            ],
+            "reference_system": 32644
+          },
+          "mid_date": {
+            "type": "temporal",
+            "extent": [
+              "2016-04-28T23:36:30.722953216+00:00",
+              "2021-12-16T23:36:33.557084928+00:00"
+            ]
+          }
+        },
+        "roi_percent_coverage": 100.12004801920769
+      },
+      "stac_version": "1.1.0",
+      "stac_extensions": [
+        "https://stac-extensions.github.io/projection/v2.0.0/schema.json",
+        "https://stac-extensions.github.io/datacube/v2.2.0/schema.json",
+        "https://stac-extensions.github.io/raster/v1.1.0/schema.json"
+      ]
+    }
+  ],
+  "numberMatched": 2,
+  "numberReturned": 2
+}

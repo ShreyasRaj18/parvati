@@ -1,0 +1,9 @@
+scenario,failure_mode,release_fraction,breach_bottom_elevation_m,breach_depth_hb_m,average_breach_width_Bave_m,formation_time_tf_hr,bottom_breach_width_Bbw_m,side_slope_ratio_r
+1,Overtopping,1.0,4117.02,39.98,154.3,1.19,98.4,0.41
+2,Piping,1.0,4117.02,39.98,110.2,1.19,74.3,0.54
+3,Overtopping,0.75,4139.0,18.0,132.6,2.43,107.4,0.17
+4,Piping,0.75,4139.0,18.0,94.7,2.43,78.5,0.23
+5,Overtopping,0.5,4146.5,10.5,119.7,3.95,105.0,0.1
+6,Piping,0.5,4146.5,10.5,85.5,3.95,76.1,0.14
+7,Overtopping,1.0,4117.02,39.98,154.3,1.19,98.4,0.41
+8,Piping,1.0,4117.02,39.98,110.2,1.19,74.3,0.54

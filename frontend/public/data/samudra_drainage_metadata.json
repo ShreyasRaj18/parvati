@@ -1,0 +1,11 @@
+{
+  "source": "Copernicus-derived flow accumulation",
+  "threshold_cells": 5000,
+  "stream_cells": 27674,
+  "segment_count": 29342,
+  "vertex_count": 58684,
+  "coordinate_order": "x,y,z",
+  "dtype": "float32 little-endian",
+  "binary_file": "samudra_drainage_5000_segments.bin",
+  "display_note": "Neighbour-connected stream raster; not D8-routed."
+}

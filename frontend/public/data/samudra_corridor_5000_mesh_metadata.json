@@ -1,0 +1,13 @@
+{
+    "name": "Samudra Tapu Potential Flow Corridor 5000",
+    "crs": "EPSG:32643",
+    "threshold_cells": 5000,
+    "input_corridor_pixels": 14171,
+    "rendered_pixels": 14166,
+    "skipped_pixels": 5,
+    "triangle_count": 28332,
+    "vertex_count": 84996,
+    "height_offset_m": 3.0,
+    "binary_file": "samudra_corridor_5000_mesh.bin",
+    "binary_size_bytes": 1019952
+}

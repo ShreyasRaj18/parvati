@@ -1,0 +1,37 @@
+{
+    "name": "Bara Shigri NISAR Glacier Monitoring",
+    "source": "NISAR L2 GOFF",
+    "reference_acquisition": "2026-10-04",
+    "secondary_acquisition": "2026-10-16",
+    "interval_days": 12,
+    "frequency": "A/HH",
+    "crs": "EPSG:32643",
+    "width": 317,
+    "height": 246,
+    "resolution_m": 80,
+    "bounds": {
+        "left": 739840.0,
+        "bottom": 3554080.0,
+        "right": 765200.0,
+        "top": 3573760.0
+    },
+    "valid_pixels": 6898,
+    "candidate_pixels": 6898,
+    "velocity": {
+        "unit": "m/year",
+        "median": 25.54347801208496,
+        "mean": 27.6704158782959,
+        "minimum": 11.413826942443848,
+        "maximum": 52.4632682800293
+    },
+    "uncertainty": {
+        "unit": "m/year",
+        "median": 1.5410280227661133
+    },
+    "files": {
+        "velocity": "nisar_velocity_m_per_year.png",
+        "velocity_day": "nisar_velocity_m_per_day.png",
+        "uncertainty": "nisar_velocity_uncertainty_m_per_year.png",
+        "candidate_mask": "nisar_candidate_mask.png"
+    }
+}

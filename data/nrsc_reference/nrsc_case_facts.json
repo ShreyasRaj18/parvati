@@ -1,0 +1,20 @@
+{
+  "source": "NRSC/ISRO, GLOF Risk Assessment of Samudra Tapu Glacial Lake in Indus River Basin (2024)",
+  "lake_elevation_m_amsl": 4156,
+  "lake_area_ha": {
+    "1965_Corona_KH4": 14.19,
+    "2022_section_3_3": 141.69,
+    "2022_summary": 142.69
+  },
+  "estimated_storage_MCM": 57.05,
+  "average_depth_m": 39.98,
+  "catchment_area_ha": 16097,
+  "Batal_downstream_distance_km": 18,
+  "terrain": "TanDEM-X DTM, 5 m",
+  "hydrodynamic_model": "HEC-RAS 2D",
+  "source_discrepancies": [
+    "2022 lake area: 141.69 ha in Section 3.3 vs 142.69 ha in Summary.",
+    "Ghepang Ghat distance: approximately 72 km in Section 3.1 vs 84 km in Summary."
+  ],
+  "caveat": "Reference case-study parameters, not calibrated inputs for a new/current model."
+}

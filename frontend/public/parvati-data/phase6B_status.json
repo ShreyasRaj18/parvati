@@ -1,0 +1,32 @@
+{
+  "status": "SCENARIO_MATRIX_READY",
+  "source": "F:\\parvati\\data\\nrsc_reference\\glof_scenarios.csv",
+  "scenario_count": 8,
+  "failure_modes": [
+    "Overtopping",
+    "Piping"
+  ],
+  "release_fractions": [
+    0.5,
+    0.75,
+    1.0
+  ],
+  "weather_conditions": [
+    "Fair",
+    "Inclement"
+  ],
+  "compound_breach_scenarios": [
+    7,
+    8
+  ],
+  "hydrodynamic_simulation_status": "NOT_YET_RUN",
+  "missing_requirements": [
+    "Lake bathymetry or defensible volume estimate",
+    "Breach geometry and breach development parameters",
+    "Discharge hydrograph or validated breach equations",
+    "Downstream channel roughness",
+    "Hydraulic terrain and cross-section validation",
+    "Independent inundation observations"
+  ],
+  "warning": "Scenario definitions are not simulated flood results. Do not infer inundation extent, depth, velocity or arrival time."
+}

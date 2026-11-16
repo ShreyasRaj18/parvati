@@ -1,0 +1,14 @@
+{
+    "phase": 4,
+    "name": "ITS_LIVE Cross-Validation",
+    "status": "COMPLETED_VALIDATION_INCONCLUSIVE",
+    "reference_product": "ITS_LIVE Sentinel-1D P098",
+    "common_measured_pixels": 3398,
+    "nisar_coverage_percent": 49.2606552623949,
+    "pearson_correlation": -0.11821464184660287,
+    "mae_m_per_year": 19.886098019055158,
+    "rmse_m_per_year": 34.10720855261589,
+    "next_phase": 5,
+    "next_phase_name": "Glacier Lake Detection and Area Change",
+    "calibration_performed": false
+}
